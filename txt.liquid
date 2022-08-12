@@ -13,7 +13,7 @@ pagination:
   {% for post in posts %}
   <li>
     <a href="{{ post.url }}">{{ post.data.title }}</a>
-    <i class="nobr">(written {{ post.date | date: "%d %b, %Y" }})</i>
+    <i class="dates nobr">(written {{ post.date | date: "%d %b, %Y" }})</i>
   </li>
   {% endfor %}
 </ul>

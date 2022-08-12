@@ -13,10 +13,10 @@ pagination:
   {% for project in projects %}
   <li>
     <a href="{{ project.url }}">{{ project.data.title }}</a>
-    <i>{{ project.date | date: "%Y" }}</i>
-    {% if project.data.endDate %}
-    <i> - {{ project.data.endDate | date: "%Y" }}</i>
-    {% endif %}
+    <i class="dates">
+      ({{ project.date | date: "%Y" }}{% if project.data.endDate %} -
+      {{ project.data.endDate | date: "%Y" }}{% endif %})
+    </i>
   </li>
   {% endfor %}
 </ul>

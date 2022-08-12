@@ -5,9 +5,10 @@ layout: main
 <article>
   <h2>{{ title }}</h2>
   <p>
-    <i>{{ dateFrom | date: "%Y" }}</i
-    >{% if dateTo %} <i> - {{ dateTo | date: "%Y" }}</i
-    >{% endif %}
+    <i class="dates">
+      {{ date | date: "%Y" }} {% if dateTo %} - {{ dateTo | date: "%Y" }}
+      {% endif %}
+    </i>
   </p>
   {{ content }}
 </article>
