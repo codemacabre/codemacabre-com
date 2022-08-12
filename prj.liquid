@@ -1,0 +1,31 @@
+---
+layout: main
+title: Projects
+pagination:
+  data: collections.projects
+  size: 10
+  alias: projects
+  reverse: true
+---
+
+<h2>Projects</h2>
+<ul>
+  {% for project in projects %}
+  <li>
+    <a href="{{ project.url }}">{{ project.data.title }}</a>
+    <i>{{ project.date | date: "%Y" }}</i>
+    {% if project.data.endDate %}
+    <i> - {{ project.data.endDate | date: "%Y" }}</i>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
+<p class="pagination">
+  {% if pagination.href.previous %}
+  <a href="{{ pagination.href.previous }}">Previous</a>
+  {% else %} <span class="inactive">Previous</span> {% endif %} / {% if
+  pagination.href.next %}
+  <a href="{{ pagination.href.next }}">Next</a>
+  {% else %} <span class="inactive">Next</span> {% endif %}
+</p>

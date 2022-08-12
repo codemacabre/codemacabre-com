@@ -1,0 +1,30 @@
+{
+  "name": "codemacabre-com",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx @11ty/eleventy && npx sass styles:_site/styles",
+    "start": "rm -rf _site/* && concurrently \"npm run watch:eleventy\" \"npm run watch:sass\"",
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "watch:sass": "npx sass styles:_site/styles --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codemacabre/codemacabre-com.git"
+  },
+  "author": "Myles Lewando",
+  "homepage": "https://codemacabre.com",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "markdown-it": "^13.0.1",
+    "markdown-it-attrs": "^4.1.4",
+    "sass": "^1.54.4"
+  },
+  "devDependencies": {
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "concurrently": "^7.3.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
