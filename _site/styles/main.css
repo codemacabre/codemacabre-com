@@ -1,0 +1,248 @@
+/* RESETS */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+}
+
+/* GLOBALS */
+@font-face {
+  font-family: "InriaSansBold";
+  src: url("/assets/fonts/inriasans-bold-webfont.woff2") format("woff2"), url("/assets/fonts/inriasans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "InriaSansLight";
+  src: url("/assets/fonts/inriasans-light-webfont.woff2") format("woff2"), url("/assets/fonts/inriasans-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "InriaSansLightItalic";
+  src: url("/assets/fonts/inriasans-lightitalic-webfont.woff2") format("woff2"), url("/assets/fonts/inriasans-lightitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --white: #ffffff;
+  --haze: #dfdfe2;
+  --murk: #8c8c8f;
+  --gloom: #56565a;
+  --dark: #16161a;
+  --accent1: #9b5980;
+  --accent2: #92c9c9;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+/* STRUCTURE */
+body {
+  background: var(--white);
+  color: var(--dark);
+  display: grid;
+  font-family: "InriaSansLight", sans-serif;
+  grid-template-columns: repeat(8, 1fr);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+header {
+  align-content: flex-end;
+  display: flex;
+  grid-column: 3/7;
+  justify-content: space-between;
+  padding: 1rem;
+  width: calc(100% - 2rem);
+}
+header h1 {
+  margin: 0 0 -1rem 0;
+}
+header h1 a {
+  margin: 0;
+}
+header h1 a:link, header h1 a:visited {
+  border: none;
+}
+header nav {
+  align-self: center;
+  display: flex;
+}
+header nav ul.menu {
+  list-style: none;
+}
+header nav ul.menu li {
+  display: inline;
+}
+
+main {
+  grid-column: 3/7;
+  justify-self: left;
+  margin: 1rem;
+  min-height: calc(100vh - 10rem);
+}
+
+footer {
+  display: grid;
+  font-size: 0.8rem;
+  grid-column: 1/9;
+  justify-items: center;
+  min-height: 2rem;
+  margin-bottom: 1rem;
+}
+footer p {
+  margin: 0;
+}
+
+/* TYPOGRAPHY */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "InriaSansBold", sans-serif;
+  margin: 2rem auto 1rem auto;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a {
+  background: var(--dark);
+  border: none;
+  color: var(--white);
+}
+h1 a:hover, h1 a:active,
+h2 a:hover,
+h2 a:active,
+h3 a:hover,
+h3 a:active,
+h4 a:hover,
+h4 a:active {
+  background: var(--haze);
+  color: var(--dark);
+}
+
+p {
+  line-height: 1.8rem;
+  margin: 1rem 0 0 0;
+}
+
+ul {
+  list-style-position: inside;
+}
+ul li {
+  line-height: 1.8rem;
+  margin: 0.5rem 0 0 0;
+}
+
+#mail,
+#date {
+  display: inline;
+  line-height: 0.8rem;
+  margin: 0;
+  text-align: center;
+}
+
+.pagination {
+  margin: 2rem 0 0 0;
+}
+
+.inactive {
+  color: var(--murk);
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+}
+
+.dates {
+  font-size: 0.8rem;
+}
+
+i {
+  font-family: "InriaSansLightItalic";
+  font-style: normal;
+  font-weight: normal;
+}
+
+strong {
+  font-family: "InriaSansBold";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.nobr {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.callout {
+  padding: 1rem;
+  outline: 1px dashed var(--dark);
+}
+
+/* LINKS */
+a {
+  border-bottom: 1px dashed var(--dark);
+  color: var(--dark);
+  padding: 0.2rem 0.4rem;
+  text-decoration: none;
+}
+a:focus {
+  border: none;
+  outline: 1px dashed var(--dark);
+}
+a:active, a:hover {
+  background-color: var(--dark);
+  border-bottom: none;
+  color: white;
+  outline: none;
+  transition: 200ms;
+  width: 100%;
+}
+
+img.small {
+  width: 200px;
+  max-width: 50%;
+}
+img.medium {
+  width: 400px;
+  max-width: 100%;
+}
+img.large {
+  width: 100%;
+}
+img.center {
+  display: block;
+  margin: 1rem auto;
+}
+img.circle {
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    flex-direction: column;
+    grid-column: 2/8;
+  }
+  header h1 {
+    margin: 0 0 1rem 0;
+  }
+  header nav {
+    align-self: flex-start;
+  }
+  main {
+    grid-column: 2/8;
+    min-height: calc(100vh - 13rem);
+  }
+}
+@media screen and (max-width: 480px) {
+  header,
+main {
+    grid-column: 1/9;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
