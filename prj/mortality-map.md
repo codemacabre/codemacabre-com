@@ -5,7 +5,7 @@ tags: projects
 date: 2019-10-24
 ---
 
-🚧 Work-in-progress {.callout}
+🚧 **Status:** Work-in-progress {.callout}
 
 ### Overview
 
