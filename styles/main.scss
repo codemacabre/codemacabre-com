@@ -81,11 +81,13 @@ header {
     align-self: center;
     display: flex;
 
-    ul.menu {
-      list-style: none;
+    ul {
+      &.menu {
+        list-style: none;
 
-      li {
-        display: inline;
+        li {
+          display: inline;
+        }
       }
     }
   }
@@ -211,6 +213,18 @@ a {
     outline: none;
     transition: 200ms;
     width: 100%;
+  }
+
+  &.selected {
+    background: var(--dark);
+    border: none;
+    color: var(--white);
+
+    &:hover,
+    &:active {
+      background: var(--haze);
+      color: var(--dark);
+    }
   }
 }
 

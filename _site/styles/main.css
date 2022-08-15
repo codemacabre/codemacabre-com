@@ -202,6 +202,15 @@ a:active, a:hover {
   transition: 200ms;
   width: 100%;
 }
+a.selected {
+  background: var(--dark);
+  border: none;
+  color: var(--white);
+}
+a.selected:hover, a.selected:active {
+  background: var(--haze);
+  color: var(--dark);
+}
 
 img.small {
   width: 200px;
