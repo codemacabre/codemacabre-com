@@ -12,16 +12,7 @@
     <script src="/scripts/main.js"></script>
   </head>
   <body>
-    <header>
-      <h1><a href="/">CodeMacabre</a></h1>
-      <nav>
-        <ul class="menu">
-          <li><a href="/txt">Writing</a></li>
-          <li>/ <a href="/prj">Projects</a></li>
-          <li>/ <a href="/inf">Info</a></li>
-        </ul>
-      </nav>
-    </header>
+    {% render 'header', url: page.url %}
     <main class="content">
       {{ content }}
     </main>

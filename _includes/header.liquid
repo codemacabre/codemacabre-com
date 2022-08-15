@@ -1,0 +1,28 @@
+<header>
+  <h1><a href="/">CodeMacabre</a></h1>
+  <nav>
+    <ul class="menu">
+      <li>
+        {% if url contains '/txt' %}
+        <a class="selected" aria-current="page" href="/txt">Writing</a>
+        {% else %}
+        <a href="/txt">Writing</a>
+        {% endif %}
+      </li>
+      <li>
+        / {% if url contains '/prj' %}
+        <a class="selected" aria-current="page" href="/prj">Projects</a>
+        {% else %}
+        <a href="/prj">Projects</a>
+        {% endif %}
+      </li>
+      <li>
+        / {% if url contains '/inf' %}
+        <a class="selected" aria-current="page" href="/inf">Info</a>
+        {% else %}
+        <a href="/inf">Info</a>
+        {% endif %}
+      </li>
+    </ul>
+  </nav>
+</header>
