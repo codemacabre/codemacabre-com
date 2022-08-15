@@ -1,6 +1,6 @@
 const md = require('markdown-it')
 const mdAttrs = require('markdown-it-attrs')
-const pluginRss = require('@11ty/eleventy-plugin-rss')
+const eleventyPluginRss = require('@11ty/eleventy-plugin-rss')
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('assets')
@@ -19,11 +19,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary('md', mdLibrary)
 
   // Plugins
-  eleventyConfig.addPlugin(pluginRss)
+  eleventyConfig.addPlugin(eleventyPluginRss)
 
   // Custom filters
-  eleventyConfig.addLiquidFilter('dateToRfc3339', pluginRss.dateToRfc3339)
-  eleventyConfig.addLiquidFilter('getNewestCollectionItemDate', pluginRss.getNewestCollectionItemDate)
-  eleventyConfig.addLiquidFilter('absoluteUrl', pluginRss.absoluteUrl)
-  eleventyConfig.addLiquidFilter('convertHtmlToAbsoluteUrls', pluginRss.convertHtmlToAbsoluteUrls)
+  eleventyConfig.addLiquidFilter('dateToRfc3339', eleventyPluginRss.dateToRfc3339)
+  eleventyConfig.addLiquidFilter('getNewestCollectionItemDate', eleventyPluginRss.getNewestCollectionItemDate)
+  eleventyConfig.addLiquidFilter('absoluteUrl', eleventyPluginRss.absoluteUrl)
+  eleventyConfig.addLiquidFilter('convertHtmlToAbsoluteUrls', eleventyPluginRss.convertHtmlToAbsoluteUrls)
 }
