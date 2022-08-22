@@ -3,24 +3,31 @@
   <nav>
     <ul class="menu">
       <li>
-        {% if url contains '/txt' %}
-        <a class="selected" aria-current="page" href="/txt">Writing</a>
+        {% if url contains '/projects' %}
+        <a class="selected" aria-current="page" href="/projects">Projects</a>
         {% else %}
-        <a href="/txt">Writing</a>
+        <a href="/projects">Projects</a>
         {% endif %}
       </li>
       <li>
-        / {% if url contains '/prj' %}
-        <a class="selected" aria-current="page" href="/prj">Projects</a>
+        / {% if url contains '/writing' %}
+        <a class="selected" aria-current="page" href="/writing">Writing</a>
         {% else %}
-        <a href="/prj">Projects</a>
+        <a href="/writing">Writing</a>
         {% endif %}
       </li>
       <li>
-        / {% if url contains '/inf' %}
-        <a class="selected" aria-current="page" href="/inf">Info</a>
+        / {% if url contains '/speaking' %}
+        <a class="selected" aria-current="page" href="/speaking">Speaking</a>
         {% else %}
-        <a href="/inf">Info</a>
+        <a href="/speaking">Speaking</a>
+        {% endif %}
+      </li>
+      <li>
+        / {% if url contains '/about' %}
+        <a class="selected" aria-current="page" href="/about">About</a>
+        {% else %}
+        <a href="/about">About</a>
         {% endif %}
       </li>
     </ul>

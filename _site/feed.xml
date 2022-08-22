@@ -12,9 +12,9 @@
    
   <entry>
     <title>Hello world!</title>
-    <link href="https://codemacabre.com/txt/hello-world/" />
+    <link href="https://codemacabre.com/writing/hello-world/" />
     <updated>2022-08-07T16:37:45Z</updated>
-    <id>https://codemacabre.com/txt/hello-world/</id>
+    <id>https://codemacabre.com/writing/hello-world/</id>
     <content type="html"><p>A new site! It’s fairly bare-bones at the moment; everything here is very-much under construction but expect more content soon.</p>
 <p class="callout">🚧 <strong>Note:</strong> This site is a constant work-in-progress. Every effort will be made to ensure it’s fully functional and accessible, but there may occasionally be times when I miss things. Please feel free to reach out if you encounter any bugs or problems.</p>
 </content>

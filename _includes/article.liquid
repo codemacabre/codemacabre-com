@@ -1,0 +1,14 @@
+---
+layout: main
+---
+
+<article>
+  <h2>{{ title }}</h2>
+  <p>
+    <i class="dates">
+      {{ date | date: "%d %b, %Y" }} {% if update %} (updated
+      {{ update | date: "%d %b, %Y" }}) {% endif %}
+    </i>
+  </p>
+  {{ content }}
+</article>
