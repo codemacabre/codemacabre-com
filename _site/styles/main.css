@@ -135,12 +135,12 @@ p.caption {
   margin: -0.5rem 0 0 0;
 }
 p.caption.small {
-  width: 200px;
-  max-width: 50%;
+  width: 50%;
+  max-width: 200px;
 }
 p.caption.medium {
-  width: 400px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 400px;
 }
 p.caption.large {
   width: 100%;
@@ -233,23 +233,23 @@ a.selected:hover, a.selected:active {
   color: var(--dark);
 }
 a[href^=http]::after, a[href^=https]::after {
+  background: url("../assets/fonts/icons/cm-external.svg") bottom right/0.5rem no-repeat;
   content: "";
   display: inline-block;
   height: 0.8rem;
   width: 0.8rem;
-  background: url("../assets/fonts/icons/cm-external.svg") bottom right/0.5rem no-repeat;
 }
 
 img {
   margin: 1rem 0;
 }
 img.small {
-  width: 200px;
-  max-width: 50%;
+  max-width: 200px;
+  width: 50%;
 }
 img.medium {
-  width: 400px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 400px;
 }
 img.large {
   width: 100%;
