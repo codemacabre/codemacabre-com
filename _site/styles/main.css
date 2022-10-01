@@ -129,6 +129,27 @@ p {
   line-height: 1.8rem;
   margin: 1rem 0 0 0;
 }
+p.caption {
+  line-height: 1rem;
+  font-size: 0.8rem;
+  margin: -0.5rem 0 0 0;
+}
+p.caption.small {
+  width: 200px;
+  max-width: 50%;
+}
+p.caption.medium {
+  width: 400px;
+  max-width: 100%;
+}
+p.caption.large {
+  width: 100%;
+}
+p.caption.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 ul {
   list-style-position: inside;
@@ -211,7 +232,17 @@ a.selected:hover, a.selected:active {
   background: var(--haze);
   color: var(--dark);
 }
+a[href^=http]::after, a[href^=https]::after {
+  content: "";
+  display: inline-block;
+  height: 0.8rem;
+  width: 0.8rem;
+  background: url("../assets/fonts/icons/cm-external.svg") bottom right/0.5rem no-repeat;
+}
 
+img {
+  margin: 1rem 0;
+}
 img.small {
   width: 200px;
   max-width: 50%;
@@ -225,7 +256,8 @@ img.large {
 }
 img.center {
   display: block;
-  margin: 1rem auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 img.circle {
   border-radius: 100%;

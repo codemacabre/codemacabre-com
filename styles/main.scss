@@ -137,6 +137,32 @@ h4 {
 p {
   line-height: 1.8rem;
   margin: 1rem 0 0 0;
+
+  &.caption {
+    line-height: 1rem;
+    font-size: 0.8rem;
+    margin: -0.5rem 0 0 0;
+
+    &.small {
+      width: 200px;
+      max-width: 50%;
+    }
+
+    &.medium {
+      width: 400px;
+      max-width: 100%;
+    }
+
+    &.large {
+      width: 100%;
+    }
+
+    &.center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
 
 ul {
@@ -226,9 +252,22 @@ a {
       color: var(--dark);
     }
   }
+
+  &[href^='http'],
+  &[href^='https'] {
+    &::after {
+      content: '';
+      display: inline-block;
+      height: 0.8rem;
+      width: 0.8rem;
+      background: url('../assets/fonts/icons/cm-external.svg') bottom right / 0.5rem no-repeat;
+    }
+  }
 }
 
 img {
+  margin: 1rem 0;
+
   &.small {
     width: 200px;
     max-width: 50%;
@@ -245,7 +284,8 @@ img {
 
   &.center {
     display: block;
-    margin: 1rem auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   &.circle {
