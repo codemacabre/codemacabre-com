@@ -4,7 +4,7 @@
   <title>CodeMacabre</title>
   <link href="https://codemacabre.com/feed.xml" rel="self" />
   <link href="https://codemacabre.com/" />
-  <updated>2022-10-01T17:18:25Z</updated>
+  <updated>2022-08-07T16:37:45Z</updated>
   <id>https://codemacabre.com/</id>
   <author>
     <name>Myles Lewando</name>
@@ -17,19 +17,6 @@
     <id>https://codemacabre.com/writing/hello-world/</id>
     <content type="html"><p>A new site! It’s fairly bare-bones at the moment; everything here is very-much under construction but expect more content soon.</p>
 <p class="callout">🚧 <strong>Note:</strong> This site is a constant work-in-progress. Every effort will be made to ensure it’s fully functional and accessible, but there may occasionally be times when I miss things. Please feel free to reach out if you encounter any bugs or problems.</p>
-</content>
-  </entry>
-
-   
-  <entry>
-    <title>Inktober 2022</title>
-    <link href="https://codemacabre.com/writing/inktober-2022/" />
-    <updated>2022-10-01T17:18:25Z</updated>
-    <id>https://codemacabre.com/writing/inktober-2022/</id>
-    <content type="html"><p>Well, <a href="https://inktober.com/">Inktober</a> season has begun, something I’ve always wanted to try. This year I’m going to, but with a data visualisation twist. I’ll aim to sketch a concept visualisation based on each prompt.</p>
-<p><img class="center medium" src="https://codemacabre.com/assets/images/inktober-prompts-2022.jpg" alt="The Inkober official 2022 prompt list: 1. GARGOYLE 2. SCURRY 3. BAT 4. SCALLOP 5. FLAME 6. BOUQUET 7. TRIP 8. MATCH 9. NEST 10. CRABBY 11. EAGLE 12. FORGET 13. KIND 14. EMPTY 15. ARMADILLO 16. FOWL 17. SALTY 18. SCRAPE 19. PONYTAIL 20. BLUFF 21. BAD DOG 22. HEIST 23. BOOGER 24. FAIRY 25. TEMPTING 26. EGO 27. SNACK 28. CAMPING 29. UH-OH 30. GEAR 31. FARM"></p>
-<p class="caption center medium">The official 2022 prompt list, via <a href="https://inktober.com/rules" class="external">Inktober </a></p>
-<p>I’ll add links to each sketch here as I complete them.</p>
 </content>
   </entry>
 
