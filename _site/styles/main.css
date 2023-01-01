@@ -304,7 +304,7 @@ img.circle {
 }
 @media screen and (max-width: 480px) {
   header,
-main {
+  main {
     grid-column: 1/9;
   }
 }
