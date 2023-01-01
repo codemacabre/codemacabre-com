@@ -14,17 +14,17 @@
   "author": "Myles Lewando",
   "homepage": "https://codemacabre.com",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^1.0.2",
     "markdown-it": "^13.0.1",
-    "markdown-it-attrs": "^4.1.4",
-    "sass": "^1.54.4"
+    "markdown-it-attrs": "^4.1.6",
+    "sass": "^1.57.1"
   },
   "devDependencies": {
     "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "concurrently": "^7.3.0",
+    "concurrently": "^7.6.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.4",
-    "eslint-plugin-promise": "^6.0.0"
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1"
   }
 }
