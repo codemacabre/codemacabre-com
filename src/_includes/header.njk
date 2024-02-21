@@ -1,0 +1,26 @@
+<header>
+  <h1>
+    <a href="/">CodeMacabre</a>
+  </h1>
+  <nav>
+    <ul class="menu">
+      <li>
+          <a
+            class="{{ 'selected' if '/projects' in page.url }}"
+            href="/projects">Projects</a>
+      </li>
+      <li>
+        /
+          <a
+            class="{{ 'selected' if '/writing' in page.url }}"
+            href="/writing">Writing</a>
+      </li>
+      <li>
+        /
+          <a
+            class="{{ 'selected' if '/about' in page.url }}"
+            href="/about">About</a>
+      </li>
+    </ul>
+  </nav>
+</header>

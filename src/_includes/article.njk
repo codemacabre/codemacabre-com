@@ -1,0 +1,14 @@
+---
+layout: base.njk
+---
+
+<article>
+  <h2>{{ title }}</h2>
+  <p>
+    <span class="dates">
+      Published <time datetime={{ date }}>{{ date | date('full') }}</time>
+      {% if update %} (updated <time datetime={{ update }}>{{ update | date('full') }}</time>) {% endif %}
+    </span>
+  </p>
+  {{ content | safe }}
+</article>

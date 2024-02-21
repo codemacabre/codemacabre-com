@@ -1,0 +1,30 @@
+---
+layout: base.njk
+---
+
+<h2>
+  Featured project
+</h2>
+{% for project in collections.projects %}
+  {% if project.data.featured %}
+    <a class="feature" href="{{ project.url }}">
+      <span class="title">{{ project.data.title }}</span>
+      <span class="dates">(<time datetime={{ project.data.date }}>{{ project.data.date | date('year') }}</time>{% if project.data.endDate %} - <time datetime={{ project.data.endDate }}>{{ project.data.endDate | date('year') }}</time>{% endif %})</span>
+    </a>
+  {% endif %}
+{% endfor %}
+<p class="right"><a href="/projects">See more projects</a></p>
+
+<h2>
+  Latest writing
+</h2>
+<ul class="wider">
+{% set latest_writing = collections.writing | reverse | limit(5) %}
+{% for post in latest_writing %}
+  <li>
+    <a class="title" href="{{ post.url }}">{{ post.data.title }}</a><span class="dates">(<time datetime={{ post.data.date }}>{{ post.data.date | date('full') }}</time>)</span>
+    <p class="description">{{ post.data.description }}</p>
+  </li>
+{% endfor %}
+</ul>
+<p class="right"><a href="/writing">See more writing</a></p>
