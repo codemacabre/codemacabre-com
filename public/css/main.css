@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+/* RESETS */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+}
+
+/* GLOBALS */
+:root {
+  --white: #ffffff;
+  --haze: #dfdfe2;
+  --murk: #76767d;
+  --gloom: #56565a;
+  --dark: #222225;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+/* STRUCTURE */
+body {
+  background: var(--white);
+  color: var(--dark);
+  display: grid;
+  font-family: 'Source Code Pro', monospace;
+  align-content: start;
+  justify-content: center;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto auto 1fr;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+header {
+  align-content: flex-end;
+  align-self: start;
+  display: flex;
+  grid-column: 3 / 7;
+  justify-content: space-between;
+  padding: 1rem;
+  width: calc(100% - 2rem);
+
+  h1 {
+    margin: 0 0 0 0;
+
+    a {
+      margin: 0;
+
+      &:link,
+      &:visited {
+        border: none;
+      }
+    }
+  }
+
+  nav {
+    align-self: center;
+    display: flex;
+
+    ul {
+      &.menu {
+        list-style: none;
+
+        li {
+          display: inline;
+        }
+      }
+    }
+  }
+}
+
+.sr-only {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+main {
+  grid-column: 3 / 7;
+  justify-self: left;
+  margin: 1rem;
+  width: calc(100% - 2rem);
+}
+
+footer {
+  display: grid;
+  font-size: 0.8rem;
+  grid-column: 1 / 9;
+  justify-items: center;
+  align-self: end;
+  min-height: 2rem;
+  margin: 3rem 0 1rem 0;
+
+  p {
+    margin: 0;
+  }
+}
+
+/* TYPOGRAPHY */
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem
+}
+h3 {
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 600;
+  margin: 2rem auto 1rem auto;
+
+  a {
+    background: var(--dark);
+    border: none;
+    color: var(--white);
+
+    &:hover,
+    &:active {
+      background: var(--haze);
+      color: var(--dark);
+    }
+  }
+}
+
+p {
+  line-height: 2rem;
+  margin: 1rem 0 0 0;
+
+  &.caption {
+    line-height: 1rem;
+    font-size: 0.8rem;
+    margin: -0.5rem 0 0 0;
+
+    &.small {
+      width: 50%;
+      max-width: 200px;
+    }
+
+    &.medium {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    &.large {
+      width: 100%;
+    }
+
+    &.center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.inline {
+  display: inline-block;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+ul {
+  list-style-position: inside;
+  margin: 0;
+  
+  &.indented {
+    margin: 0 0 0 2rem;
+  }
+
+  &.wider {
+    margin: 2rem 0;
+
+    li {
+      margin: 1rem 0;
+
+      p {
+        margin: 0 0 0 1.6rem;
+        padding: 0;
+        line-height: 1.6rem;
+      }
+    }
+  }
+
+  li {
+    line-height: 2rem;
+    margin: 0.5rem 0 0 0;
+  }
+}
+
+#mail,
+#date {
+  display: inline;
+  line-height: 0.8rem;
+  margin: 0;
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.pagination {
+  margin: 2rem 0 0 0;
+}
+
+.inactive {
+  color: var(--murk);
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+}
+
+.dates {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.description {
+  font-size: 1rem;
+  font-style: italic;
+  margin: 0;
+  padding: 0 0 0 2rem;
+}
+
+i {
+  font-family: 'Source Code Pro', monospace;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+strong {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.nobr {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.callout {
+  padding: 1rem;
+  outline: 1px dashed var(--dark);
+}
+
+/* LINKS */
+a {
+  border-bottom: 1px dashed var(--dark);
+  color: var(--dark);
+  padding: 0.4rem;
+  text-decoration: none;
+
+  &:focus {
+    border: none;
+    outline: 1px dashed var(--dark);
+  }
+
+  &:active,
+  &:hover {
+    background-color: var(--dark);
+    border-bottom: none;
+    color: white;
+    outline: none;
+    transition: 200ms;
+    width: 100%;
+  }
+
+  &.feature {
+    border: none;
+    display: flex;
+    padding: 1rem;
+    min-height: 100px;
+    align-items: center;
+    outline: 1px dashed var(--dark);
+    width: calc(100% - 2rem);
+
+    .title {
+      font-size: 1.6rem;
+      margin: 0 1rem 0 0;
+    }
+  }
+
+  &.selected {
+    border: none;
+    outline: 1px dashed var(--dark);
+  }
+
+  &[href^='http'],
+  &[href^='https'] {
+    &::after {
+      background: url('/images/external.svg') bottom right / 0.5rem no-repeat;
+      content: '';
+      display: inline-block;
+      height: 0.8rem;
+      width: 1rem;
+    }
+  }
+}
+
+img {
+  margin: 1rem 0;
+
+  &.logo {
+    margin: 0 0.3rem -0.2rem 0.2rem;
+    width: 1rem;
+  }
+
+  &.left {
+    float: left;
+    margin: 1rem 1rem 1rem 0;
+  }
+
+  &.right {
+    float: right;
+    margin: 1rem 0 1rem 1rem;
+  }
+
+  &.small {
+    max-width: 200px;
+    width: 50%;
+  }
+
+  &.medium {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  &.large {
+    width: 100%;
+  }
+
+  &.center {
+    display: block;
+    margin: 2rem auto 1rem auto;
+  }
+
+  &.circle {
+    border-radius: 100%;
+    shape-outside: circle();
+  }
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  margin: 2rem 0;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+
+  iframe,
+  object,
+  embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  header {
+    grid-column: 2 / 8;
+  }
+
+  main {
+    grid-column: 2 / 8;
+    min-height: calc(100vh - 18rem);
+    width: calc(100% - 2rem);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    flex-direction: column;
+    grid-column: 2 / 8;
+    
+
+    h1 {
+      margin: 0 0 1rem 0;
+    }
+
+    nav {
+      font-size: 0.8rem;
+      align-self: flex-start;
+    }
+  }
+
+  main {
+    grid-column: 2 / 8;
+    min-height: calc(100vh - 18rem);
+    width: calc(100% - 2rem);
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  header,
+  main {
+    grid-column: 1 / 9;
+  }
+
+  h1 {
+    font-size: clamp(2.5rem, 5vw, 3rem);
+  }
+}
