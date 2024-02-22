@@ -22,11 +22,11 @@ html {
 
 /* STRUCTURE */
 body {
+  align-content: start;
   background: var(--white);
   color: var(--dark);
   display: grid;
   font-family: 'source-code-pro', monospace;
-  align-content: start;
   justify-content: center;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: auto auto 1fr;
@@ -91,11 +91,11 @@ main {
 }
 
 footer {
+  align-self: end;
   display: grid;
   font-size: 0.8rem;
   grid-column: 1 / 9;
   justify-items: center;
-  align-self: end;
   min-height: 2rem;
   margin: 3rem 0 1rem 0;
 
@@ -128,8 +128,8 @@ h4 {
     border: none;
     color: var(--white);
 
-    &:hover,
-    &:active {
+    &:active,
+    &:hover {
       background: var(--haze);
       color: var(--dark);
     }
@@ -141,18 +141,18 @@ p {
   margin: 1rem 0 0 0;
 
   &.caption {
-    line-height: 1rem;
     font-size: 0.8rem;
+    line-height: 1rem;
     margin: -0.5rem 0 0 0;
 
     &.small {
-      width: 50%;
       max-width: 200px;
+      width: 50%;
     }
 
     &.medium {
-      width: 100%;
       max-width: 400px;
+      width: 100%;
     }
 
     &.large {
@@ -186,9 +186,9 @@ ul {
       margin: 1rem 0;
 
       & p {
+        line-height: 1.6rem;
         margin: 1rem 0 0.5rem 1.6rem;
         padding: 0;
-        line-height: 1.6rem;
       }
     }
   }
@@ -243,8 +243,8 @@ strong {
 }
 
 .callout {
-  padding: 1rem;
   outline: 1px dashed var(--dark);
+  padding: 1rem;
 }
 
 .heading-and {
@@ -277,17 +277,17 @@ a {
   }
 
   &.feature {
-    background-color: var(--dark);
-    color: white;
-    border: none;
-    display: flex;
-    padding: 1rem;
-    min-height: 100px;
     align-items: center;
+    background-color: var(--dark);
+    border: none;
+    color: white;
+    display: flex;
+    min-height: 100px;
+    padding: 1rem;
     width: calc(100% - 2rem);
   
-    &:hover,
-    &:active {
+    &:active,
+    &:hover {
       background: var(--haze);
       color: var(--dark);
     }
@@ -324,20 +324,20 @@ a {
   }
   
   &.rss {
-    &::before {
-      background: url('/images/rss.svg') bottom left / 0.7rem no-repeat;
+    &::after {
+      background: url('/images/rss.svg') bottom left / 0.6rem no-repeat;
       content: '';
       display: inline-block;
       filter: invert(7%) sepia(4%) saturate(1514%) hue-rotate(201deg) brightness(93%) contrast(84%);
       height: 1rem;
       margin: 0;
       padding: 0;
-      width: 1rem;
+      width: 0.8rem;
     }
 
     &:hover,
     &:focus {
-      &::before {
+      &::after {
         filter: invert(98%) sepia(1%) saturate(335%) hue-rotate(192deg) brightness(93%) contrast(90%);
       }
     }
@@ -369,8 +369,8 @@ img {
   }
 
   &.medium {
-    width: 100%;
     max-width: 400px;
+    width: 100%;
   }
 
   &.large {
@@ -389,21 +389,21 @@ img {
 }
 
 .video-container {
+  height: 0;
+  margin: 2rem 0;
+  max-width: 100%;
   position: relative;
   padding-bottom: 56.25%;
-  margin: 2rem 0;
-  height: 0;
   overflow: hidden;
-  max-width: 100%;
 
   & iframe,
   & object,
   & embed {
+    height: 100%;
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
   }
 }
 
@@ -430,8 +430,8 @@ img {
     }
 
     & nav {
-      font-size: 0.8rem;
       align-self: flex-start;
+      font-size: 0.8rem;
     }
   }
 
