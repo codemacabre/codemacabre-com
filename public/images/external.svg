@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 284 284" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(0.584548,0,0,0.568687,4.78938,-24.501)">
-        <path d="M182.838,72.391L71.641,72.391C43.315,72.391 20.319,96.029 20.319,125.144L20.319,459.247C20.319,488.362 43.315,512 71.641,512L396.678,512C425.003,512 448,488.362 448,459.247L448,344.948" style="fill:none;stroke:rgb(140,140,143);stroke-width:57.8px;"/>
-    </g>
-    <g transform="matrix(0.852059,0.147941,0.147941,0.852059,-135.948,-67.9719)">
-        <g transform="matrix(1.21011,-0.210109,-0.210109,1.21011,150.23,53.6896)">
-            <path d="M195.956,16.667L266.667,16.667L266.667,87.377" style="fill:none;stroke:rgb(140,140,143);stroke-width:33.33px;stroke-linejoin:miter;stroke-miterlimit:10;"/>
-            <path d="M141.667,141.667C141.667,141.667 229.219,54.115 266.667,16.667" style="fill:none;stroke:rgb(140,140,143);stroke-width:33.33px;"/>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg>

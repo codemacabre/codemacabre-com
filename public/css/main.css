@@ -121,7 +121,7 @@ h3,
 h4 {
   font-family: 'source-code-pro', monospace;
   font-weight: 600;
-  margin: 2rem auto 1rem auto;
+  margin: 2rem 0 1rem 0;
 
   & a {
     background: var(--dark);
@@ -167,10 +167,6 @@ p {
   }
 }
 
-.inline {
-  display: inline-block;
-}
-
 .strike {
   text-decoration: line-through;
 }
@@ -201,14 +197,6 @@ ul {
     line-height: 2rem;
     margin: 0.5rem 0 0 0;
   }
-}
-
-#mail,
-#date {
-  display: inline;
-  line-height: 0.8rem;
-  margin: 0;
-  text-align: center;
 }
 
 .right {
@@ -259,6 +247,14 @@ strong {
   outline: 1px dashed var(--dark);
 }
 
+.heading-and {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
 /* LINKS */
 a {
   border-bottom: 1px dashed var(--dark);
@@ -278,7 +274,6 @@ a {
     color: white;
     outline: none;
     transition: 200ms;
-    width: 100%;
   }
 
   &.feature {
@@ -314,8 +309,37 @@ a {
       background: url('/images/external.svg') bottom right / 0.5rem no-repeat;
       content: '';
       display: inline-block;
-      height: 0.8rem;
+      filter: invert(49%) sepia(10%) saturate(207%) hue-rotate(202deg) brightness(92%) contrast(88%);
+      height: 1rem;
       width: 1rem;
+      
+    }
+    
+    &:hover,
+    &:focus {
+      &::after {
+        filter: invert(100%) sepia(9%) saturate(822%) hue-rotate(180deg) brightness(92%) contrast(91%);
+      }
+    }
+  }
+  
+  &.rss {
+    &::before {
+      background: url('/images/rss.svg') bottom left / 0.7rem no-repeat;
+      content: '';
+      display: inline-block;
+      filter: invert(7%) sepia(4%) saturate(1514%) hue-rotate(201deg) brightness(93%) contrast(84%);
+      height: 1rem;
+      margin: 0;
+      padding: 0;
+      width: 1rem;
+    }
+
+    &:hover,
+    &:focus {
+      &::before {
+        filter: invert(98%) sepia(1%) saturate(335%) hue-rotate(192deg) brightness(93%) contrast(90%);
+      }
     }
   }
 }
@@ -323,10 +347,11 @@ a {
 img {
   margin: 1rem 0;
 
-  &.logo {
+  &.icon {
     margin: 0 0.3rem -0.2rem 0.2rem;
     width: 1rem;
   }
+
 
   &.left {
     float: left;
