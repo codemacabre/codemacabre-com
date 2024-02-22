@@ -282,13 +282,20 @@ a {
   }
 
   &.feature {
+    background-color: var(--dark);
+    color: white;
     border: none;
     display: flex;
     padding: 1rem;
     min-height: 100px;
     align-items: center;
-    outline: 1px dashed var(--dark);
     width: calc(100% - 2rem);
+  
+    &:hover,
+    &:active {
+      background: var(--haze);
+      color: var(--dark);
+    }
 
     & .title {
       font-size: 1.6rem;
