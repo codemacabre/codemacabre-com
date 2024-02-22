@@ -21,13 +21,13 @@
   <link href="{{ metadata.url }}"/>
   <updated>{{ collections.writing | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ metadata.url }}</id>
-  <author>
-    <name>{{ metadata.author.name }}</name>
-  </author>
   {%- for post in collections.writing | reverse %}
   {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
   <entry>
     <title>{{ post.data.title }}</title>
+    <author>
+      <name>{{ metadata.author.name }}</name>
+    </author>
     <link href="{{ absolutePostUrl }}"/>
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
