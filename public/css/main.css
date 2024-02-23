@@ -261,7 +261,7 @@ strong {
 a {
   border-bottom: 1px dashed var(--dark);
   color: var(--dark);
-  padding: 0.4rem;
+  padding: 0.2rem 0.4rem;
   text-decoration: none;
 
   &:focus {
@@ -287,6 +287,11 @@ a {
     min-height: 100px;
     padding: 1rem;
     width: calc(100% - 2rem);
+
+    &:focus {
+      border: none;
+      outline: 1px dashed var(--dark);
+    }
   
     &:active,
     &:hover {
