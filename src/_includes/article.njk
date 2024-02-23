@@ -10,5 +10,9 @@ layout: base.njk
       {% if update %} (updated <time datetime={{ update }}>{{ update | date('full') }}</time>) {% endif %}
     </span>
   </p>
+  {% if img %}
+  <img class="large" src="{{ img.url }}" alt="{{ img.alt }}" />
+  <p class="caption">{{ img.caption }}</p>
+  {% endif %}
   {{ content | safe }}
 </article>

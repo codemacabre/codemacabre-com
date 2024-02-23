@@ -9,7 +9,7 @@
   <meta property="og:title" content="{% if title %}{{ title }}{% else %}CodeMacabre{% endif %}">
   <meta property="og:type" content="article" />
   <meta property="og:description" content="{% if description %}{{ description }}{% else %}Musings by Myles Lewando{% endif %}">
-  <meta property="og:image" content="/images/_me-redacted-sm.png">
+  <meta property="og:image" content="{% if img.url %}{{ img.url }}{% else %}/images/_me-redacted-sm.png{% endif %}">
   <meta property="og:url" content="{{ page.url }}">
   <meta name="twitter:card" content="summary_large_image">
 
