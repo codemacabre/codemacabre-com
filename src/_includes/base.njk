@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Myles Lewando">
   <meta name="description" content="{% if description %}{{ description }}{% else %}Musings by Myles Lewando{% endif %}">
+
+  <meta property="og:title" content="{% if title %}{{ title }}{% else %}CodeMacabre{% endif %}">
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="{% if description %}{{ description }}{% else %}Musings by Myles Lewando{% endif %}">
+  <meta property="og:image" content="/images/_me-redacted-sm.png">
+  <meta property="og:url" content="{{ page.url }}">
+  <meta name="twitter:card" content="summary_large_image">
+
   <link rel="stylesheet" href="https://use.typekit.net/aov1xmn.css">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
