@@ -9,9 +9,9 @@
 /* GLOBALS */
 :root {
   --white: #ffffff;
-  --haze: #dfdfe2;
-  --murk: #76767d;
-  --gloom: #56565a;
+  --haze: #efeff2;
+  --murk: #dedee2;
+  --gloom: #76767d;
   --dark: #222225;
 }
 
@@ -202,6 +202,7 @@ ul {
 }
 
 .right {
+  display: block;
   text-align: right;
 }
 
@@ -210,7 +211,7 @@ ul {
 }
 
 .inactive {
-  color: var(--murk);
+  color: var(--gloom);
   cursor: pointer;
   padding: 0.2rem 0.4rem;
 }
@@ -255,6 +256,53 @@ strong {
   justify-content: space-between;
   margin: 0;
   padding: 0;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 0 4rem -2rem 4rem;
+  padding: 0;
+
+  & .byline {
+    float: right;
+    font-style: normal;
+    text-align: right;
+
+    &::before {
+      content: '~ ';
+    }
+  }
+
+  &::before {
+    background: url('/images/quote.svg') bottom left / 2rem no-repeat;
+    content: '';
+    display: inline-flex;
+    filter: invert(100%) sepia(9%) saturate(822%) hue-rotate(180deg) brightness(92%) contrast(91%);
+    margin: 0 0 -2rem -2.6rem;
+    height: 2rem;
+    width: 2rem;
+  }
+  
+  &::after {
+    background: url('/images/quote.svg') bottom left / 2rem no-repeat;
+    transform: rotate(180deg);
+    content: '';
+    display: inline-flex;
+    filter: invert(100%) sepia(9%) saturate(822%) hue-rotate(180deg) brightness(92%) contrast(91%);
+    margin: 0 0 2rem 2.6rem;
+    height: 2rem;
+    width: 100%;
+  }
+}
+
+pre, code {
+  background-color: var(--haze);
+  padding: 0.4rem;
+  
+  & code {
+    background: transparent;
+    padding: 0;
+  }
 }
 
 /* LINKS */
@@ -319,20 +367,19 @@ a {
       filter: invert(49%) sepia(10%) saturate(207%) hue-rotate(202deg) brightness(92%) contrast(88%);
       height: 1rem;
       width: 1rem;
-      
     }
     
     &:hover,
     &:focus {
       &::after {
-        filter: invert(100%) sepia(9%) saturate(822%) hue-rotate(180deg) brightness(92%) contrast(91%);
+        filter: invert(96%) sepia(9%) saturate(64%) hue-rotate(202deg) brightness(92%) contrast(94%);
       }
     }
   }
   
   &.rss {
     &::after {
-      background: url('/images/rss.svg') bottom left / 0.6rem no-repeat;
+      background: url('/images/rss.svg') bottom right / 0.6rem no-repeat;
       content: '';
       display: inline-block;
       filter: invert(7%) sepia(4%) saturate(1514%) hue-rotate(201deg) brightness(93%) contrast(84%);
@@ -341,11 +388,11 @@ a {
       padding: 0;
       width: 0.8rem;
     }
-
+    
     &:hover,
-    &:focus {
+    &:active {
       &::after {
-        filter: invert(98%) sepia(1%) saturate(335%) hue-rotate(192deg) brightness(93%) contrast(90%);
+        filter: invert(96%) sepia(9%) saturate(64%) hue-rotate(202deg) brightness(92%) contrast(94%);
       }
     }
   }
