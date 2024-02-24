@@ -1,7 +1,7 @@
 import pluginRss from '@11ty/eleventy-plugin-rss'
 import markdownIt from 'markdown-it'
 import markdownItAttrs from 'markdown-it-attrs'
-
+import markdownItBracketedSpans from 'markdown-it-bracketed-spans'
 
 export default function (config) {
   const markdownItOptions = {
@@ -10,7 +10,7 @@ export default function (config) {
     linkify: true
   }
   
-  const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
+  const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs).use(markdownItBracketedSpans)
   config.setLibrary('md', markdownLib)
 
   config.addPassthroughCopy({
