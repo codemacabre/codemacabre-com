@@ -1,6 +1,6 @@
 ---
 title: Starting fresh
-date: 2024-02-24T17:50
+date: 2024-02-24T17:50Z
 description: "Celebrating another site rewrite, this time built with Eleventy."
 ---
 
