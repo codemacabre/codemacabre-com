@@ -38,9 +38,12 @@ export default function (config) {
     return parsedDate.toLocaleDateString('en-GB', options)
   })
   config.addCollection('a_to_z_projects', function (collectionApi) {
-    return collectionApi.getFilteredByTag("projects").sort(function(a, b) {
+    return collectionApi.getFilteredByTag('projects').sort(function(a, b) {
       return a.data.title.localeCompare(b.data.title)
     })
+  })
+  config.addCollection('published_writing', function (collectionApi) {
+    return collectionApi.getFilteredByTags('writing').filter((post) => !post.data.draft)
   })
 
   return {
