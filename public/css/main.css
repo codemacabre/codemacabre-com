@@ -298,9 +298,11 @@ blockquote {
 
 code {
   background-color: var(--haze);
+  box-decoration-break: clone;
   font-family: 'source-code-pro', monospace;
   margin: 0;
   padding: 0.4rem;
+  -webkit-box-decoration-break: clone;
 }
 
 pre {
