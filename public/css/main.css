@@ -318,9 +318,11 @@ pre {
 /* LINKS */
 a {
   border-bottom: 1px dashed var(--dark);
+  box-decoration-break: clone;
   color: var(--dark);
   padding: 0 0.4rem;
   text-decoration: none;
+  -webkit-box-decoration-break: clone;
 
   &:focus {
     border: none;
