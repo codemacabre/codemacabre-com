@@ -317,6 +317,10 @@ pre {
   }
 }
 
+sup, sub {
+  line-height: 1rem;
+}
+
 /* LINKS */
 a {
   border-bottom: 1px dashed var(--dark);
