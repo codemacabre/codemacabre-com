@@ -296,9 +296,18 @@ blockquote {
   }
 }
 
-pre, code {
+code {
   background-color: var(--haze);
+  font-family: 'source-code-pro', monospace;
+  margin: 0;
   padding: 0.4rem;
+}
+
+pre {
+  background-color: var(--haze);
+  font-family: 'source-code-pro', monospace;
+  margin: 1rem 0;
+  padding: 2rem;
   
   & code {
     background: transparent;
@@ -310,7 +319,7 @@ pre, code {
 a {
   border-bottom: 1px dashed var(--dark);
   color: var(--dark);
-  padding: 0.2rem 0.4rem;
+  padding: 0 0.4rem;
   text-decoration: none;
 
   &:focus {
