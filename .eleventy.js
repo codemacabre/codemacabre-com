@@ -1,4 +1,5 @@
 import pluginRss from '@11ty/eleventy-plugin-rss'
+import pluginCodeClipboard from 'eleventy-plugin-code-clipboard'
 import markdownIt from 'markdown-it'
 import markdownItAttrs from 'markdown-it-attrs'
 import markdownItBracketedSpans from 'markdown-it-bracketed-spans'
@@ -10,7 +11,13 @@ export default function (config) {
     linkify: true
   }
   
-  const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs).use(markdownItBracketedSpans)
+  const markdownLib = markdownIt(markdownItOptions)
+    .use(markdownItAttrs)
+    .use(markdownItBracketedSpans)
+    .use(pluginCodeClipboard.markdownItCopyButton, {
+      buttonStyle: ''
+    })
+  
   config.setLibrary('md', markdownLib)
 
   config.addPassthroughCopy({
@@ -18,6 +25,9 @@ export default function (config) {
   })
 
   config.addPlugin(pluginRss)
+  config.addPlugin(pluginCodeClipboard, {
+    buttonClass: 'code-copy'
+  })
 
   config.addNunjucksFilter('limit', (arr, limit) => arr.slice(0, limit))
   config.addNunjucksFilter('date', (date, format) => {
