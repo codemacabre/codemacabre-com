@@ -376,6 +376,13 @@ a {
     outline: 1px dashed var(--dark);
   }
 
+  &:active code,
+  &:hover code {
+    background-color: var(--gloom);
+    color: #ffffff;
+    transition: 200ms;
+  }
+
   &[href^='http'],
   &[href^='https'] {
     &::after {
@@ -387,8 +394,8 @@ a {
       width: 1rem;
     }
     
-    &:hover,
-    &:focus {
+    &:active,
+    &:hover {
       &::after {
         filter: invert(96%) sepia(9%) saturate(64%) hue-rotate(202deg) brightness(92%) contrast(94%);
       }
@@ -407,12 +414,42 @@ a {
       width: 0.8rem;
     }
     
-    &:hover,
-    &:active {
+    &:active,
+    &:hover {
       &::after {
         filter: invert(96%) sepia(9%) saturate(64%) hue-rotate(202deg) brightness(92%) contrast(94%);
       }
     }
+  }
+}
+
+.code-copy {
+  position: absolute;
+  background: none;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  height: 1.4rem;
+  padding: 3px 0 0 0;
+  right: 6px;
+  top: 6px;
+  width: 1.4rem;
+
+  & span {
+    filter: invert(7%) sepia(4%) saturate(1514%) hue-rotate(201deg) brightness(93%) contrast(84%);
+  }
+
+  &:active,
+  &:hover {
+    background: var(--dark);
+    & span {
+      filter: invert(96%) sepia(9%) saturate(64%) hue-rotate(202deg) brightness(92%) contrast(94%);
+    }
+  }
+
+  &:focus {
+    border: none;
+    outline: 1px dashed var(--dark);
   }
 }
 
