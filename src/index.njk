@@ -9,7 +9,7 @@ layout: base.njk
   {% if project.data.featured %}
     <a class="feature" href="{{ project.url }}">
       <span class="title">{{ project.data.title }}</span>
-      <span class="dates">(<time datetime={{ project.data.date }}>{{ project.data.date | date('year') }}</time>{% if project.data.endDate %} - <time datetime={{ project.data.endDate }}>{{ project.data.endDate | date('year') }}</time>{% endif %})</span>
+      <span class="dates">(<time datetime="{{ project.data.date }}">{{ project.data.date | date('year') }}</time>{% if project.data.endDate %} - <time datetime="{{ project.data.endDate }}">{{ project.data.endDate | date('year') }}</time>{% endif %})</span>
     </a>
   {% endif %}
 {% endfor %}
@@ -22,7 +22,7 @@ layout: base.njk
 {% set latest_writing = collections.published_writing | reverse | limit(5) %}
 {% for post in latest_writing %}
   <li>
-    <a class="title" href="{{ post.url }}">{{ post.data.title }}</a> <span class="dates">(<time datetime={{ post.data.date }}>{{ post.data.date | date('full') }}</time>)</span>
+    <a class="title" href="{{ post.url }}">{{ post.data.title }}</a> <span class="dates">(<time datetime="{{ post.data.date }}">{{ post.data.date | date('full') }}</time>)</span>
     <p class="description">{{ post.data.description }}</p>
   </li>
 {% endfor %}
