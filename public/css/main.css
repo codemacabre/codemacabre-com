@@ -310,12 +310,25 @@ pre {
   font-family: 'source-code-pro', monospace;
   margin: 1rem 0;
   padding: 2rem;
+  text-wrap: wrap;
   
   & code {
     background: transparent;
     padding: 0;
   }
 }
+
+hr {
+  border: none;
+  
+  &::before {
+    content: '* * *';
+    display: block;
+    margin: 1rem 0 0 0;
+    text-align: center;
+  }
+}
+
 
 sup, sub {
   line-height: 1rem;
