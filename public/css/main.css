@@ -320,6 +320,7 @@ pre {
 
 hr {
   border: none;
+  color: var(--gloom);
   
   &::before {
     content: '* * *';
