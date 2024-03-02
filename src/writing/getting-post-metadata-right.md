@@ -2,7 +2,7 @@
 title: Getting post metadata right
 date: 2024-03-02T13:41Z
 update: 2024-03-02T13:50Z
-description: "Tips to tag post and RSS content correctly."
+description: "Tips for tagging post and RSS content correctly."
 ---
 
 I use a couple of read-it-later apps. [Omnivore](https://omnivore.app/) is my current favourite, but I'm also fond of [Readwise Reader](https://readwise.io/read). Notably, both apps also allow subscribing to RSS feeds and both sync my highlights to [Logseq](https://logseq.com/) and [Obsidian](https://obsidian.md).
