@@ -311,6 +311,7 @@ pre {
   margin: 1rem 0;
   padding: 2rem;
   text-wrap: wrap;
+  word-break: break-all;
   
   & code {
     background: transparent;
