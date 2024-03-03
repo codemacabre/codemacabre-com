@@ -1,7 +1,7 @@
 ---
 title: Getting post metadata right
 date: 2024-03-02T13:41Z
-update: 2024-03-02T13:50Z
+update: 2024-03-03T14:40Z
 description: "Tips for tagging post and RSS content correctly."
 ---
 
@@ -28,7 +28,7 @@ or
 
 For RSS, this requires the `xmlns:dc` attribute on the `rss` element.
 ```xml
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" ... >
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
 ```
 
 For apps which parse the page rather than use an RSS feed, the author should be similarly defined, this time in a `<meta>` element in your page's `<head>`:
@@ -54,7 +54,7 @@ In RSS feeds, the page content _can_ be added to the `<description>` element, bu
 For RSS, this requires the `xmlns:content` attribute to be added to the `rss` element:
 
 ```xml
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"	... >
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 ```
 
 Read-it-later apps are particularly good at scraping the post content and outputting it in an easy-to-read format, so nothing special is required here. Provided you don't hide half of your content behind a login or paywall. 😒
