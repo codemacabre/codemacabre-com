@@ -418,6 +418,8 @@ a {
   }
   
   &.rss {
+    margin: 1rem 0 0 0;
+    
     &::after {
       background: url('/images/rss.svg') bottom right / 0.6rem no-repeat;
       content: '';
