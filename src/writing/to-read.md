@@ -1,7 +1,7 @@
 ---
 title: To read
 date: 2024-03-09T10:30Z
-description: "A list of physical books, audiobooks and ebooks I have yet to read."
+description: "A list of audiobooks, ebooks and physical books I have yet to finish."
 ---
 
 I own a _lot_ of books and I don't read anywhere near as quickly as I used to. Here's my embarrassingly long list of books I own but haven't yet finished. I'm hoping that posting this publicly will serve as encouragement to actually finish reading them!
@@ -14,7 +14,8 @@ It was my birthday recently and I received the following:
 - ![Unmasking AI](/images/posts/unmasking-ai.jpg) <p>[Unmasking AI](https://www.waterstones.com/book/9780593241837) by Joy Buolamwini</p> {.card}
 
 ### The shelf
-Audiobooks, ebooks and physical books I've not yet finished.
+These are the audiobooks, ebooks and physical books I've not yet finished.
+
 - [A People's Guide to Capitalism](https://bookshop.org/books/8204446) by Hadas Thier
 - [Abolish Silicon Valley](https://bookshop.org/books/10333690) by Wendy Liu
 - [The Age of Surveillance Capitalism](https://bookshop.org/book/9781781256855) by Shoshanna Zuboff
