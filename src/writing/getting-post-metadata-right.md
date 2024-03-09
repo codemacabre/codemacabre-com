@@ -1,7 +1,7 @@
 ---
 title: Getting post metadata right
 date: 2024-03-02T13:41Z
-update: 2024-03-03T14:40Z
+update: 2024-03-08T10:27Z
 description: "Tips for tagging post and RSS content correctly."
 ---
 
@@ -26,7 +26,7 @@ or
 </author>
 ```
 
-For RSS, this requires the `xmlns:dc` attribute on the `rss` element.
+For RSS, this also requires the `xmlns:dc` attribute on the `rss` element.
 ```xml
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
 ```
