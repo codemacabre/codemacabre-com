@@ -1,10 +1,11 @@
 ---
 title: To read
-date: 2024-03-09T10:30Z
+date: 2024-03-09T12:04Z
+update: 2024-03-09T16:20Z
 description: "A list of audiobooks, ebooks and physical books I have yet to finish."
 ---
 
-I own a _lot_ of books and I don't read anywhere near as quickly as I used to. Here's my embarrassingly long list of books I own but haven't yet finished. I'm hoping that posting this publicly will serve as encouragement to actually finish reading them!
+I own a _lot_ of books and I don't read anywhere near as quickly as I used to. Here's my embarrassingly long list of books I own but haven't yet finished, not including fiction or reference books. I'm hoping that posting this publicly will serve as encouragement to actually finish reading them!
 
 ### Latest acquisitions
 It was my birthday recently and I received the following:
@@ -14,7 +15,7 @@ It was my birthday recently and I received the following:
 - ![Unmasking AI](/images/posts/unmasking-ai.jpg) <p>[Unmasking AI](https://www.waterstones.com/book/9780593241837) by Joy Buolamwini</p> {.card}
 
 ### The shelf
-These are the audiobooks, ebooks and physical books I've not yet finished.
+These are the other audiobooks, ebooks and physical books I've not yet finished.
 
 - [A People's Guide to Capitalism](https://bookshop.org/books/8204446) by Hadas Thier
 - [Abolish Silicon Valley](https://bookshop.org/books/10333690) by Wendy Liu
@@ -55,6 +56,7 @@ These are the audiobooks, ebooks and physical books I've not yet finished.
 - [Reinventing the Welfare State](https://bookshop.org/books/14703937) by Ursula Huws
 - [Resisting AI](https://bookshop.org/books/16079496) by Dan McQuillan
 - [Sad by Design](https://bookshop.org/books/10994019) by Geert Lovink
+- [Secrets of a Successful Organizer](https://www.labornotes.org/secrets) by Alexandra Bradbury, et al.
 - [So You Want to Talk About Race](https://libro.fm/audiobooks/9781538475324-so-you-want-to-talk-about-race) by Ijeoma Oluo
 - [Socialism... Seriously](https://bookshop.org/books/18307384) by Danny Katch
 - [Spaces of Global Capitalism](https://bookshop.org/books/7823779) by David Harvey
