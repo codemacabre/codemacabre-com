@@ -15,6 +15,20 @@
   --dark: #222225;
 }
 
+@font-face {
+  font-family: 'source-code-pro';
+  src:  url('/fonts/SourceCodeVF-Upright.otf.woff2') format('woff2'),
+        url('/fonts/SourceCodeVF-Upright.otf.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'source-code-pro-italic';
+  src:  url('/fonts/SourceCodeVF-Italic.otf.woff2') format('woff2'),
+        url('/fonts/SourceCodeVF-Italic.otf.woff') format('woff');
+  font-display: swap;
+}
+
 html {
   box-sizing: border-box;
   font-size: 18px;
@@ -27,6 +41,7 @@ body {
   color: var(--dark);
   display: grid;
   font-family: 'source-code-pro', monospace;
+  font-weight: 300;
   justify-content: center;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: auto auto 1fr;
@@ -243,8 +258,8 @@ ul, ol {
 }
 
 .dates {
+  font-family: 'source-code-pro-italic', monospace;
   font-size: 0.8rem;
-  font-style: italic;
 }
 
 .title {
@@ -254,8 +269,7 @@ ul, ol {
 }
 
 i {
-  font-family: 'source-code-pro', monospace;
-  font-style: italic;
+  font-family: 'source-code-pro-italic', monospace;
   white-space: nowrap;
 }
 
@@ -285,7 +299,7 @@ strong {
 }
 
 blockquote {
-  font-style: italic;
+  font-family: 'source-code-pro-italic', monospace;
   margin: 0 4rem -2rem 4rem;
   padding: 0;
 
