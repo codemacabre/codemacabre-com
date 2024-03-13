@@ -1,7 +1,7 @@
 ---
 title: Getting post metadata right
 date: 2024-03-02T13:41Z
-update: 2024-03-08T10:27Z
+update: 2024-03-13T16:22Z
 description: "Tips for tagging post and RSS content correctly."
 ---
 
@@ -62,7 +62,7 @@ Read-it-later apps are particularly good at scraping the post content and output
 ### The date
 RSS requires the post date to be entered in a [valid format](https://cyber.harvard.edu/rss/rss.html#ltpubdategtSubelementOfLtitemgt) to a `<pubDate>` element. Atom similarly uses a `<published>` element.
 
-I haven't figured out how read-it-later apps parse the post date from the page. Success seems to depend on the format of the date. I put my dates in [`<time>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time) elements, which seems to help (and benefits from being more accessible):
+I haven't figured out how read-it-later apps parse the post date from the page. Success seems to depend on the format of the date. I put my dates in [`<time>` elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time), which seems to help (and benefits from being more accessible):
 
 ```html
 <time datetime="{{ date }}">02/03/2024</time>
