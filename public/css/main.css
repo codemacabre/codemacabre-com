@@ -269,8 +269,9 @@ ul, ol {
   margin: 0;
 }
 
-i {
+i, em {
   font-family: 'source-code-pro-italic', monospace;
+  font-style: normal;
   white-space: nowrap;
 }
 
@@ -446,6 +447,7 @@ a {
       display: inline-block;
       filter: invert(49%) sepia(10%) saturate(207%) hue-rotate(202deg) brightness(92%) contrast(88%);
       height: 1rem;
+      margin: 0 0 1px 0;
       width: 1rem;
     }
     
