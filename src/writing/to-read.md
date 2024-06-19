@@ -1,26 +1,25 @@
 ---
 title: To read
 date: 2024-03-09T12:04Z
-update: 2024-03-09T16:20Z
+update: 2024-06-19T13:00Z
 description: "A list of audiobooks, ebooks and physical books I have yet to finish."
 ---
 
 I own a _lot_ of books and I don't read anywhere near as quickly as I used to. Here's my embarrassingly long list of books I own but haven't yet finished, not including fiction or reference books. I'm hoping that posting this publicly will serve as encouragement to actually finish reading them!
 
 ### Latest acquisitions
-It was my birthday recently and I received the following:
-
-- !['Among the Trolls' book cover. A white woman with long brown hair sits nonchalantly among various exasperated, angry and yelling people.](/images/posts/among-the-trolls.jpg) <p>[Among the Trolls](https://bookshop.org/books/7607991) by Marianna Spring</p> {.card}
-- !['The Fight For Privacy' book cover. A swarm of cursor pointers point bottom-left on mustard-yellow background.](/images/posts/fight-for-privacy.jpg) <p>[The Fight For Privacy](https://bookshop.org/books/7059751) by Danielle Keats Citron</p> {.card}
-- !['Unmasking AI' book cover. A Black woman (Joy Buolamwini) with white glasses and a red jacket is holding a white mask, partially obscuring her own face.](/images/posts/unmasking-ai.jpg) <p>[Unmasking AI](https://www.waterstones.com/book/9780593241837) by Joy Buolamwini</p> {.card}
+- ![Permanent Record book cover. A close-up of a white man's face, with rectangular glasses and stubble, looking pensive.](/images/posts/permanent-record.jpg) <p>[Permanent Record](https://bookshop.org/books/1922592) by Edward Snowden</p> {.card}
+- ![The Tech Worker's Guide to Unions book cover. The title in a white pixellated font, with the word 'unions' emphasized by a pixellated trianglular caret, against a red patterned background.](/images/posts/techworkers-guide.jpg) <p>[The Tech Worker's Guide to Unions](https://bookshop.org/books/20887441) by Janneke Parrish</p> {.card}
+- ![World Wide Waste book cover. Below the title and subtitle, 'How digital is killing our planet - and what we can do about it', is a black cartogram of the world, made of hexagons, dirty and dripping into a black oily liquid which seems to be filling up the page.](/images/posts/world-wide-waste.jpg) <p>[World Wide Waste](https://bookshop.org/books/14588798) by Gerry McGovern</p> {.card}
 
 ### The shelf
 These are the other audiobooks, ebooks and physical books I've not yet finished.
 
 - [A People's Guide to Capitalism](https://bookshop.org/books/8204446) by Hadas Thier
 - [Abolish Silicon Valley](https://bookshop.org/books/10333690) by Wendy Liu
-- [The Age of Surveillance Capitalism](https://bookshop.org/book/9781781256855) by Shoshanna Zuboff
+- [The Age of Surveillance Capitalism](https://bookshop.org/books/9781781256855) by Shoshanna Zuboff
 - [Algorithms of Oppression](https://bookshop.org/books/3076255) by Safiya Umoja Noble
+- [Among the Trolls](https://bookshop.org/books/7607991) by Marianna Spring
 - [Augmented Exploitation](https://bookshop.org/books/15893601) by Phoebe V. Moore, et al.
 - [Automation Is a Myth](https://bookshop.org/books/18248626) by Luke Munn
 - [Bit Tyrants](https://bookshop.org/books/8201588) by Rob Larsen
@@ -34,6 +33,7 @@ These are the other audiobooks, ebooks and physical books I've not yet finished.
 - [Data Justice](https://bookshop.org/books/18400600) by Lina Dencik, et al.
 - [Demanding More](https://bookshop.org/books/5013337) by Sheree Atcheson
 - [The Ethics of Ambiguity](https://www.waterstones.com/book/9781504054225) by Simone de Beauvoir
+- [The Fight For Privacy](https://bookshop.org/books/7059751) by Danielle Keats Citron
 - [Fortunes of Feminism](https://bookshop.org/books/11953183) by Nancy Fraser
 - [Future Histories](https://bookshop.org/books/7823594) by Lizzie O'Shea
 - [The Good It Promises, The Harm It Does](https://bookshop.org/books/19110024) by Carol J. Adams, et al.
@@ -63,6 +63,7 @@ These are the other audiobooks, ebooks and physical books I've not yet finished.
 - [Technology is Not Neutral](https://bookshop.org/books/18281565) by Stephanie Hare
 - [The Therapy Industry](https://bookshop.org/books/10978432) by Paul Moloney
 - [Troublemaking](https://bookshop.org/books/18688190) by Lydia Hughes and Jamie Woodcock
+- [Unmasking AI](https://www.waterstones.com/book/9780593241837) by Joy Buolamwini
 - [Weapons of Math Destruction](https://bookshop.org/books/11438502) by Cathy O'Neil
 - [Work Without the Worker](https://bookshop.org/books/18448637) by Phil Jones
 - [You Deserve a Tech Union](https://bookshop.org/books/20400532) by Ethan Marcotte
