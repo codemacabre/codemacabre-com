@@ -10,9 +10,9 @@ I own a _lot_ of books and I don't read anywhere near as quickly as I used to. H
 ### Latest acquisitions
 It was my birthday recently and I received the following:
 
-- ![Among the Trolls](/images/posts/among-the-trolls.jpg) <p>[Among the Trolls](https://bookshop.org/books/7607991) by Marianna Spring</p> {.card}
-- ![The Fight For Privacy](/images/posts/fight-for-privacy.jpg) <p>[The Fight For Privacy](https://bookshop.org/books/7059751) by Danielle Keats Citron</p> {.card}
-- ![Unmasking AI](/images/posts/unmasking-ai.jpg) <p>[Unmasking AI](https://www.waterstones.com/book/9780593241837) by Joy Buolamwini</p> {.card}
+- !['Among the Trolls' book cover. A white woman with long brown hair sits nonchalantly among various exasperated, angry and yelling people.](/images/posts/among-the-trolls.jpg) <p>[Among the Trolls](https://bookshop.org/books/7607991) by Marianna Spring</p> {.card}
+- !['The Fight For Privacy' book cover. A swarm of cursor pointers point bottom-left on mustard-yellow background.](/images/posts/fight-for-privacy.jpg) <p>[The Fight For Privacy](https://bookshop.org/books/7059751) by Danielle Keats Citron</p> {.card}
+- !['Unmasking AI' book cover. A Black woman (Joy Buolamwini) with white glasses and a red jacket is holding a white mask, partially obscuring her own face.](/images/posts/unmasking-ai.jpg) <p>[Unmasking AI](https://www.waterstones.com/book/9780593241837) by Joy Buolamwini</p> {.card}
 
 ### The shelf
 These are the other audiobooks, ebooks and physical books I've not yet finished.
