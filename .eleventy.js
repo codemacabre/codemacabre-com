@@ -1,5 +1,6 @@
-import pluginRss from '@11ty/eleventy-plugin-rss'
 import pluginCodeClipboard from 'eleventy-plugin-code-clipboard'
+import pluginRss from '@11ty/eleventy-plugin-rss'
+import pluginWebC from '@11ty/eleventy-plugin-webc'
 import markdownIt from 'markdown-it'
 import markdownItAttrs from 'markdown-it-attrs'
 import markdownItBracketedSpans from 'markdown-it-bracketed-spans'
@@ -24,9 +25,12 @@ export default function (config) {
 		'./public/': '/'
   })
 
-  config.addPlugin(pluginRss)
   config.addPlugin(pluginCodeClipboard, {
     buttonClass: 'code-copy'
+  })
+  config.addPlugin(pluginRss)
+  eleventyConfig.addPlugin(pluginWebc, {
+    components: "_includes/**/*.webc"
   })
 
   config.addNunjucksFilter('limit', (arr, limit) => arr.slice(0, limit))
