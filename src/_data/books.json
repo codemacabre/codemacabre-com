@@ -1,6 +1,10 @@
 [
   {
     "author": ["Hadas Thier"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback", "ebook"],
     "status": "to read",
     "title": "A People's Guide to Capitalism",
@@ -8,6 +12,10 @@
   },
   {
     "author": ["Wendy Liu"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback"],
     "status": "to read",
     "title": "Abolish Silicon Valley",
@@ -15,6 +23,10 @@
   },
   {
     "author": ["Laura Kalbag"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["audiobook", "paperback"],
     "status": "read",
     "title": "Accessibility for Everyone",
@@ -22,6 +34,10 @@
   },
   {
     "author": ["Shoshanna Zuboff"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback"],
     "status": "to read",
     "title": "The Age of Surveillance Capitalism",
@@ -29,6 +45,10 @@
   },
   {
     "author": ["Safiya Umoja Noble"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback"],
     "status": "to read",
     "title": "Algorithms of Oppression",
@@ -36,6 +56,10 @@
   },
   {
     "author": ["Marianna Spring"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["hardback"],
     "status": "reading",
     "title": "Among the Trolls",
@@ -43,6 +67,10 @@
   },
   {
     "author": ["Phoebe V. Moore", "Jamie Woodcock"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback", "ebook"],
     "status": "to read",
     "title": "Augmented Exploitation",
@@ -50,6 +78,10 @@
   },
   {
     "author": ["Luke Munn"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback"],
     "status": "to read",
     "title": "Automation Is a Myth",
@@ -57,6 +89,10 @@
   },
   {
     "author": ["Rob Larsen"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback", "ebook"],
     "status": "to read",
     "title": "Bit Tyrants",
@@ -64,6 +100,10 @@
   },
   {
     "author": ["Brian Merchant"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Blood in the Machine",
@@ -71,6 +111,10 @@
   },
   {
     "author": ["Leah Cowan"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Border Nation",
@@ -78,6 +122,10 @@
   },
   {
     "author": ["Gavin Mueller"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Breaking Things at Work",
@@ -85,6 +133,10 @@
   },
   {
     "author": ["Debt Collective"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Can't Pay, Won't Pay",
@@ -92,6 +144,10 @@
   },
   {
     "author": ["Marta Russell"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback", "ebook"],
     "status": "to read",
     "title": "Capitalism and Disability",
@@ -99,6 +155,10 @@
   },
   {
     "author": [" Greg Albo", "Leo Panitch", "Alan Zuege"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook", "paperback"],
     "status": "to read",
     "title": "Capitalism, Technology, Labor",
@@ -106,6 +166,10 @@
   },
   {
     "author": ["Mark Fisher"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Capitalist Realism",
@@ -113,6 +177,10 @@
   },
   {
     "author": ["Rebecca Giblin", "Cory Doctorow"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["audiobook", "ebook"],
     "status": "to read",
     "title": "Chokepoint Capitalism",
@@ -120,6 +188,10 @@
   },
   {
     "author": ["Frances Ryan"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook", "paperback"],
     "status": "to read",
     "title": "Crippled",
@@ -127,6 +199,10 @@
   },
   {
     "author": ["Amanda Montell"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["audiobook"],
     "status": "to read",
     "title": "Cultish",
@@ -134,6 +210,10 @@
   },
   {
     "author": ["Lina Dencik", "Arne Hintz", "Joanna Redden", "Emiliano Treré"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Data Justice",
@@ -141,6 +221,10 @@
   },
   {
     "author": ["Sheree Atcheson"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback"],
     "status": "to read",
     "title": "Demanding More",
@@ -148,6 +232,10 @@
   },
   {
     "author": ["Cinzia Arruzza", "Tithi Bhattacharya", "Nancy Fraser"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook", "paperback"],
     "status": "read",
     "title": "Feminism for the 99%",
@@ -155,6 +243,10 @@
   },
   {
     "author": ["Simone de Beauvoir"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback"],
     "status": "to read",
     "title": "The Ethics of Ambiguity",
@@ -162,6 +254,10 @@
   },
   {
     "author": ["Danielle Keats Citron"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["hardback"],
     "status": "to read",
     "title": "The Fight For Privacy",
@@ -169,6 +265,10 @@
   },
   {
     "author": ["Nancy Fraser"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Fortunes of Feminism",
@@ -176,6 +276,10 @@
   },
   {
     "author": ["Lizzie O'Shea"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Future Histories",
@@ -183,6 +287,10 @@
   },
   {
     "author": ["Mark Graham"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Geographies of Digital Exclusion",
@@ -190,6 +298,10 @@
   },
   {
     "author": ["Carol J. Adams", "Alice Crary", "Lori Gruen"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "The Good It Promises, The Harm It Does",
@@ -197,6 +309,10 @@
   },
   {
     "author": ["Adam Rutherford"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "How to Argue With a Racist",
@@ -204,6 +320,10 @@
   },
   {
     "author": ["Stephen Crossley"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "In Their Place",
@@ -211,6 +331,10 @@
   },
   {
     "author": ["Denis Boudreau"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "The Inclusive Speaker",
@@ -218,6 +342,10 @@
   },
   {
     "author": ["Cory Doctorow"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["audiobook"],
     "status": "to read",
     "title": "Information Doesn't Want to Be Free",
@@ -225,6 +353,10 @@
   },
   {
     "author": ["Cory Doctorow"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "The Internet Con",
@@ -232,6 +364,10 @@
   },
   {
     "author": ["Sarah Jeong"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "The Internet of Garbage",
@@ -239,6 +375,10 @@
   },
   {
     "author": ["Caroline Criado Perez"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback"],
     "status": "to read",
     "title": "Invisible Women",
@@ -246,6 +386,10 @@
   },
   {
     "author": ["Devon Price"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["audiobook"],
     "status": "to read",
     "title": "Laziness Does Not Exist",
@@ -253,6 +397,10 @@
   },
   {
     "author": ["Amelia Horgan"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Lost in Work",
@@ -260,6 +408,10 @@
   },
   {
     "author": ["Eve Livingston"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook", "paperback"],
     "status": "to read",
     "title": "Make Bosses Pay",
@@ -267,6 +419,10 @@
   },
   {
     "author": ["Florian Butollo", "Sabine Nuss"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Marx and the Robots",
@@ -274,6 +430,10 @@
   },
   {
     "author": ["Meredith Broussard"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["hardback"],
     "status": "to read",
     "title": "More Than a Glitch",
@@ -281,6 +441,10 @@
   },
   {
     "author": ["Akala"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback"],
     "status": "to read",
     "title": "Natives",
@@ -288,6 +452,10 @@
   },
   {
     "author": ["James Bridle"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook", "paperback"],
     "status": "to read",
     "title": "New Dark Age",
@@ -295,6 +463,10 @@
   },
   {
     "author": ["The Secret Barrister"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Nothing but the Truth",
@@ -302,6 +474,10 @@
   },
   {
     "author": ["Edward Snowden"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback"],
     "status": "to read",
     "title": "Permanent Record",
@@ -309,6 +485,10 @@
   },
   {
     "author": ["James Muldoon"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Platform Socialism",
@@ -316,6 +496,10 @@
   },
   {
     "author": ["Carissa Véliz"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["hardback"],
     "status": "to read",
     "title": "Privacy is Power",
@@ -323,6 +507,10 @@
   },
   {
     "author": ["Ursula Huws"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Reinventing the Welfare State",
@@ -330,6 +518,10 @@
   },
   {
     "author": ["Dan McQuillan"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback"],
     "status": "to read",
     "title": "Resisting AI",
@@ -337,6 +529,10 @@
   },
   {
     "author": ["Geert Lovink"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Sad by Design",
@@ -344,6 +540,10 @@
   },
   {
     "author": ["Alexandra Bradbury", "Mark Brenner", "Jane Slaughter"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback"],
     "status": "to read",
     "title": "Secrets of a Successful Organizer",
@@ -351,6 +551,10 @@
   },
   {
     "author": ["Ijeoma Oluo"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["audiobook"],
     "status": "to read",
     "title": "So You Want to Talk About Race",
@@ -358,6 +562,10 @@
   },
   {
     "author": ["Danny Katch"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback", "ebook"],
     "status": "to read",
     "title": "Socialism... Seriously",
@@ -365,6 +573,10 @@
   },
   {
     "author": ["David Harvey"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook", "paperback"],
     "status": "to read",
     "title": "Spaces of Global Capitalism",
@@ -372,6 +584,10 @@
   },
   {
     "author": ["Stephanie Hare"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["hardback"],
     "status": "to read",
     "title": "Technology is Not Neutral",
@@ -379,6 +595,10 @@
   },
   {
     "author": ["Janneke Parrish"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback"],
     "status": "to read",
     "title": "The Tech Worker's Guide to Unions",
@@ -386,6 +606,10 @@
   },
   {
     "author": ["Paul Moloney"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "The Therapy Industry",
@@ -393,6 +617,10 @@
   },
   {
     "author": ["Lydia Hughes", "Jamie Woodcock"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Troublemaking",
@@ -400,6 +628,10 @@
   },
   {
     "author": ["Joy Buolamwini"],
+    "cover": {
+      "alt": "'Unmasking AI' book cover. A Black woman (Joy Buolamwini) with white glasses and a red jacket is holding a white mask, partially obscuring her own face.",
+      "src": "/images/posts/unmasking-ai.jpg"
+    },
     "format": ["hardback"],
     "status": "to read",
     "title": "Unmasking AI",
@@ -407,6 +639,10 @@
   },
   {
     "author": ["Kate O'Riordan"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Unreal Objects",
@@ -414,6 +650,10 @@
   },
   {
     "author": ["Lee Humber"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Vital Signs",
@@ -421,6 +661,10 @@
   },
   {
     "author": ["Cathy O'Neil"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Weapons of Math Destruction",
@@ -428,6 +672,10 @@
   },
   {
     "author": ["Len McCluskey"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook", "paperback"],
     "status": "read",
     "title": "Why You Should be a Trade Unionist",
@@ -435,6 +683,10 @@
   },
   {
     "author": ["Phil Jones"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "Work Without the Worker",
@@ -442,6 +694,10 @@
   },
   {
     "author": ["Gerry McGovern"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback"],
     "status": "to read",
     "title": "World Wide Waste",
@@ -449,6 +705,10 @@
   },
   {
     "author": ["Ethan Marcotte"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["ebook"],
     "status": "to read",
     "title": "You Deserve a Tech Union",
@@ -456,6 +716,10 @@
   },
   {
     "author": ["Thomas S. Mullaney", "Benjamin Peters", "Mar Hicks", "Kavita Philip"],
+    "cover": {
+      "alt": "",
+      "src": "/images/posts/placeholder-cover.jpg"
+    },
     "format": ["paperback"],
     "status": "to read",
     "title": "Your Computer is On Fire",
