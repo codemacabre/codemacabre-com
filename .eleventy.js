@@ -29,7 +29,7 @@ export default function (config) {
     buttonClass: 'code-copy'
   })
   config.addPlugin(pluginRss)
-  eleventyConfig.addPlugin(pluginWebc, {
+  config.addPlugin(pluginWebC, {
     components: "_includes/**/*.webc"
   })
 
