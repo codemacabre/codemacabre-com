@@ -1,0 +1,464 @@
+[
+  {
+    "author": ["Hadas Thier"],
+    "format": ["paperback", "ebook"],
+    "status": "to read",
+    "title": "A People's Guide to Capitalism",
+    "url": "https://www.haymarketbooks.org/books/1481-a-people-s-guide-to-capitalism"
+  },
+  {
+    "author": ["Wendy Liu"],
+    "format": ["paperback"],
+    "status": "to read",
+    "title": "Abolish Silicon Valley",
+    "url": ""
+  },
+  {
+    "author": ["Laura Kalbag"],
+    "format": ["audiobook", "paperback"],
+    "status": "read",
+    "title": "Accessibility for Everyone",
+    "url": "https://abookapart.com/products/accessibility-for-everyone"
+  },
+  {
+    "author": ["Shoshanna Zuboff"],
+    "format": ["paperback"],
+    "status": "to read",
+    "title": "The Age of Surveillance Capitalism",
+    "url": ""
+  },
+  {
+    "author": ["Safiya Umoja Noble"],
+    "format": ["paperback"],
+    "status": "to read",
+    "title": "Algorithms of Oppression",
+    "url": ""
+  },
+  {
+    "author": ["Marianna Spring"],
+    "format": ["hardback"],
+    "status": "reading",
+    "title": "Among the Trolls",
+    "url": ""
+  },
+  {
+    "author": ["Phoebe V. Moore", "Jamie Woodcock"],
+    "format": ["paperback", "ebook"],
+    "status": "to read",
+    "title": "Augmented Exploitation",
+    "url": "https://www.plutobooks.com/9780745343495/augmented-exploitation/"
+  },
+  {
+    "author": ["Luke Munn"],
+    "format": ["paperback"],
+    "status": "to read",
+    "title": "Automation Is a Myth",
+    "url": "https://www.sup.org/books/title/?id=34899"
+  },
+  {
+    "author": ["Rob Larsen"],
+    "format": ["paperback", "ebook"],
+    "status": "to read",
+    "title": "Bit Tyrants",
+    "url": "https://www.haymarketbooks.org/books/1381-bit-tyrants"
+  },
+  {
+    "author": ["Brian Merchant"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Blood in the Machine",
+    "url": ""
+  },
+  {
+    "author": ["Leah Cowan"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Border Nation",
+    "url": "https://www.plutobooks.com/9780745341071/border-nation/"
+  },
+  {
+    "author": ["Gavin Mueller"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Breaking Things at Work",
+    "url": "https://www.versobooks.com/en-gb/products/688-breaking-things-at-work"
+  },
+  {
+    "author": ["Debt Collective"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Can't Pay, Won't Pay",
+    "url": "https://www.haymarketbooks.org/books/1520-can-t-pay-won-t-pay"
+  },
+  {
+    "author": ["Marta Russell"],
+    "format": ["paperback", "ebook"],
+    "status": "to read",
+    "title": "Capitalism and Disability",
+    "url": "https://www.haymarketbooks.org/books/1289-capitalism-and-disability"
+  },
+  {
+    "author": [" Greg Albo", "Leo Panitch", "Alan Zuege"],
+    "format": ["ebook", "paperback"],
+    "status": "to read",
+    "title": "Capitalism, Technology, Labor",
+    "url": "https://www.haymarketbooks.org/books/1478-capitalism-technology-labor"
+  },
+  {
+    "author": ["Mark Fisher"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Capitalist Realism",
+    "url": ""
+  },
+  {
+    "author": ["Rebecca Giblin", "Cory Doctorow"],
+    "format": ["audiobook", "ebook"],
+    "status": "to read",
+    "title": "Chokepoint Capitalism",
+    "url": ""
+  },
+  {
+    "author": ["Frances Ryan"],
+    "format": ["ebook", "paperback"],
+    "status": "to read",
+    "title": "Crippled",
+    "url": "https://www.versobooks.com/en-gb/products/729-crippled"
+  },
+  {
+    "author": ["Amanda Montell"],
+    "format": ["audiobook"],
+    "status": "to read",
+    "title": "Cultish",
+    "url": ""
+  },
+  {
+    "author": ["Lina Dencik", "Arne Hintz", "Joanna Redden", "Emiliano Treré"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Data Justice",
+    "url": ""
+  },
+  {
+    "author": ["Sheree Atcheson"],
+    "format": ["paperback"],
+    "status": "to read",
+    "title": "Demanding More",
+    "url": ""
+  },
+  {
+    "author": ["Cinzia Arruzza", "Tithi Bhattacharya", "Nancy Fraser"],
+    "format": ["ebook", "paperback"],
+    "status": "read",
+    "title": "Feminism for the 99%",
+    "url": "https://www.versobooks.com/en-gb/products/774-feminism-for-the-99"
+  },
+  {
+    "author": ["Simone de Beauvoir"],
+    "format": ["paperback"],
+    "status": "to read",
+    "title": "The Ethics of Ambiguity",
+    "url": ""
+  },
+  {
+    "author": ["Danielle Keats Citron"],
+    "format": ["hardback"],
+    "status": "to read",
+    "title": "The Fight For Privacy",
+    "url": ""
+  },
+  {
+    "author": ["Nancy Fraser"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Fortunes of Feminism",
+    "url": "https://www.versobooks.com/en-gb/products/2305-fortunes-of-feminism"
+  },
+  {
+    "author": ["Lizzie O'Shea"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Future Histories",
+    "url": "https://www.versobooks.com/en-gb/products/796-future-histories"
+  },
+  {
+    "author": ["Mark Graham"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Geographies of Digital Exclusion",
+    "url": "https://www.plutobooks.com/9780745340180/geographies-of-digital-exclusion/"
+  },
+  {
+    "author": ["Carol J. Adams", "Alice Crary", "Lori Gruen"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "The Good It Promises, The Harm It Does",
+    "url": ""
+  },
+  {
+    "author": ["Adam Rutherford"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "How to Argue With a Racist",
+    "url": ""
+  },
+  {
+    "author": ["Stephen Crossley"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "In Their Place",
+    "url": "https://www.plutobooks.com/9780745336794/in-their-place/"
+  },
+  {
+    "author": ["Denis Boudreau"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "The Inclusive Speaker",
+    "url": ""
+  },
+  {
+    "author": ["Cory Doctorow"],
+    "format": ["audiobook"],
+    "status": "to read",
+    "title": "Information Doesn't Want to Be Free",
+    "url": ""
+  },
+  {
+    "author": ["Cory Doctorow"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "The Internet Con",
+    "url": "https://www.versobooks.com/en-gb/products/3035-the-internet-con"
+  },
+  {
+    "author": ["Sarah Jeong"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "The Internet of Garbage",
+    "url": "https://www.theverge.com/2018/8/28/17777330/internet-of-garbage-book-sarah-jeong-online-harassment"
+  },
+  {
+    "author": ["Caroline Criado Perez"],
+    "format": ["paperback"],
+    "status": "to read",
+    "title": "Invisible Women",
+    "url": ""
+  },
+  {
+    "author": ["Devon Price"],
+    "format": ["audiobook"],
+    "status": "to read",
+    "title": "Laziness Does Not Exist",
+    "url": ""
+  },
+  {
+    "author": ["Amelia Horgan"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Lost in Work",
+    "url": "https://www.plutobooks.com/9780745340913/lost-in-work/"
+  },
+  {
+    "author": ["Eve Livingston"],
+    "format": ["ebook", "paperback"],
+    "status": "to read",
+    "title": "Make Bosses Pay",
+    "url": "https://www.plutobooks.com/9781786808417/make-bosses-pay/"
+  },
+  {
+    "author": ["Florian Butollo", "Sabine Nuss"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Marx and the Robots",
+    "url": "https://www.plutobooks.com/9780745344379/marx-and-the-robots/"
+  },
+  {
+    "author": ["Meredith Broussard"],
+    "format": ["hardback"],
+    "status": "to read",
+    "title": "More Than a Glitch",
+    "url": ""
+  },
+  {
+    "author": ["Akala"],
+    "format": ["paperback"],
+    "status": "to read",
+    "title": "Natives",
+    "url": ""
+  },
+  {
+    "author": ["James Bridle"],
+    "format": ["ebook", "paperback"],
+    "status": "to read",
+    "title": "New Dark Age",
+    "url": "https://www.versobooks.com/en-gb/products/640-new-dark-age"
+  },
+  {
+    "author": ["The Secret Barrister"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Nothing but the Truth",
+    "url": ""
+  },
+  {
+    "author": ["Edward Snowden"],
+    "format": ["paperback"],
+    "status": "to read",
+    "title": "Permanent Record",
+    "url": ""
+  },
+  {
+    "author": ["James Muldoon"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Platform Socialism",
+    "url": "https://www.plutobooks.com/9780745346977/platform-socialism/"
+  },
+  {
+    "author": ["Carissa Véliz"],
+    "format": ["hardback"],
+    "status": "to read",
+    "title": "Privacy is Power",
+    "url": ""
+  },
+  {
+    "author": ["Ursula Huws"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Reinventing the Welfare State",
+    "url": "https://www.plutobooks.com/9780745341842/reinventing-the-welfare-state/"
+  },
+  {
+    "author": ["Dan McQuillan"],
+    "format": ["paperback"],
+    "status": "to read",
+    "title": "Resisting AI",
+    "url": ""
+  },
+  {
+    "author": ["Geert Lovink"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Sad by Design",
+    "url": "https://www.plutobooks.com/9780745339344/sad-by-design/"
+  },
+  {
+    "author": ["Alexandra Bradbury", "Mark Brenner", "Jane Slaughter"],
+    "format": ["paperback"],
+    "status": "to read",
+    "title": "Secrets of a Successful Organizer",
+    "url": ""
+  },
+  {
+    "author": ["Ijeoma Oluo"],
+    "format": ["audiobook"],
+    "status": "to read",
+    "title": "So You Want to Talk About Race",
+    "url": ""
+  },
+  {
+    "author": ["Danny Katch"],
+    "format": ["paperback", "ebook"],
+    "status": "to read",
+    "title": "Socialism... Seriously",
+    "url": "https://www.haymarketbooks.org/books/1943-socialism-seriously"
+  },
+  {
+    "author": ["David Harvey"],
+    "format": ["ebook", "paperback"],
+    "status": "to read",
+    "title": "Spaces of Global Capitalism",
+    "url": "https://www.versobooks.com/en-gb/products/1967-spaces-of-global-capitalism"
+  },
+  {
+    "author": ["Stephanie Hare"],
+    "format": ["hardback"],
+    "status": "to read",
+    "title": "Technology is Not Neutral",
+    "url": ""
+  },
+  {
+    "author": ["Janneke Parrish"],
+    "format": ["paperback"],
+    "status": "to read",
+    "title": "The Tech Worker's Guide to Unions",
+    "url": ""
+  },
+  {
+    "author": ["Paul Moloney"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "The Therapy Industry",
+    "url": "https://www.plutobooks.com/9780745329864/the-therapy-industry/"
+  },
+  {
+    "author": ["Lydia Hughes", "Jamie Woodcock"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Troublemaking",
+    "url": "https://www.versobooks.com/en-gb/products/2889-troublemaking"
+  },
+  {
+    "author": ["Joy Buolamwini"],
+    "format": ["hardback"],
+    "status": "to read",
+    "title": "Unmasking AI",
+    "url": ""
+  },
+  {
+    "author": ["Kate O'Riordan"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Unreal Objects",
+    "url": "https://www.plutobooks.com/9781786800572/unreal-objects/"
+  },
+  {
+    "author": ["Lee Humber"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Vital Signs",
+    "url": "https://www.plutobooks.com/9780745338323/vital-signs/"
+  },
+  {
+    "author": ["Cathy O'Neil"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Weapons of Math Destruction",
+    "url": ""
+  },
+  {
+    "author": ["Len McCluskey"],
+    "format": ["ebook", "paperback"],
+    "status": "read",
+    "title": "Why You Should be a Trade Unionist",
+    "url": "https://www.versobooks.com/en-gb/products/872-why-you-should-be-a-trade-unionist"
+  },
+  {
+    "author": ["Phil Jones"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Work Without the Worker",
+    "url": "https://www.versobooks.com/en-gb/products/2518-work-without-the-worker"
+  },
+  {
+    "author": ["Gerry McGovern"],
+    "format": ["paperback"],
+    "status": "to read",
+    "title": "World Wide Waste",
+    "url": ""
+  },
+  {
+    "author": ["Ethan Marcotte"],
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "You Deserve a Tech Union",
+    "url": "https://abookapart.com/products/you-deserve-a-tech-union"
+  },
+  {
+    "author": ["Thomas S. Mullaney", "Benjamin Peters", "Mar Hicks", "Kavita Philip"],
+    "format": ["paperback"],
+    "status": "to read",
+    "title": "Your Computer is On Fire",
+    "url": "https://mitpress.mit.edu/9780262539739/your-computer-is-on-fire/"
+  }
+]
