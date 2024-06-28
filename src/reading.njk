@@ -1,0 +1,26 @@
+---
+layout: base.njk
+title: Writing
+---
+
+<h2>Reading</h2>
+<ul class="wider">
+{% for item in books %}
+  <li class="card">
+    <img src="{{ item.cover.src }}" alt="{{ item.cover.alt }}" />
+    <p><a href="{{ item.url }}">{{ item.title }}</a> by 
+    {% for entity in item.author %}
+      {% if item.author.length > 1 %}
+        {% if entity === item.author[item.author.length - 1] %}
+          {{ entity }}
+        {% else %}
+          {{ entity }}, 
+        {% endif %}
+      {% else %}
+        {{ entity }}
+      {% endif %}
+    {% endfor %}
+    </p>
+  </li>
+{% endfor %}
+</ul>
