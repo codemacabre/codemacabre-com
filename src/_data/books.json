@@ -2,8 +2,8 @@
   {
     "author": ["Hadas Thier"],
     "cover": {
-      "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "alt": "A People's Guide to Capitalism cover. A stack of coins sits amid an abstract machine where long suited arms reach and grab wads of notes.",
+      "src": "/images/books/peoples-guide-capitalism.jpg"
     },
     "format": ["paperback", "ebook"],
     "status": "to read",
@@ -13,8 +13,8 @@
   {
     "author": ["Wendy Liu"],
     "cover": {
-      "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "alt": "Abolish Silicon Valley cover. A golden desert valley rests beneath a dark blue sky of 1s and 0s. The subtitle is, 'How to' liberate technology from capitalism'.",
+      "src": "/images/books/abolish-silicon-valley.jpg"
     },
     "format": ["paperback"],
     "status": "to read",
@@ -24,8 +24,8 @@
   {
     "author": ["Laura Kalbag"],
     "cover": {
-      "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "alt": "Accessibility for Everyone cover. A plain green background with a white banner at the top. The number 23 in a black circle.",
+      "src": "/images/books/a11y-for-everyone.jpg"
     },
     "format": ["audiobook", "paperback"],
     "status": "read",
@@ -717,8 +717,8 @@
   {
     "author": ["Ethan Marcotte"],
     "cover": {
-      "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "alt": "You Deserve a Tech Union cover. A plain red background with a white banner at the top. The number 47 in a black circle.",
+      "src": "/images/books/deserve-tech-union.jpg"
     },
     "format": ["ebook"],
     "status": "to read",
