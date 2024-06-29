@@ -332,8 +332,8 @@
   {
     "author": ["Denis Boudreau"],
     "cover": {
-      "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "alt": "The Inclusive Speaker cover. A network of people silhouewttes in circles, connected by lines. The subtitle is, 'How to truly connect with all of your audience without leaving anyone behind'.",
+      "src": "/images/books/inclusive-speaker.jpg"
     },
     "format": ["ebook"],
     "status": "to read",
@@ -409,7 +409,7 @@
   {
     "author": ["Eve Livingston"],
     "cover": {
-      "alt": "",
+      "alt": "Make Bosses Pay cover. A circle of chess pawns on a magenta background cast a shadow which looks like a crown. The subtitle is, 'Why We Need Unions'.",
       "src": "/images/books/placeholder-cover.jpg"
     },
     "format": ["ebook", "paperback"],
