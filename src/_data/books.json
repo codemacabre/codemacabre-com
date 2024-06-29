@@ -35,8 +35,8 @@
   {
     "author": ["Shoshanna Zuboff"],
     "cover": {
-      "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "alt": "The Age of Surveillance Capitalism cover. A plain cream-white background with the subtitle, 'The fight for a human future at the new frontier of power'.",
+      "src": "/images/books/surveillance-capitalism.jpg"
     },
     "format": ["paperback"],
     "status": "to read",
@@ -46,8 +46,8 @@
   {
     "author": ["Safiya Umoja Noble"],
     "cover": {
-      "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "alt": "Algorithms of Oppression cover. The title is in Google-style colours against a search box with the words 'why are black women so' and a list of derogatory and racist autocomplete suggestions, such as 'angry', 'loud', 'mean', etc.",
+      "src": "/images/books/algorithms-oppression.jpg"
     },
     "format": ["paperback"],
     "status": "to read",
