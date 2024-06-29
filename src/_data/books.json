@@ -352,6 +352,17 @@
     "url": "https://openlibrary.org/works/OL17329377W/"
   },
   {
+    "author": ["Baldur Bjarnason"],
+    "cover": {
+      "alt": "The Intelligence Illusion cover. A shadowy, low-poly, glitchy person looks off into the  black background. The subtitle is, 'A practical guide to the business risks of generative AI'.",
+      "src": "/images/books/intelligence-illusion.jpg"
+    },
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "The Intelligence Illusion",
+    "url": "https://openlibrary.org/works/OL36505137W/"
+  },
+  {
     "author": ["Cory Doctorow"],
     "cover": {
       "alt": "",
