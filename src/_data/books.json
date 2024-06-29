@@ -212,7 +212,7 @@
     "author": ["Lina Dencik", "Arne Hintz", "Joanna Redden", "Emiliano Treré"],
     "cover": {
       "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "src": "/images/books/data-justice.jpg"
     },
     "format": ["ebook"],
     "status": "to read",
@@ -223,7 +223,7 @@
     "author": ["Sheree Atcheson"],
     "cover": {
       "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "src": "/images/books/demanding-more.jpg"
     },
     "format": ["paperback"],
     "status": "to read",
@@ -234,7 +234,7 @@
     "author": ["Cinzia Arruzza", "Tithi Bhattacharya", "Nancy Fraser"],
     "cover": {
       "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "src": "/images/books/feminism-99.jpg"
     },
     "format": ["ebook", "paperback"],
     "status": "read",
@@ -245,7 +245,7 @@
     "author": ["Simone de Beauvoir"],
     "cover": {
       "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "src": "/images/books/ethics-ambiguity.jpg"
     },
     "format": ["paperback"],
     "status": "to read",
@@ -267,7 +267,7 @@
     "author": ["Nancy Fraser"],
     "cover": {
       "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "src": "/images/books/fortunes-feminism.jpg"
     },
     "format": ["ebook"],
     "status": "to read",
@@ -278,7 +278,7 @@
     "author": ["Lizzie O'Shea"],
     "cover": {
       "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "src": "/images/books/future-histories.jpg"
     },
     "format": ["ebook"],
     "status": "to read",
@@ -289,7 +289,7 @@
     "author": ["Mark Graham"],
     "cover": {
       "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "src": "/images/books/geographies-exclusion.jpg"
     },
     "format": ["ebook"],
     "status": "to read",
@@ -300,7 +300,7 @@
     "author": ["Carol J. Adams", "Alice Crary", "Lori Gruen"],
     "cover": {
       "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "src": "/images/books/good-promises-harm.jpg"
     },
     "format": ["ebook"],
     "status": "to read",
@@ -311,7 +311,7 @@
     "author": ["Adam Rutherford"],
     "cover": {
       "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "src": "/images/books/argue-racist.jpg"
     },
     "format": ["ebook"],
     "status": "to read",
@@ -322,7 +322,7 @@
     "author": ["Stephen Crossley"],
     "cover": {
       "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "src": "/images/books/in-their-place.jpg"
     },
     "format": ["ebook"],
     "status": "to read",
@@ -344,7 +344,7 @@
     "author": ["Cory Doctorow"],
     "cover": {
       "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "src": "/images/books/information-free.jpg"
     },
     "format": ["audiobook"],
     "status": "to read",
@@ -366,7 +366,7 @@
     "author": ["Cory Doctorow"],
     "cover": {
       "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "src": "/images/books/internet-con.jpg"
     },
     "format": ["ebook"],
     "status": "to read",
@@ -377,7 +377,7 @@
     "author": ["Sarah Jeong"],
     "cover": {
       "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "src": "/images/books/internet-garbage.jpg"
     },
     "format": ["ebook"],
     "status": "to read",
@@ -388,7 +388,7 @@
     "author": ["Caroline Criado Perez"],
     "cover": {
       "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "src": "/images/books/invisible-women.jpg"
     },
     "format": ["paperback"],
     "status": "to read",
@@ -399,7 +399,7 @@
     "author": ["Devon Price"],
     "cover": {
       "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "src": "/images/books/laziness-exist.jpg"
     },
     "format": ["audiobook"],
     "status": "to read",
@@ -410,7 +410,7 @@
     "author": ["Amelia Horgan"],
     "cover": {
       "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "src": "/images/books/lost-in-work.jpg"
     },
     "format": ["ebook"],
     "status": "to read",
@@ -421,7 +421,7 @@
     "author": ["Eve Livingston"],
     "cover": {
       "alt": "Make Bosses Pay cover. A circle of chess pawns on a magenta background cast a shadow which looks like a crown. The subtitle is, 'Why We Need Unions'.",
-      "src": "/images/books/placeholder-cover.jpg"
+      "src": "/images/books/make-bosses-pay.jpg"
     },
     "format": ["ebook", "paperback"],
     "status": "to read",
