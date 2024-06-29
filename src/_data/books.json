@@ -57,8 +57,8 @@
   {
     "author": ["Marianna Spring"],
     "cover": {
-      "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "alt": "Among the Trolls book cover. A white woman with long brown hair sits nonchalantly among various exasperated, angry and yelling people.",
+      "src": "/images/books/among-the-trolls.jpg"
     },
     "format": ["hardback"],
     "status": "reading",
@@ -255,8 +255,8 @@
   {
     "author": ["Danielle Keats Citron"],
     "cover": {
-      "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "alt": "The Fight For Privacy book cover. A swarm of cursor pointers point bottom-left on mustard-yellow background.",
+      "src": "/images/books/fight-for-privacy.jpg"
     },
     "format": ["hardback"],
     "status": "to read",
@@ -475,8 +475,8 @@
   {
     "author": ["Edward Snowden"],
     "cover": {
-      "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "alt": "Permanent Record book cover. A close-up of a white man's face, with rectangular glasses and stubble, looking pensive.",
+      "src": "/images/books/permanent-record.jpg"
     },
     "format": ["paperback"],
     "status": "to read",
@@ -596,8 +596,8 @@
   {
     "author": ["Janneke Parrish"],
     "cover": {
-      "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "alt": "The Tech Worker's Guide to Unions book cover. The title in a white pixellated font, with the word 'unions' emphasized by a pixellated trianglular caret, against a red patterned background.",
+      "src": "/images/books/techworkers-guide.jpg"
     },
     "format": ["paperback"],
     "status": "to read",
@@ -629,7 +629,7 @@
   {
     "author": ["Joy Buolamwini"],
     "cover": {
-      "alt": "'Unmasking AI' book cover. A Black woman (Joy Buolamwini) with white glasses and a red jacket is holding a white mask, partially obscuring her own face.",
+      "alt": "Unmasking AI book cover. A Black woman (Joy Buolamwini) with white glasses and a red jacket is holding a white mask, partially obscuring her own face.",
       "src": "/images/books/unmasking-ai.jpg"
     },
     "format": ["hardback"],
@@ -695,8 +695,8 @@
   {
     "author": ["Gerry McGovern"],
     "cover": {
-      "alt": "",
-      "src": "/images/books/placeholder-cover.jpg"
+      "alt": "World Wide Waste book cover. Below the title and subtitle, 'How digital is killing our planet - and what we can do about it', is a black cartogram of the world, made of hexagons, dirty and dripping into a black oily liquid which seems to be filling up the page.",
+      "src": "/images/books/world-wide-waste.jpg"
     },
     "format": ["paperback"],
     "status": "to read",
