@@ -33,6 +33,7 @@ export default function (config) {
     components: "_includes/**/*.webc"
   })
 
+  config.addNunjucksFilter('reading', (arr) => arr.filter((item) => item.status === 'reading'))
   config.addNunjucksFilter('limit', (arr, limit) => arr.slice(0, limit))
   config.addNunjucksFilter('date', (date, format) => {
     const parsedDate = new Date(date)
@@ -55,6 +56,10 @@ export default function (config) {
     return collectionApi.getFilteredByTag('projects').sort(function(a, b) {
       return a.data.title.localeCompare(b.data.title)
     })
+  })
+  config.addCollection('currently_reading', function (collectionApi) {
+    const books = collectionApi.getAll()[0].data.books
+    return books.filter((item) => item.status === 'reading')
   })
   config.addCollection('published_writing', function (collectionApi) {
     return collectionApi.getFilteredByTags('writing').filter((post) => !post.data.draft)
