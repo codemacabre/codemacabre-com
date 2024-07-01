@@ -22,6 +22,11 @@ description: A (selected) view of Myles Lewando's non-fiction bookshelf
       {% endif %}
     {% endfor %}
     </p>
+    <div class="status-container">
+    {% if item.status === 'reading' %}
+      <div class="status">reading</div>
+    {% endif %}
+    </div>
   </li>
 {% endfor %}
 </ul>
