@@ -10,7 +10,7 @@ description: About Myles Lewando
   This is the portfolio and personal site of Myles Lewando (he / him), a developer, designer, and data visualisation and accessibility specialist.
 </p>
 <p>
-  Myles began freelancing as a developer in 2016, then formally changed career to become a full-time developer in 2019. His background is in education, data visualisation (particularly geospatial) and design. He is passionate about inclusive, ethical technology, and data justice.
+  Myles began freelancing as a developer in 2016, then formally changed career to become a full-time developer in 2019. His background is in education, data visualisation (particularly geospatial), and design. He is passionate about inclusive, ethical technology, and data justice.
 </p>
 <img
   class="small center circle"
@@ -21,7 +21,7 @@ description: About Myles Lewando
 <p>
   Myles currently works as a {{ self.organisation.position }} at <a href="{{ self.organisation.url }}">{{ self.organisation.name }}</a>.
 </p>
-<p>Myles is <a href="/reading">currently reading</a> {{ collections.currently_reading.length }} {% if collections.currently_reading.length === 1 %} book, {% else %} books, {% endif %}
+<p>He is <a href="/reading">currently reading</a> {{ collections.currently_reading.length }} {% if collections.currently_reading.length === 1 %} book, {% else %} books, {% endif %}
 {% for book in collections.currently_reading %}
   {% if book === collections.currently_reading[collections.currently_reading.length - 1] %}
     and <a href="{{ book.url }}">{{ book.title }}</a>.
@@ -30,10 +30,10 @@ description: About Myles Lewando
   {% endif %}
 {% endfor %}</p>
 <h3 id="fun-facts">Fun facts</h3>
-<p>Myles has a menagerie of multi-legged pets, including:</p>
+<p>Myles has a menagerie of multi-legged pets of various species, including:</p>
 <ul class="indented">
 {% for pet in self.pets %}
-  <li>{{ pet }}</li>
+  <li>{{ pet.count }}x {{ pet.species_en }} ({{ pet.species_la}})</li>
 {% endfor %}
 </ul>
 <p>…and one human child.</p>
