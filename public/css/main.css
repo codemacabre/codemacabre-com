@@ -230,15 +230,16 @@ ul, ol {
       padding: 0 1rem 0 0;
       position: relative;
       text-indent: 0;
+      z-index: initial;
       
       .status-container {
         height: 100%;
         overflow: hidden;
         position: absolute;
-        right: 0px;
-        top: 0px;
+        right: -1px;
+        top: -1px;
         width: 100px;
-
+        z-index: -1;
         
         .status {
           width: 200px;
