@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Myles Lewando">
-  <meta name="description" content="{% if description %}{{ description }}{% else %}Musings by Myles Lewando{% endif %}">
+  <meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
 
   <meta property="og:title" content="{% if title %}{{ title }}{% else %}Code Macabre{% endif %}">
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="{% if description %}{{ description }}{% else %}Musings by Myles Lewando{% endif %}">
+  <meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:image" content="{% if img.url %}{{ img.url }}{% else %}/images/_me-redacted-sm.png{% endif %}">
   <meta property="og:url" content="{{ page.url }}">
   <meta name="twitter:card" content="summary_large_image">
