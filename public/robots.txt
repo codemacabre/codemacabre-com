@@ -1,4 +1,4 @@
-# CodeMacabre robots.txt
+# Code Macabre robots.txt
 
 # AI Data Scraper
 # https://darkvisitors.com/agents/anthropic-ai

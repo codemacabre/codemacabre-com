@@ -1,10 +1,10 @@
-# CodeMacabre website
+# Code Macabre website
 
 [![Eleventy](https://img.shields.io/badge/Eleventy-000000?logo=eleventy&logoColor=ffffff)](https://11ty.dev/)
 
 ## Overview
 
-This repo contains the CodeMacabre website, my personal, portfolio, and freelance site.
+This repo contains the Code Macabre website, my personal, portfolio, and freelance site.
 
 ## Design & Development
 
