@@ -660,6 +660,17 @@
     "url": "https://openlibrary.org/works/OL28747371W/"
   },
   {
+    "author": ["Heather Burns"],
+    "cover": {
+      "alt": "",
+      "src": "/images/books/understanding-privacy.jpg"
+    },
+    "format": ["ebook"],
+    "status": "read",
+    "title": "Understanding Privacy",
+    "url": "https://openlibrary.org/works/OL38056365W/"
+  },
+  {
     "author": ["Joy Buolamwini"],
     "cover": {
       "alt": "Unmasking AI book cover. A Black woman (Joy Buolamwini) with white glasses and a red jacket is holding a white mask, partially obscuring her own face.",
