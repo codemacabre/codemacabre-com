@@ -159,7 +159,6 @@ h4 {
 p {
   line-height: 2rem;
   margin: 1rem 0 0 0;
-  text-wrap: pretty;
 
   &.caption {
     font-size: 0.8rem;
@@ -459,26 +458,6 @@ a {
     background-color: var(--gloom);
     color: #ffffff;
     transition: 200ms;
-  }
-
-  &[href^='http'],
-  &[href^='https'] {
-    &::after {
-      background: url('/images/external.svg') bottom right / 0.5rem no-repeat;
-      content: '';
-      display: inline-block;
-      filter: invert(49%) sepia(10%) saturate(207%) hue-rotate(202deg) brightness(92%) contrast(88%);
-      height: 1rem;
-      margin: 0 0 1px 0;
-      width: 1rem;
-    }
-    
-    &:active,
-    &:hover {
-      &::after {
-        filter: invert(96%) sepia(9%) saturate(64%) hue-rotate(202deg) brightness(92%) contrast(94%);
-      }
-    }
   }
   
   &.rss {
