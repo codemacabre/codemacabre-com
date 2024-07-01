@@ -431,7 +431,7 @@
   {
     "author": ["Florian Butollo", "Sabine Nuss"],
     "cover": {
-      "alt": "",
+      "alt": "Max and the Robots cover. A network of circuits make up the distinctive silhouette of Karl Marx with long hair and a beard against a red background.",
       "src": "/images/books/marx-robots.jpg"
     },
     "format": ["ebook"],
@@ -453,7 +453,7 @@
   {
     "author": ["Akala"],
     "cover": {
-      "alt": "",
+      "alt": "Natives cover. Nelson at the top of Nelson's Column in pink against a light blue background. The subtitle is, 'Race and Class in the Ruins of Empire'.",
       "src": "/images/books/natives.jpg"
     },
     "format": ["paperback"],
@@ -464,7 +464,7 @@
   {
     "author": ["James Bridle"],
     "cover": {
-      "alt": "",
+      "alt": "New Dark Age cover. The subtitle, 'Technology and the End of the Future', overlays a burst of green lines against a black background.",
       "src": "/images/books/new-dark-age.jpg"
     },
     "format": ["ebook", "paperback"],
@@ -473,9 +473,20 @@
     "url": "https://openlibrary.org/works/OL17919031W/"
   },
   {
+    "author": ["Marshall B. Rosenberg", "Deepak Chopra"],
+    "cover": {
+      "alt": "Nonviolent Communication cover. Green and red speech bubbles overlap to form a Venn digram. The crossover area is purple with the words, 'empathy', 'collaboration', 'authenticity', 'freedom'.",
+      "src": "/images/books/nonviolent-communication.jpg"
+    },
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "Nonviolent Communication",
+    "url": "https://openlibrary.org/works/OL2018966W/"
+  },
+  {
     "author": ["The Secret Barrister"],
     "cover": {
-      "alt": "",
+      "alt": "Nothing but the Truth cover. A barrister, complete with black robes and white wig, has their face obscured by yellow painterly pixels against a bright yellow background.",
       "src": "/images/books/nothing-truth.jpg"
     },
     "format": ["ebook"],
@@ -486,7 +497,7 @@
   {
     "author": ["Harry G. Frankfurt"],
     "cover": {
-      "alt": "",
+      "alt": "On Bullshit cover. A plain black background with the title in white on a red label.",
       "src": "/images/books/on-bullshit.jpg"
     },
     "format": ["ebook"],
@@ -508,7 +519,7 @@
   {
     "author": ["James Muldoon"],
     "cover": {
-      "alt": "",
+      "alt": "Platform Socialism cover. A network of white lines criss-cross a blue-red gradient. The subtitle is, 'How to Reclaim our Digital Future from Big Tech'.",
       "src": "/images/books/platform-socialism.jpg"
     },
     "format": ["ebook"],
@@ -519,7 +530,7 @@
   {
     "author": ["Carissa Véliz"],
     "cover": {
-      "alt": "",
+      "alt": "Privacy is Power cover. The title in black and white, with a red banner behind the word 'power' against a white background. The subtitle in black and red is, 'Why and how you should take back control of your data'.",
       "src": "/images/books/privacy-power.jpg"
     },
     "format": ["hardback"],
@@ -530,7 +541,7 @@
   {
     "author": ["Ursula Huws"],
     "cover": {
-      "alt": "",
+      "alt": "Reinventing the Welfare State cover. The 'R' of 'reinventing' extends downwards, forming a geometric shape with black triangles and red lines. Inside this shape are the book's contents and subtitle, 'Digital platforms and public policies: An urgent call to radically redesign the welfare staste for the 21st century'.",
       "src": "/images/books/reinventing-welfare-state.jpg"
     },
     "format": ["ebook"],
@@ -541,7 +552,7 @@
   {
     "author": ["Dan McQuillan"],
     "cover": {
-      "alt": "",
+      "alt": "Resisting AI cover. A sea of blue with undulating networked white lines. The subtitle is, 'An anti-fascist approach to artificial intelligence'.",
       "src": "/images/books/resisting-ai.jpg"
     },
     "format": ["paperback"],
@@ -552,7 +563,7 @@
   {
     "author": ["Geert Lovink"],
     "cover": {
-      "alt": "",
+      "alt": "Sad by Design cover. A down-turned geometric, low-poly mouth against a cream-white background.",
       "src": "/images/books/sad-design.jpg"
     },
     "format": ["ebook"],
@@ -563,7 +574,7 @@
   {
     "author": ["Alexandra Bradbury", "Mark Brenner", "Jane Slaughter"],
     "cover": {
-      "alt": "",
+      "alt": "Secrets of a Successful Organizer cover. An arrow hits the centre of a magenta target against a cream-white background.",
       "src": "/images/books/secrets-successful-organizer.jpg"
     },
     "format": ["paperback"],
@@ -574,7 +585,7 @@
   {
     "author": ["Ijeoma Oluo"],
     "cover": {
-      "alt": "",
+      "alt": "So You Want to Talk About Race cover. The words 'talk about race' are inside a spikey, jagged speech bubble, against a beige background.",
       "src": "/images/books/so-talk-race.jpg"
     },
     "format": ["audiobook"],
@@ -585,7 +596,7 @@
   {
     "author": ["Danny Katch"],
     "cover": {
-      "alt": "",
+      "alt": "Socialism... Seriously cover. The 'L' in 'socialism' is a flagpole, flying a red flag. The word 'seriously' is in a handwritten font. The subtitle is, 'A Brief Guide to Human Liberation'.",
       "src": "/images/books/socialism-seriously.jpg"
     },
     "format": ["paperback", "ebook"],
