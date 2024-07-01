@@ -1,11 +1,11 @@
 ---
 title: Getting post metadata right
 date: 2024-03-02T13:41Z
-update: 2024-03-13T16:22Z
+update: 2024-07-01T07:55Z
 description: "Tips for tagging post and RSS content correctly."
 ---
 
-I use a couple of read-it-later apps. [Omnivore](https://omnivore.app/) is my current favourite, but I'm also fond of [Readwise Reader](https://readwise.io/read). Notably, both apps also allow subscribing to RSS feeds and both sync my highlights to [Logseq](https://logseq.com/) and [Obsidian](https://obsidian.md).
+I've been through various read-it-later apps. [Omnivore](https://omnivore.app/) is my current favourite, but I'm also fond of [Readwise Reader](https://readwise.io/read). Notably, both apps also allow subscribing to RSS feeds and both sync my highlights to [Logseq](https://logseq.com/).
 
 It's generally a great workflow. Until, that is, I happen upon some mis-tagged metadata.
 
@@ -57,7 +57,7 @@ For RSS, this requires the `xmlns:content` attribute to be added to the `rss` el
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 ```
 
-Read-it-later apps are particularly good at scraping the post content and outputting it in an easy-to-read format, so nothing special is required here. Provided you don't hide half of your content behind a login or paywall. 😒
+Read-it-later apps are particularly good at scraping the post content and outputting it in an easy-to-read format, so nothing special is required here. Provided you don't hide half of your content behind a login or paywall.
 
 ### The date
 RSS requires the post date to be entered in a [valid format](https://cyber.harvard.edu/rss/rss.html#ltpubdategtSubelementOfLtitemgt) to a `<pubDate>` element. Atom similarly uses a `<published>` element.
