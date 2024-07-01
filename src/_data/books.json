@@ -242,6 +242,17 @@
     "url": "https://openlibrary.org/works/OL21358392W/"
   },
   {
+    "author": ["Trine Falbe", "Kim Andersen", "Martin Michael Frederiksen"],
+    "cover": {
+      "alt": "",
+      "src": "/images/books/ethical-design.jpg"
+    },
+    "format": ["ebook", "hardback"],
+    "status": "to read",
+    "title": "The Ethical Design Handbook",
+    "url": "https://openlibrary.org/works/OL38056348W/"
+  },
+  {
     "author": ["Simone de Beauvoir"],
     "cover": {
       "alt": "",
@@ -328,6 +339,17 @@
     "status": "to read",
     "title": "In Their Place",
     "url": "https://openlibrary.org/works/OL21583613W/"
+  },
+  {
+    "author": ["Heydon Pickering"],
+    "cover": {
+      "alt": "",
+      "src": "/images/books/inclusive-components.jpg"
+    },
+    "format": ["ebook", "hardback"],
+    "status": "read",
+    "title": "Inclusive Components",
+    "url": "https://openlibrary.org/works/OL36868226W/"
   },
   {
     "author": ["Denis Boudreau"],
@@ -665,7 +687,7 @@
       "alt": "",
       "src": "/images/books/understanding-privacy.jpg"
     },
-    "format": ["ebook"],
+    "format": ["ebook", "hardback"],
     "status": "read",
     "title": "Understanding Privacy",
     "url": "https://openlibrary.org/works/OL38056365W/"
