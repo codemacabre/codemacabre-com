@@ -484,6 +484,17 @@
     "url": "https://openlibrary.org/works/OL27089921W/"
   },
   {
+    "author": ["Harry G. Frankfurt"],
+    "cover": {
+      "alt": "",
+      "src": "/images/books/on-bullshit.jpg"
+    },
+    "format": ["ebook"],
+    "status": "to read",
+    "title": "On Bullshit",
+    "url": "https://openlibrary.org/works/OL1829528W/"
+  },
+  {
     "author": ["Edward Snowden"],
     "cover": {
       "alt": "Permanent Record book cover. A close-up of a white man's face, with rectangular glasses and stubble, looking pensive.",
