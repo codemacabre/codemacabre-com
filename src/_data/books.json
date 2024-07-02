@@ -110,6 +110,17 @@
     "url": "https://openlibrary.org/works/OL27138995W/"
   },
   {
+    "author": ["Ben West"],
+    "cover": {
+      "alt": "",
+      "src": "/images/books/book-save-life.jpg"
+    },
+    "format": ["audiobook"],
+    "status": "reading",
+    "title": "This Book Could Save Your Life",
+    "url": "https://openlibrary.org/works/OL26772393W/"
+  },
+  {
     "author": ["Leah Cowan"],
     "cover": {
       "alt": "",
@@ -130,6 +141,28 @@
     "status": "to read",
     "title": "Breaking Things at Work",
     "url": "https://openlibrary.org/works/OL21675242W/"
+  },
+  {
+    "author": ["Emily Chang"],
+    "cover": {
+      "alt": "",
+      "src": "/images/books/brotopia.jpg"
+    },
+    "format": ["audiobook"],
+    "status": "read",
+    "title": "Brotopia",
+    "url": "https://openlibrary.org/works/OL19731781W/"
+  },
+  {
+    "author": ["Emily Nagoski", "Amelia Nagoski"],
+    "cover": {
+      "alt": "",
+      "src": "/images/books/burnout.jpg"
+    },
+    "format": ["audiobook"],
+    "status": "read",
+    "title": "Burnout",
+    "url": "https://openlibrary.org/works/OL20163365W/"
   },
   {
     "author": ["Debt Collective"],
@@ -231,6 +264,17 @@
     "url": "https://openlibrary.org/works/OL24630947W/"
   },
   {
+    "author": ["Jenara Nerenberg"],
+    "cover": {
+      "alt": "",
+      "src": "/images/books/divergent-mind.jpg"
+    },
+    "format": ["audiobook", "paperback"],
+    "status": "read",
+    "title": "Divergent Mind",
+    "url": "https://openlibrary.org/works/OL20863140W/"
+  },
+  {
     "author": ["Cinzia Arruzza", "Tithi Bhattacharya", "Nancy Fraser"],
     "cover": {
       "alt": "",
@@ -328,6 +372,17 @@
     "status": "to read",
     "title": "How to Argue With a Racist",
     "url": "https://openlibrary.org/works/OL20827389W/"
+  },
+  {
+    "author": ["Danny Caine"],
+    "cover": {
+      "alt": "",
+      "src": "/images/books/resist-amazon.jpg"
+    },
+    "format": ["audiobook"],
+    "status": "read",
+    "title": "How to Resist Amazon and Why",
+    "url": "https://openlibrary.org/works/OL21672135W/"
   },
   {
     "author": ["Stephen Crossley"],
