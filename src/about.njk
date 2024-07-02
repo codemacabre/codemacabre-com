@@ -7,21 +7,21 @@ description: About Myles Lewando
 <h2>About</h2>
 <p>Welcome to Code Macabre!</p>
 <p>
-  This is the portfolio and personal site of Myles Lewando (he / him), a developer, designer, and data visualisation and accessibility specialist.
+  This is the portfolio and personal site of me, Myles Lewando (he / him), a developer, designer, and data visualisation and accessibility specialist.
 </p>
 <p>
-  Myles began freelancing as a developer in 2016, then formally changed career to become a full-time developer in 2019. His background is in education, data visualisation (particularly geospatial), and design. He is passionate about inclusive, ethical technology, and data justice.
+  I began freelancing as a developer in 2016, then formally changed career to become a full-time developer in 2019. My background is in education, data visualisation (particularly geospatial), and design. I am passionate about inclusive, ethical technology, and data justice.
 </p>
 <img
   class="small center circle"
   src="/images/_me-redacted-sm.png"
-  alt="A black and white grainy photo of Myles' head and shoulders. He has a long pointy beard and a mohawk, with a black censored bar across his eyes"
+  alt="A black and white grainy photo of my' head and shoulders. I have a long pointy beard and a mohawk, with a black censored bar across his eyes"
 >
 <h3 id="now">Now</h3>
 <p>
-  Myles currently works as a {{ self.organisation.position }} at <a href="{{ self.organisation.url }}">{{ self.organisation.name }}</a>.
+  I work as a {{ self.organisation.position }} at <a href="{{ self.organisation.url }}">{{ self.organisation.name }}</a>.
 </p>
-<p>He is <a href="/reading">currently reading</a> {{ collections.currently_reading.length }} {% if collections.currently_reading.length === 1 %} book, {% else %} books, {% endif %}
+<p>I am <a href="/reading">currently reading</a> {{ collections.currently_reading.length }} {% if collections.currently_reading.length === 1 %} book, {% else %} books, {% endif %}
 {% for book in collections.currently_reading %}
   {% if book === collections.currently_reading[collections.currently_reading.length - 1] %}
     and <a href="{{ book.url }}">{{ book.title }}</a>.
@@ -30,7 +30,7 @@ description: About Myles Lewando
   {% endif %}
 {% endfor %}</p>
 <h3 id="fun-facts">Fun facts</h3>
-<p>Myles has a menagerie of multi-legged pets of various species, including:</p>
+<p>My household includes a menagerie of multi-legged pets of various species, including:</p>
 <ul class="indented">
 {% for pet in self.pets %}
   <li>{{ pet.count }}x {{ pet.species_en }} ({{ pet.species_la}})</li>
@@ -38,10 +38,9 @@ description: About Myles Lewando
 </ul>
 <p>…and one human child.</p>
 <p>
-  As morbid as it sounds, Myles loves graveyards, crypts and catacombs. Where possible, he tries to visit weird and
-  unusual ones, or just take a quiet walk around a local one.
+  As morbid as it sounds, I love graveyards, crypts and catacombs. Where possible, I try to visit weird and unusual ones, or just take a quiet walk around a local one.
 </p>
 <h3 id="contact">Contact</h3>
-<p>Get in touch with Myles via <span class="mail">email</span><noscript> at contact (at) codemacabre (dot) com</noscript>, or reach out on <a href="https://front-end.social/@codemacabre">Mastodon</a> or <a href="https://www.linkedin.com/in/codemacabre/">LinkedIn</a>.</p>
+<p>Get in touch via <span class="mail">email</span><noscript> at contact (at) codemacabre (dot) com</noscript>, or reach out on <a href="https://front-end.social/@codemacabre">Mastodon</a> or <a href="https://www.linkedin.com/in/codemacabre/">LinkedIn</a>.</p>
 
 
