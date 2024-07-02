@@ -8,8 +8,7 @@
 
 /* GLOBALS */
 :root {
-  --white: #ffffff;
-  --haze: #efeff2;
+  --haze: #fafafd;
   --murk: #dedee2;
   --gloom: #76767d;
   --dark: #222225;
@@ -37,7 +36,7 @@ html {
 /* STRUCTURE */
 body {
   align-content: start;
-  background: var(--white);
+  background: var(--haze);
   color: var(--dark);
   display: grid;
   font-family: 'source-code-pro', monospace;
@@ -158,11 +157,11 @@ h4 {
   & a {
     background: var(--dark);
     border: none;
-    color: var(--white);
+    color: var(--haze);
 
     &:active,
     &:hover {
-      background: var(--haze);
+      background: var(--murk);
       color: var(--dark);
     }
   }
@@ -371,7 +370,7 @@ blockquote {
 }
 
 code {
-  background-color: var(--haze);
+  background-color: var(--murk);
   box-decoration-break: clone;
   font-family: 'source-code-pro', monospace;
   margin: 0;
@@ -380,7 +379,7 @@ code {
 }
 
 pre {
-  background-color: var(--haze);
+  background-color: var(--murk);
   font-family: 'source-code-pro', monospace;
   margin: 1rem 0;
   padding: 2rem;
@@ -428,7 +427,7 @@ a {
   &:hover {
     background-color: var(--dark);
     border-bottom: none;
-    color: white;
+    color: var(--haze);
     outline: none;
     transition: 200ms;
   }
@@ -437,7 +436,7 @@ a {
     align-items: center;
     background-color: var(--dark);
     border: none;
-    color: white;
+    color: var(--haze);
     display: flex;
     min-height: 100px;
     padding: 1rem;
@@ -450,7 +449,7 @@ a {
   
     &:active,
     &:hover {
-      background: var(--haze);
+      background: var(--murk);
       color: var(--dark);
     }
 
