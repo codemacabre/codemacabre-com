@@ -3,7 +3,9 @@
     "author": ["Hadas Thier"],
     "cover": {
       "alt": "A People's Guide to Capitalism cover. A stack of coins sits amid an abstract machine where long suited arms reach and grab wads of notes.",
-      "src": "/images/books/peoples-guide-capitalism.jpg"
+      "src": "/images/books/peoples-guide-capitalism.jpg",
+      "width": 200,
+      "height": 299
     },
     "format": ["paperback", "ebook"],
     "status": "to read",
@@ -14,7 +16,9 @@
     "author": ["Wendy Liu"],
     "cover": {
       "alt": "Abolish Silicon Valley cover. A golden desert valley rests beneath a dark blue sky of 1s and 0s. The subtitle is, 'How to' liberate technology from capitalism'.",
-      "src": "/images/books/abolish-silicon-valley.jpg"
+      "src": "/images/books/abolish-silicon-valley.jpg",
+      "width": 200,
+      "height": 303
     },
     "format": ["paperback"],
     "status": "to read",
@@ -25,7 +29,9 @@
     "author": ["Laura Kalbag"],
     "cover": {
       "alt": "Accessibility for Everyone cover. A plain green background with a white banner at the top. The number 23 in a black circle.",
-      "src": "/images/books/a11y-for-everyone.jpg"
+      "src": "/images/books/a11y-for-everyone.jpg",
+      "width": 200,
+      "height": 310
     },
     "format": ["audiobook", "paperback"],
     "status": "read",
@@ -36,7 +42,9 @@
     "author": ["Shoshanna Zuboff"],
     "cover": {
       "alt": "The Age of Surveillance Capitalism cover. A plain cream-white background with the subtitle, 'The fight for a human future at the new frontier of power'.",
-      "src": "/images/books/surveillance-capitalism.jpg"
+      "src": "/images/books/surveillance-capitalism.jpg",
+      "width": 200,
+      "height": 311
     },
     "format": ["paperback"],
     "status": "to read",
@@ -47,7 +55,9 @@
     "author": ["Safiya Umoja Noble"],
     "cover": {
       "alt": "Algorithms of Oppression cover. The title is in Google-style colours against a search box with the words 'why are black women so' and a list of derogatory and racist autocomplete suggestions, such as 'angry', 'loud', 'mean', etc.",
-      "src": "/images/books/algorithms-oppression.jpg"
+      "src": "/images/books/algorithms-oppression.jpg",
+      "width": 200,
+      "height": 300
     },
     "format": ["paperback"],
     "status": "to read",
@@ -58,7 +68,9 @@
     "author": ["Marianna Spring"],
     "cover": {
       "alt": "Among the Trolls book cover. A white woman with long brown hair sits nonchalantly among various exasperated, angry and yelling people.",
-      "src": "/images/books/among-the-trolls.jpg"
+      "src": "/images/books/among-the-trolls.jpg",
+      "width": 200,
+      "height": 314
     },
     "format": ["hardback"],
     "status": "reading",
@@ -69,7 +81,9 @@
     "author": ["Phoebe V. Moore", "Jamie Woodcock"],
     "cover": {
       "alt": "",
-      "src": "/images/books/augmented-exploitation.jpg"
+      "src": "/images/books/augmented-exploitation.jpg",
+      "width": 200,
+      "height": 319
     },
     "format": ["paperback", "ebook"],
     "status": "to read",
@@ -80,7 +94,9 @@
     "author": ["Luke Munn"],
     "cover": {
       "alt": "",
-      "src": "/images/books/automation-myth.jpg"
+      "src": "/images/books/automation-myth.jpg",
+      "width": 200,
+      "height": 200
     },
     "format": ["paperback"],
     "status": "to read",
@@ -91,7 +107,9 @@
     "author": ["Rob Larsen"],
     "cover": {
       "alt": "",
-      "src": "/images/books/bit-tyrants.jpg"
+      "src": "/images/books/bit-tyrants.jpg",
+      "width": 200,
+      "height": 310
     },
     "format": ["paperback", "ebook"],
     "status": "to read",
@@ -102,7 +120,9 @@
     "author": ["Brian Merchant"],
     "cover": {
       "alt": "",
-      "src": "/images/books/blood-machine.jpg"
+      "src": "/images/books/blood-machine.jpg",
+      "width": 200,
+      "height": 302
     },
     "format": ["ebook"],
     "status": "to read",
@@ -113,7 +133,9 @@
     "author": ["Ben West"],
     "cover": {
       "alt": "",
-      "src": "/images/books/book-save-life.jpg"
+      "src": "/images/books/book-save-life.jpg",
+      "width": 200,
+      "height": 200
     },
     "format": ["audiobook"],
     "status": "reading",
@@ -124,7 +146,9 @@
     "author": ["Leah Cowan"],
     "cover": {
       "alt": "",
-      "src": "/images/books/border-nation.jpg"
+      "src": "/images/books/border-nation.jpg",
+      "width": 200,
+      "height": 307
     },
     "format": ["ebook"],
     "status": "to read",
@@ -135,7 +159,9 @@
     "author": ["Gavin Mueller"],
     "cover": {
       "alt": "",
-      "src": "/images/books/breaking-things-work.jpg"
+      "src": "/images/books/breaking-things-work.jpg",
+      "width": 200,
+      "height": 300
     },
     "format": ["ebook"],
     "status": "to read",
@@ -146,7 +172,9 @@
     "author": ["Emily Chang"],
     "cover": {
       "alt": "",
-      "src": "/images/books/brotopia.jpg"
+      "src": "/images/books/brotopia.jpg",
+      "width": 200,
+      "height": 200
     },
     "format": ["audiobook"],
     "status": "read",
@@ -157,7 +185,9 @@
     "author": ["Emily Nagoski", "Amelia Nagoski"],
     "cover": {
       "alt": "",
-      "src": "/images/books/burnout.jpg"
+      "src": "/images/books/burnout.jpg",
+      "width": 200,
+      "height": 200
     },
     "format": ["audiobook"],
     "status": "read",
@@ -168,7 +198,9 @@
     "author": ["Debt Collective"],
     "cover": {
       "alt": "",
-      "src": "/images/books/cant-pay-wont-pay.jpg"
+      "src": "/images/books/cant-pay-wont-pay.jpg",
+      "width": 200,
+      "height": 292
     },
     "format": ["ebook"],
     "status": "to read",
@@ -179,7 +211,9 @@
     "author": ["Marta Russell"],
     "cover": {
       "alt": "",
-      "src": "/images/books/capitalism-disability.jpg"
+      "src": "/images/books/capitalism-disability.jpg",
+      "width": 200,
+      "height": 299
     },
     "format": ["paperback", "ebook"],
     "status": "to read",
@@ -190,7 +224,9 @@
     "author": [" Greg Albo", "Leo Panitch", "Alan Zuege"],
     "cover": {
       "alt": "",
-      "src": "/images/books/capitalism-technology-labor.jpg"
+      "src": "/images/books/capitalism-technology-labor.jpg",
+      "width": 200,
+      "height": 299
     },
     "format": ["ebook", "paperback"],
     "status": "to read",
@@ -201,7 +237,9 @@
     "author": ["Mark Fisher"],
     "cover": {
       "alt": "",
-      "src": "/images/books/capitalist-realism.jpg"
+      "src": "/images/books/capitalist-realism.jpg",
+      "width": 200,
+      "height": 309
     },
     "format": ["ebook"],
     "status": "to read",
@@ -212,7 +250,9 @@
     "author": ["Rebecca Giblin", "Cory Doctorow"],
     "cover": {
       "alt": "",
-      "src": "/images/books/chokepoint-capitalism.jpg"
+      "src": "/images/books/chokepoint-capitalism.jpg",
+      "width": 200,
+      "height": 305
     },
     "format": ["audiobook", "ebook"],
     "status": "to read",
@@ -223,7 +263,9 @@
     "author": ["Frances Ryan"],
     "cover": {
       "alt": "",
-      "src": "/images/books/crippled.jpg"
+      "src": "/images/books/crippled.jpg",
+      "width": 200,
+      "height": 300
     },
     "format": ["ebook", "paperback"],
     "status": "to read",
@@ -234,7 +276,9 @@
     "author": ["Amanda Montell"],
     "cover": {
       "alt": "",
-      "src": "/images/books/cultish.jpg"
+      "src": "/images/books/cultish.jpg",
+      "width": 200,
+      "height": 200
     },
     "format": ["audiobook"],
     "status": "to read",
@@ -245,7 +289,9 @@
     "author": ["Lina Dencik", "Arne Hintz", "Joanna Redden", "Emiliano Treré"],
     "cover": {
       "alt": "",
-      "src": "/images/books/data-justice.jpg"
+      "src": "/images/books/data-justice.jpg",
+      "width": 200,
+      "height": 300
     },
     "format": ["ebook"],
     "status": "to read",
@@ -256,7 +302,9 @@
     "author": ["Sheree Atcheson"],
     "cover": {
       "alt": "",
-      "src": "/images/books/demanding-more.jpg"
+      "src": "/images/books/demanding-more.jpg",
+      "width": 200,
+      "height": 317
     },
     "format": ["paperback"],
     "status": "to read",
@@ -267,7 +315,9 @@
     "author": ["Jenara Nerenberg"],
     "cover": {
       "alt": "",
-      "src": "/images/books/divergent-mind.jpg"
+      "src": "/images/books/divergent-mind.jpg",
+      "width": 200,
+      "height": 200
     },
     "format": ["audiobook", "paperback"],
     "status": "read",
@@ -275,21 +325,12 @@
     "url": "https://openlibrary.org/works/OL20863140W/"
   },
   {
-    "author": ["Cinzia Arruzza", "Tithi Bhattacharya", "Nancy Fraser"],
-    "cover": {
-      "alt": "",
-      "src": "/images/books/feminism-99.jpg"
-    },
-    "format": ["ebook", "paperback"],
-    "status": "read",
-    "title": "Feminism for the 99%",
-    "url": "https://openlibrary.org/works/OL21358392W/"
-  },
-  {
     "author": ["Trine Falbe", "Kim Andersen", "Martin Michael Frederiksen"],
     "cover": {
       "alt": "",
-      "src": "/images/books/ethical-design.jpg"
+      "src": "/images/books/ethical-design.jpg",
+      "width": 200,
+      "height": 259
     },
     "format": ["ebook", "hardback"],
     "status": "to read",
@@ -300,7 +341,9 @@
     "author": ["Simone de Beauvoir"],
     "cover": {
       "alt": "",
-      "src": "/images/books/ethics-ambiguity.jpg"
+      "src": "/images/books/ethics-ambiguity.jpg",
+      "width": 200,
+      "height": 305
     },
     "format": ["paperback"],
     "status": "to read",
@@ -308,10 +351,25 @@
     "url": "https://openlibrary.org/works/OL35304143W/"
   },
   {
+    "author": ["Cinzia Arruzza", "Tithi Bhattacharya", "Nancy Fraser"],
+    "cover": {
+      "alt": "",
+      "src": "/images/books/feminism-99.jpg",
+      "width": 200,
+      "height": 319
+    },
+    "format": ["ebook", "paperback"],
+    "status": "read",
+    "title": "Feminism for the 99%",
+    "url": "https://openlibrary.org/works/OL21358392W/"
+  },
+  {
     "author": ["Danielle Keats Citron"],
     "cover": {
       "alt": "The Fight For Privacy book cover. A swarm of cursor pointers point bottom-left on mustard-yellow background.",
-      "src": "/images/books/fight-for-privacy.jpg"
+      "src": "/images/books/fight-for-privacy.jpg",
+      "width": 200,
+      "height": 300
     },
     "format": ["hardback"],
     "status": "to read",
@@ -322,7 +380,9 @@
     "author": ["Nancy Fraser"],
     "cover": {
       "alt": "",
-      "src": "/images/books/fortunes-feminism.jpg"
+      "src": "/images/books/fortunes-feminism.jpg",
+      "width": 200,
+      "height": 302
     },
     "format": ["ebook"],
     "status": "to read",
@@ -333,7 +393,9 @@
     "author": ["Lizzie O'Shea"],
     "cover": {
       "alt": "",
-      "src": "/images/books/future-histories.jpg"
+      "src": "/images/books/future-histories.jpg",
+      "width": 200,
+      "height": 307
     },
     "format": ["ebook"],
     "status": "to read",
@@ -344,7 +406,9 @@
     "author": ["Mark Graham"],
     "cover": {
       "alt": "",
-      "src": "/images/books/geographies-exclusion.jpg"
+      "src": "/images/books/geographies-exclusion.jpg",
+      "width": 200,
+      "height": 317
     },
     "format": ["ebook"],
     "status": "to read",
@@ -355,7 +419,9 @@
     "author": ["Carol J. Adams", "Alice Crary", "Lori Gruen"],
     "cover": {
       "alt": "",
-      "src": "/images/books/good-promises-harm.jpg"
+      "src": "/images/books/good-promises-harm.jpg",
+      "width": 200,
+      "height": 300
     },
     "format": ["ebook"],
     "status": "to read",
@@ -366,7 +432,9 @@
     "author": ["Adam Rutherford"],
     "cover": {
       "alt": "",
-      "src": "/images/books/argue-racist.jpg"
+      "src": "/images/books/argue-racist.jpg",
+      "width": 200,
+      "height": 299
     },
     "format": ["ebook"],
     "status": "to read",
@@ -377,7 +445,9 @@
     "author": ["Danny Caine"],
     "cover": {
       "alt": "",
-      "src": "/images/books/resist-amazon.jpg"
+      "src": "/images/books/resist-amazon.jpg",
+      "width": 200,
+      "height": 200
     },
     "format": ["audiobook"],
     "status": "read",
@@ -388,7 +458,9 @@
     "author": ["Stephen Crossley"],
     "cover": {
       "alt": "",
-      "src": "/images/books/in-their-place.jpg"
+      "src": "/images/books/in-their-place.jpg",
+      "width": 200,
+      "height": 316
     },
     "format": ["ebook"],
     "status": "to read",
@@ -399,7 +471,9 @@
     "author": ["Heydon Pickering"],
     "cover": {
       "alt": "",
-      "src": "/images/books/inclusive-components.jpg"
+      "src": "/images/books/inclusive-components.jpg",
+      "width": 200,
+      "height": 250
     },
     "format": ["ebook", "hardback"],
     "status": "read",
@@ -410,7 +484,9 @@
     "author": ["Denis Boudreau"],
     "cover": {
       "alt": "The Inclusive Speaker cover. A network of people silhouewttes in circles, connected by lines. The subtitle is, 'How to truly connect with all of your audience without leaving anyone behind'.",
-      "src": "/images/books/inclusive-speaker.jpg"
+      "src": "/images/books/inclusive-speaker.jpg",
+      "width": 200,
+      "height": 300
     },
     "format": ["ebook"],
     "status": "to read",
@@ -421,7 +497,9 @@
     "author": ["Cory Doctorow"],
     "cover": {
       "alt": "",
-      "src": "/images/books/information-free.jpg"
+      "src": "/images/books/information-free.jpg",
+      "width": 200,
+      "height": 200
     },
     "format": ["audiobook"],
     "status": "to read",
@@ -432,7 +510,9 @@
     "author": ["Baldur Bjarnason"],
     "cover": {
       "alt": "The Intelligence Illusion cover. A shadowy, low-poly, glitchy person looks off into the  black background. The subtitle is, 'A practical guide to the business risks of generative AI'.",
-      "src": "/images/books/intelligence-illusion.jpg"
+      "src": "/images/books/intelligence-illusion.jpg",
+      "width": 200,
+      "height": 282
     },
     "format": ["ebook"],
     "status": "to read",
@@ -443,7 +523,9 @@
     "author": ["Cory Doctorow"],
     "cover": {
       "alt": "",
-      "src": "/images/books/internet-con.jpg"
+      "src": "/images/books/internet-con.jpg",
+      "width": 200,
+      "height": 299
     },
     "format": ["ebook"],
     "status": "to read",
@@ -454,7 +536,9 @@
     "author": ["Sarah Jeong"],
     "cover": {
       "alt": "",
-      "src": "/images/books/internet-garbage.jpg"
+      "src": "/images/books/internet-garbage.jpg",
+      "width": 200,
+      "height": 319
     },
     "format": ["ebook"],
     "status": "to read",
@@ -465,7 +549,9 @@
     "author": ["Caroline Criado Perez"],
     "cover": {
       "alt": "",
-      "src": "/images/books/invisible-women.jpg"
+      "src": "/images/books/invisible-women.jpg",
+      "width": 200,
+      "height": 306
     },
     "format": ["paperback"],
     "status": "to read",
@@ -476,7 +562,9 @@
     "author": ["Devon Price"],
     "cover": {
       "alt": "",
-      "src": "/images/books/laziness-exist.jpg"
+      "src": "/images/books/laziness-exist.jpg",
+      "width": 200,
+      "height": 200
     },
     "format": ["audiobook"],
     "status": "to read",
@@ -487,7 +575,9 @@
     "author": ["Amelia Horgan"],
     "cover": {
       "alt": "",
-      "src": "/images/books/lost-in-work.jpg"
+      "src": "/images/books/lost-in-work.jpg",
+      "width": 200,
+      "height": 307
     },
     "format": ["ebook"],
     "status": "to read",
@@ -498,7 +588,9 @@
     "author": ["Eve Livingston"],
     "cover": {
       "alt": "Make Bosses Pay cover. A circle of chess pawns on a magenta background cast a shadow which looks like a crown. The subtitle is, 'Why We Need Unions'.",
-      "src": "/images/books/make-bosses-pay.jpg"
+      "src": "/images/books/make-bosses-pay.jpg",
+      "width": 200,
+      "height": 307
     },
     "format": ["ebook", "paperback"],
     "status": "reading",
@@ -509,7 +601,9 @@
     "author": ["Florian Butollo", "Sabine Nuss"],
     "cover": {
       "alt": "Max and the Robots cover. A network of circuits make up the distinctive silhouette of Karl Marx with long hair and a beard against a red background.",
-      "src": "/images/books/marx-robots.jpg"
+      "src": "/images/books/marx-robots.jpg",
+      "width": 200,
+      "height": 318
     },
     "format": ["ebook"],
     "status": "to read",
@@ -520,7 +614,9 @@
     "author": ["Meredith Broussard"],
     "cover": {
       "alt": "",
-      "src": "/images/books/more-glitch.jpg"
+      "src": "/images/books/more-glitch.jpg",
+      "width": 200,
+      "height": 296
     },
     "format": ["hardback"],
     "status": "to read",
@@ -531,7 +627,9 @@
     "author": ["Akala"],
     "cover": {
       "alt": "Natives cover. Nelson at the top of Nelson's Column in pink against a light blue background. The subtitle is, 'Race and Class in the Ruins of Empire'.",
-      "src": "/images/books/natives.jpg"
+      "src": "/images/books/natives.jpg",
+      "width": 200,
+      "height": 307
     },
     "format": ["paperback"],
     "status": "to read",
@@ -542,7 +640,9 @@
     "author": ["James Bridle"],
     "cover": {
       "alt": "New Dark Age cover. The subtitle, 'Technology and the End of the Future', overlays a burst of green lines against a black background.",
-      "src": "/images/books/new-dark-age.jpg"
+      "src": "/images/books/new-dark-age.jpg",
+      "width": 200,
+      "height": 306
     },
     "format": ["ebook", "paperback"],
     "status": "to read",
@@ -553,7 +653,9 @@
     "author": ["Marshall B. Rosenberg", "Deepak Chopra"],
     "cover": {
       "alt": "Nonviolent Communication cover. Green and red speech bubbles overlap to form a Venn digram. The crossover area is purple with the words, 'empathy', 'collaboration', 'authenticity', 'freedom'.",
-      "src": "/images/books/nonviolent-communication.jpg"
+      "src": "/images/books/nonviolent-communication.jpg",
+      "width": 200,
+      "height": 300
     },
     "format": ["ebook"],
     "status": "to read",
@@ -564,7 +666,9 @@
     "author": ["The Secret Barrister"],
     "cover": {
       "alt": "Nothing but the Truth cover. A barrister, complete with black robes and white wig, has their face obscured by yellow painterly pixels against a bright yellow background.",
-      "src": "/images/books/nothing-truth.jpg"
+      "src": "/images/books/nothing-truth.jpg",
+      "width": 200,
+      "height": 308
     },
     "format": ["ebook"],
     "status": "to read",
@@ -575,7 +679,9 @@
     "author": ["Harry G. Frankfurt"],
     "cover": {
       "alt": "On Bullshit cover. A plain black background with the title in white on a red label.",
-      "src": "/images/books/on-bullshit.jpg"
+      "src": "/images/books/on-bullshit.jpg",
+      "width": 200,
+      "height": 302
     },
     "format": ["ebook"],
     "status": "to read",
@@ -586,7 +692,9 @@
     "author": ["Edward Snowden"],
     "cover": {
       "alt": "Permanent Record book cover. A close-up of a white man's face, with rectangular glasses and stubble, looking pensive.",
-      "src": "/images/books/permanent-record.jpg"
+      "src": "/images/books/permanent-record.jpg",
+      "width": 200,
+      "height": 308
     },
     "format": ["paperback"],
     "status": "to read",
@@ -597,7 +705,9 @@
     "author": ["James Muldoon"],
     "cover": {
       "alt": "Platform Socialism cover. A network of white lines criss-cross a blue-red gradient. The subtitle is, 'How to Reclaim our Digital Future from Big Tech'.",
-      "src": "/images/books/platform-socialism.jpg"
+      "src": "/images/books/platform-socialism.jpg",
+      "width": 200,
+      "height": 319
     },
     "format": ["ebook"],
     "status": "to read",
@@ -608,7 +718,9 @@
     "author": ["Carissa Véliz"],
     "cover": {
       "alt": "Privacy is Power cover. The title in black and white, with a red banner behind the word 'power' against a white background. The subtitle in black and red is, 'Why and how you should take back control of your data'.",
-      "src": "/images/books/privacy-power.jpg"
+      "src": "/images/books/privacy-power.jpg",
+      "width": 200,
+      "height": 312
     },
     "format": ["hardback"],
     "status": "to read",
@@ -619,7 +731,9 @@
     "author": ["Ursula Huws"],
     "cover": {
       "alt": "Reinventing the Welfare State cover. The 'R' of 'reinventing' extends downwards, forming a geometric shape with black triangles and red lines. Inside this shape are the book's contents and subtitle, 'Digital platforms and public policies: An urgent call to radically redesign the welfare staste for the 21st century'.",
-      "src": "/images/books/reinventing-welfare-state.jpg"
+      "src": "/images/books/reinventing-welfare-state.jpg",
+      "width": 200,
+      "height": 319
     },
     "format": ["ebook"],
     "status": "to read",
@@ -630,7 +744,9 @@
     "author": ["Dan McQuillan"],
     "cover": {
       "alt": "Resisting AI cover. A sea of blue with undulating networked white lines. The subtitle is, 'An anti-fascist approach to artificial intelligence'.",
-      "src": "/images/books/resisting-ai.jpg"
+      "src": "/images/books/resisting-ai.jpg",
+      "width": 200,
+      "height": 313
     },
     "format": ["paperback"],
     "status": "to read",
@@ -641,7 +757,9 @@
     "author": ["Geert Lovink"],
     "cover": {
       "alt": "Sad by Design cover. A down-turned geometric, low-poly mouth against a cream-white background.",
-      "src": "/images/books/sad-design.jpg"
+      "src": "/images/books/sad-design.jpg",
+      "width": 200,
+      "height": 329
     },
     "format": ["ebook"],
     "status": "to read",
@@ -652,7 +770,9 @@
     "author": ["Alexandra Bradbury", "Mark Brenner", "Jane Slaughter"],
     "cover": {
       "alt": "Secrets of a Successful Organizer cover. An arrow hits the centre of a magenta target against a cream-white background.",
-      "src": "/images/books/secrets-successful-organizer.jpg"
+      "src": "/images/books/secrets-successful-organizer.jpg",
+      "width": 200,
+      "height": 290
     },
     "format": ["paperback"],
     "status": "to read",
@@ -663,7 +783,9 @@
     "author": ["Ijeoma Oluo"],
     "cover": {
       "alt": "So You Want to Talk About Race cover. The words 'talk about race' are inside a spikey, jagged speech bubble, against a beige background.",
-      "src": "/images/books/so-talk-race.jpg"
+      "src": "/images/books/so-talk-race.jpg",
+      "width": 200,
+      "height": 200
     },
     "format": ["audiobook"],
     "status": "to read",
@@ -674,7 +796,9 @@
     "author": ["Danny Katch"],
     "cover": {
       "alt": "Socialism... Seriously cover. The 'L' in 'socialism' is a flagpole, flying a red flag. The word 'seriously' is in a handwritten font. The subtitle is, 'A Brief Guide to Human Liberation'.",
-      "src": "/images/books/socialism-seriously.jpg"
+      "src": "/images/books/socialism-seriously.jpg",
+      "width": 200,
+      "height": 286
     },
     "format": ["paperback", "ebook"],
     "status": "reading",
@@ -685,7 +809,9 @@
     "author": ["David Harvey"],
     "cover": {
       "alt": "",
-      "src": "/images/books/spaces-global-capitalism.jpg"
+      "src": "/images/books/spaces-global-capitalism.jpg",
+      "width": 200,
+      "height": 307
     },
     "format": ["ebook", "paperback"],
     "status": "to read",
@@ -696,7 +822,9 @@
     "author": ["Stephanie Hare"],
     "cover": {
       "alt": "",
-      "src": "/images/books/technology-not-neutral.jpg"
+      "src": "/images/books/technology-not-neutral.jpg",
+      "width": 200,
+      "height": 326
     },
     "format": ["hardback"],
     "status": "to read",
@@ -707,7 +835,9 @@
     "author": ["Janneke Parrish"],
     "cover": {
       "alt": "The Tech Worker's Guide to Unions book cover. The title in a white pixellated font, with the word 'unions' emphasized by a pixellated trianglular caret, against a red patterned background.",
-      "src": "/images/books/techworkers-guide.jpg"
+      "src": "/images/books/techworkers-guide.jpg",
+      "width": 200,
+      "height": 299
     },
     "format": ["paperback"],
     "status": "to read",
@@ -718,7 +848,9 @@
     "author": ["Paul Moloney"],
     "cover": {
       "alt": "",
-      "src": "/images/books/therapy-industry.jpg"
+      "src": "/images/books/therapy-industry.jpg",
+      "width": 200,
+      "height": 318
     },
     "format": ["ebook"],
     "status": "to read",
@@ -729,7 +861,9 @@
     "author": ["Lydia Hughes", "Jamie Woodcock"],
     "cover": {
       "alt": "",
-      "src": "/images/books/troublemaking.jpg"
+      "src": "/images/books/troublemaking.jpg",
+      "width": 200,
+      "height": 307
     },
     "format": ["ebook"],
     "status": "to read",
@@ -740,7 +874,9 @@
     "author": ["Heather Burns"],
     "cover": {
       "alt": "",
-      "src": "/images/books/understanding-privacy.jpg"
+      "src": "/images/books/understanding-privacy.jpg",
+      "width": 200,
+      "height": 259
     },
     "format": ["ebook", "hardback"],
     "status": "read",
@@ -751,7 +887,9 @@
     "author": ["Joy Buolamwini"],
     "cover": {
       "alt": "Unmasking AI book cover. A Black woman (Joy Buolamwini) with white glasses and a red jacket is holding a white mask, partially obscuring her own face.",
-      "src": "/images/books/unmasking-ai.jpg"
+      "src": "/images/books/unmasking-ai.jpg",
+      "width": 200,
+      "height": 302
     },
     "format": ["hardback"],
     "status": "to read",
@@ -762,7 +900,9 @@
     "author": ["Kate O'Riordan"],
     "cover": {
       "alt": "",
-      "src": "/images/books/unreal-objects.jpg"
+      "src": "/images/books/unreal-objects.jpg",
+      "width": 200,
+      "height": 319
     },
     "format": ["ebook"],
     "status": "to read",
@@ -773,7 +913,9 @@
     "author": ["Lee Humber"],
     "cover": {
       "alt": "",
-      "src": "/images/books/vital-signs.jpg"
+      "src": "/images/books/vital-signs.jpg",
+      "width": 200,
+      "height": 306
     },
     "format": ["ebook"],
     "status": "to read",
@@ -784,7 +926,9 @@
     "author": ["Cathy O'Neil"],
     "cover": {
       "alt": "",
-      "src": "/images/books/weapons-math-destruction.jpg"
+      "src": "/images/books/weapons-math-destruction.jpg",
+      "width": 200,
+      "height": 307
     },
     "format": ["ebook"],
     "status": "to read",
@@ -795,7 +939,9 @@
     "author": ["Len McCluskey"],
     "cover": {
       "alt": "",
-      "src": "/images/books/why-trade-unionist.jpg"
+      "src": "/images/books/why-trade-unionist.jpg",
+      "width": 200,
+      "height": 307
     },
     "format": ["ebook", "paperback"],
     "status": "read",
@@ -806,7 +952,9 @@
     "author": ["Phil Jones"],
     "cover": {
       "alt": "",
-      "src": "/images/books/work-without-worker.jpg"
+      "src": "/images/books/work-without-worker.jpg",
+      "width": 200,
+      "height": 312
     },
     "format": ["ebook"],
     "status": "to read",
@@ -817,7 +965,9 @@
     "author": ["Gerry McGovern"],
     "cover": {
       "alt": "World Wide Waste book cover. Below the title and subtitle, 'How digital is killing our planet - and what we can do about it', is a black cartogram of the world, made of hexagons, dirty and dripping into a black oily liquid which seems to be filling up the page.",
-      "src": "/images/books/world-wide-waste.jpg"
+      "src": "/images/books/world-wide-waste.jpg",
+      "width": 200,
+      "height": 299
     },
     "format": ["paperback"],
     "status": "to read",
@@ -828,7 +978,9 @@
     "author": ["Ethan Marcotte"],
     "cover": {
       "alt": "You Deserve a Tech Union cover. A plain red background with a white banner at the top. The number 47 in a black circle.",
-      "src": "/images/books/deserve-tech-union.jpg"
+      "src": "/images/books/deserve-tech-union.jpg",
+      "width": 200,
+      "height": 310
     },
     "format": ["ebook"],
     "status": "to read",
@@ -839,7 +991,9 @@
     "author": ["Thomas S. Mullaney", "Benjamin Peters", "Mar Hicks", "Kavita Philip"],
     "cover": {
       "alt": "",
-      "src": "/images/books/your-computer-fire.jpg"
+      "src": "/images/books/your-computer-fire.jpg",
+      "width": 200,
+      "height": 257
     },
     "format": ["paperback"],
     "status": "to read",

@@ -262,9 +262,6 @@ ul, ol {
       }
 
       & img {
-        max-width: 100px;
-        min-height: 100px;
-        width: 50%;
         margin: 0;
         padding: 1rem;
       }

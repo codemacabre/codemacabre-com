@@ -10,7 +10,7 @@ description: A (selected) view of Myles Lewando's non-fiction bookshelf
 <ul>
 {% for item in books %}
   <li class="card">
-    <img class="greyscale" src="{{ item.cover.src }}" alt="{{ item.cover.alt }}" />
+    <img class="greyscale" src="{{ item.cover.src }}" width="{{ item.cover.width / 2 }}" height="{{ item.cover.height / 2 }}" alt="{{ item.cover.alt }}" />
     <p><a href="{{ item.url }}">{{ item.title }}</a> by 
     {% for entity in item.author %}
       {% if item.author.length > 1 %}
