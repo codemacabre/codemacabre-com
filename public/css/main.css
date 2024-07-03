@@ -330,7 +330,7 @@ strong {
 blockquote {
   font-family: 'source-code-pro-italic', monospace;
   margin: 0 4rem -2rem 4rem;
-  padding: 0;
+  padding: 1rem 0;
 
   & .byline {
     float: right;
