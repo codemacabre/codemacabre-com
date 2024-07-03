@@ -315,6 +315,7 @@ strong {
 
 .callout {
   outline: 1px dashed var(--dark);
+  margin: 2rem 0;
   padding: 1rem;
 }
 
@@ -523,6 +524,7 @@ a {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  margin: 1rem 0;
 }
 
 img {
