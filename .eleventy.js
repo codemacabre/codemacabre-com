@@ -57,6 +57,11 @@ export default function (config) {
       return a.data.title.localeCompare(b.data.title)
     })
   })
+  config.addCollection('booknotes', function (collectionApi) {
+    return collectionApi.getFilteredByTag('book notes').sort(function(a, b) {
+      return a.data.title.localeCompare(b.data.title)
+    })
+  })
   config.addCollection('currently_reading', function (collectionApi) {
     const books = collectionApi.getAll()[0].data.books
     return books.filter((item) => item.status === 'reading')
