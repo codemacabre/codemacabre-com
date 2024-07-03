@@ -20,5 +20,5 @@ ObitBot's obituaries were procedurally generated using probabilities calculated 
 
 While no longer a Twitter bot, ObitBot is in the very early stages of being rejeuvenated in [p5.js](https://p5js.org). Watch this space.
 
-## Links
+### Links
 - [GitHub](https://github.com/codemacabre/obitbot/)
