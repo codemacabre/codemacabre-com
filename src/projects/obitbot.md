@@ -10,6 +10,12 @@ description: "Procedurally generated obituaries."
 
 ObitBot was a Twitter bot created using [Processing]((http://processing.org/)) to post procedurally generated obituaries.
 
+<div class="gallery">
+<img class="small greyscale" alt="Procedurally generated tombstone, squat with a rounded top. Two rounded bezels are at the top." src="/images/projects/obitbot-01.png">
+<img class="small greyscale" alt="Procedurally generated tombstone, tall and thin with point. A double-triangle adornment sits on the top." src="/images/projects/obitbot-02.png">
+<img class="small greyscale" alt="Procedurally generated tombstone, wide and short with a pointed top. A star adornment sits on the top." src="/images/projects/obitbot-03.png">
+</div>
+
 The obituaries ObitBot tweets were based on real mortality data, highlighting the rates of death by cause worldwide. ObitBot provided a constant (fictional) feed designed to mirror our own species' deaths (albeit at a greatly decreased rate to comply with Twitter API limits).
 
 These fictional obituaries were assigned a procedurally generated tombstone, making ObitBot a virtual cemetery and a place to confront, and reflect upon, our inevitable demise.
