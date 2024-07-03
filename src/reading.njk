@@ -8,13 +8,13 @@ description: A (selected) view of Myles Lewando's non-fiction bookshelf
 <p>This is a selection of my non-fiction audiobooks, ebooks, paperbacks, and hardbacks.</p>
 <p>I use <a href="https://libro.fm/referral?rf_code=lfm227162">Libro.fm</a> for audiobooks and try to avoid ebooks with DRM whenever possible. Titles here link to the Internet Archive's <a href="https://openlibrary.org">Open Library</a> to encourage readers to borrow books if available.</p>
 <ul>
-{% for item in books %}
+{% for book in books %}
   <li class="card">
-    <img class="greyscale" src="{{ item.cover.src }}" width="{{ item.cover.width / 2 }}" height="{{ item.cover.height / 2 }}" alt="{{ item.cover.alt }}" />
-    <p><a href="{{ item.url }}">{{ item.title }}</a> by 
-    {% for entity in item.author %}
-      {% if item.author.length > 1 %}
-        {% if entity === item.author[item.author.length - 1] %}
+    <img class="greyscale" src="{{ book.cover.src }}" width="{{ book.cover.width / 2 }}" height="{{ book.cover.height / 2 }}" alt="{{ book.cover.alt }}" />
+    <p><a href="{{ book.url }}">{{ book.title }}</a> by 
+    {% for entity in book.author %}
+      {% if book.author.length > 1 %}
+        {% if entity === book.author[book.author.length - 1] %}
           {{ entity }}
         {% else %}
           {{ entity }}, 
@@ -25,8 +25,8 @@ description: A (selected) view of Myles Lewando's non-fiction bookshelf
     {% endfor %}
     </p>
     <div class="status-container">
-    {% if item.status !== 'to read' %}
-      <div class="status">{{ item.status}}</div>
+    {% if book.status !== 'to read' %}
+      <div class="status">{{ book.status}}</div>
     {% endif %}
     </div>
   </li>
