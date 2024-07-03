@@ -218,6 +218,11 @@ ul, ol {
     }
   }
 
+  .card {
+    list-style: none;
+    margin: 1rem 0 1rem -2rem;
+  }
+
   & li {
     line-height: 2rem;
     margin: 0.5rem 0 0 0;
@@ -225,47 +230,46 @@ ul, ol {
     &.flat {
       margin: 0.5rem 0 0 -2rem;
     }
+  }
+}
 
-    &.card {
-      align-items: center;
-      display: flex;
-      flex-direction: row;
-      list-style: none;
-      margin: 1rem 0 1rem -2rem;
-      outline: 1px dashed var(--dark);
-      padding: 0 1rem 0 0;
-      position: relative;
-      text-indent: 0;
-      z-index: initial;
-      
-      .status-container {
-        height: 100%;
-        overflow: hidden;
-        position: absolute;
-        right: -1px;
-        top: -1px;
-        width: 100px;
-        z-index: -1;
-        
-        .status {
-          width: 200px;
-          padding: 0 2rem;
-          background-color: var(--murk);
-          text-align: center;
-          transform: rotate(45deg) translate(-14%, 175%);
-          text-transform: uppercase;
-        }
-      }
-
-      & p {
-        margin: 0;
-      }
-
-      & img {
-        margin: 0;
-        padding: 1rem;
-      }
+.card {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+  outline: 1px dashed var(--dark);
+  padding: 0 1rem 0 0;
+  position: relative;
+  text-indent: 0;
+  z-index: initial;
+  
+  .status-container {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: 100px;
+    z-index: -1;
+    
+    .status {
+      width: 200px;
+      padding: 0 2rem;
+      background-color: var(--murk);
+      text-align: center;
+      transform: rotate(45deg) translate(-14%, 175%);
+      text-transform: uppercase;
     }
+  }
+
+  & p {
+    margin: 0;
+  }
+
+  & img {
+    margin: 0;
+    padding: 1rem;
   }
 }
 
