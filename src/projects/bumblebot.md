@@ -8,13 +8,14 @@ description: "Procedurally generated pollinators."
 
 ⛔ **Status**: Deactivated {.callout}
 
-<div class="gallery">
-<img class="small" alt="Procedurally generated bee, mostly black with white hairs on the thorax and teal colours on the tip of the abdomen." src="/images/projects/bumblebot-01.png">
-<img class="small" alt="Procedurally generated bee, striped green and purple." src="/images/projects/bumblebot-02.png">
-<img class="small" alt="Procedurally generated bee, stripled orange and black." src="/images/projects/bumblebot-03.png">
-</div>
 
 BumbleBot was a Twitter bot created using [Processing](http://processing.org/) to post procedurally generated bumblebees.
+
+<div class="gallery">
+<img class="small greyscale" alt="Procedurally generated bee, mostly black with white hairs on the thorax and teal colours on the tip of the abdomen." src="/images/projects/bumblebot-01.png">
+<img class="small greyscale" alt="Procedurally generated bee, striped green and purple." src="/images/projects/bumblebot-02.png">
+<img class="small greyscale" alt="Procedurally generated bee, stripled orange and black." src="/images/projects/bumblebot-03.png">
+</div>
 
 Originally written as a standalone Processing sketch to explore insect anatomy, it continued to generate accurate bee structures (its bumblebees have slight anatomical variations based on gender; see the antennae, hind legs and abdomen segments for example).
 
