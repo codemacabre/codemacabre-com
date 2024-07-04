@@ -6,8 +6,12 @@ layout: base.njk
   <h2>{{ title }}</h2>
   <p>
     <span class="dates">
-      Published <time datetime="{{ date }}">{{ date | date('full') }}</time>
-      {% if update %} (updated <time datetime="{{ update }}">{{ update | date('full') }}</time>) {% endif %}
+      {% if date %}
+        Published <time datetime="{{ date }}">{{ date | date('full') }}</time>
+        {% if update %} (updated <time datetime="{{ update }}">{{ update | date('full') }}</time>) {% endif %}
+      {% else %}
+        Not yet published
+      {% endif %}
     </span>
   </p>
   {% if img %}
