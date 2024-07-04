@@ -12,7 +12,7 @@ ObitBot was a Twitter bot created using [Processing]((http://processing.org/)) t
 
 > Here lies someone who died of a malignant neoplasm of the trachea. Farewell.
 
-The obituaries ObitBot tweets were based on real mortality data, highlighting the rates of death by cause worldwide. ObitBot provided a constant (fictional) feed designed to mirror our own species' deaths (albeit at a greatly decreased rate to comply with Twitter API limits).
+The obituaries ObitBot tweeted were based on real mortality data, highlighting the rates of death by cause worldwide. ObitBot provided a constant (fictional) feed designed to mirror our own species' deaths (albeit at a greatly decreased rate to comply with Twitter API limits).
 
 These fictional obituaries were assigned a procedurally generated tombstone, making ObitBot a virtual cemetery and a place to confront, and reflect upon, our inevitable demise.
 
