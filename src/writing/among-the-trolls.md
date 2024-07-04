@@ -1,6 +1,5 @@
 ---
 title: "Book notes: Among the Trolls"
-date: 2024-07-03
 description: "Notes on the book 'Among the Trolls' by Marianna Spring."
 tags:
   - book notes
@@ -11,7 +10,7 @@ draft: true
   {% if book.title === 'Among the Trolls' %}
   <div class="card">
     <img class="greyscale" src="{{ book.cover.src }}" width="{{ book.cover.width / 2 }}" height="{{ book.cover.height / 2 }}" alt="{{ book.cover.alt }}" />
-    <p><a href="{{ book.url }}">{{ book.title }}</a> by {% for entity in book.author %}{% if book.author.length > 1 %}{% if entity === book.author[book.author.length - 1] %}{{ entity }}{% else %}{{ entity }}, {% endif %}{% else %}{{ entity }}{% endif %}{% endfor %}</p><div class="status-container">{% if book.status !== 'to read' %}<div class="status"><p>{{ book.status }}</p></div>{% endif %}</div>
+    <p><strong>{{ book.title }}</strong> by {% for entity in book.author %}{% if book.author.length > 1 %}{% if entity === book.author[book.author.length - 1] %}{{ entity }}{% else %}{{ entity }}, {% endif %}{% else %}{{ entity }}{% endif %}{% endfor %}</p><div class="status-container">{% if book.status !== 'to read' %}<div class="status"><p>{{ book.status }}</p></div>{% endif %}</div>
   </div>
   {% endif %}
 {% endfor %}
@@ -28,4 +27,4 @@ Spring notes that many conspiracy theorists are victims rather than villains, an
 
 ---
 
-Read more [book notes](/writing/book-notes), or see what else is on my [bookshelf](/reading).
+Browse the rest of my [bookshelf](/reading). {% set notes = 0 %}{% for book in books %}{% if book.url %}{% set notes = notes + 1 %}{% endif %}{% endfor %} {{ notes }} {% if notes === 1 %} book has {% else %} books have {% endif %} notes like this one.
