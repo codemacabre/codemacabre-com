@@ -24,9 +24,9 @@ description: About Myles Lewando
 <p>I am <a href="/reading">currently reading</a> {{ collections.currently_reading.length }} {% if collections.currently_reading.length === 1 %} book, {% else %} books, {% endif %}
 {% for book in collections.currently_reading %}
   {% if book === collections.currently_reading[collections.currently_reading.length - 1] %}
-    and <a href="{{ book.url }}">{{ book.title }}</a>.
+    and {{ book.title }}.
   {% else %}
-    <a href="{{ book.url }}">{{ book.title }}</a>,
+    {{ book.title }},
   {% endif %}
 {% endfor %}</p>
 <h3 id="fun-facts">Fun facts</h3>
