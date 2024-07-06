@@ -194,6 +194,11 @@ p {
   }
 }
 
+::selection {
+  color: var(--haze);
+  background-color: var(--dark);
+}
+
 .strike {
   text-decoration: line-through;
 }
@@ -364,29 +369,6 @@ blockquote {
     margin: 0 0 2rem 2.6rem;
     height: 2rem;
     width: 100%;
-  }
-}
-
-code {
-  background-color: var(--murk);
-  box-decoration-break: clone;
-  font-family: 'source-code-pro', monospace;
-  margin: 0;
-  padding: 0.2rem 0.4rem;
-  -webkit-box-decoration-break: clone;
-}
-
-pre {
-  background-color: var(--murk);
-  font-family: 'source-code-pro', monospace;
-  margin: 1rem 0;
-  padding: 2rem;
-  text-wrap: wrap;
-  word-break: break-all;
-  
-  & code {
-    background: transparent;
-    padding: 0;
   }
 }
 

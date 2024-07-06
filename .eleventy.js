@@ -1,5 +1,6 @@
 import pluginCodeClipboard from 'eleventy-plugin-code-clipboard'
 import pluginRss from '@11ty/eleventy-plugin-rss'
+import pluginSyntaxHighlight  from '@11ty/eleventy-plugin-syntaxhighlight'
 import pluginWebC from '@11ty/eleventy-plugin-webc'
 import markdownIt from 'markdown-it'
 import markdownItAttrs from 'markdown-it-attrs'
@@ -29,6 +30,7 @@ export default function (config) {
     buttonClass: 'code-copy'
   })
   config.addPlugin(pluginRss)
+  config.addPlugin(pluginSyntaxHighlight)
   config.addPlugin(pluginWebC, {
     components: "_includes/**/*.webc"
   })
