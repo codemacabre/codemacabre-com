@@ -35,7 +35,7 @@ While the book far from forgives perpetrators of abuse and hate, and disseminato
 
 Examples of misogynistic hate and racist abuse highlight how social media fails to protect those most vulnerable, instead exacerbating and encouraging this type of behaviour, and attempts to report abuse, either to the platforms themselves or to the police, tend to fall flat.
 
-> We've accepted online hate as part of the fabic of our society, as though it's just something that we should expect now social media exists. As a consequence, the onus falls on the individual to call out and battle these trolls.
+> We've accepted online hate as part of the fabric of our society, as though it's just something that we should expect now social media exists. As a consequence, the onus falls on the individual to call out and battle these trolls.
 
 The remainder of the book largely investigates social media itself, from algorithms which normalise abuse and disinformation to bot accounts, while recounting further tragic tales of abuse and hatred. The conclusion is far from optimistic, describing the futile and sometimes disingenuous attempts social media companies make to curb abuse on their platforms. In the final few pages, Spring makes some recommendations to social platforms and governments, focussed on restoring trust, but acknowledges that the book marks a moment in time in an ever-chaging landscape.
 
