@@ -1,13 +1,13 @@
 ---
 title: DAGs in D3
 date: 2024-07-08
-description: "A brief tutorial for using dagre-d3."
+description: "A brief guide to using dagre-d3."
 draft: true
 ---
 
-A directed acyclic graph, or DAG, is a graph formed of edges and nodes which flows in one dominant direction, like a family tree or a flow chart. To create one in [D3](https://d3js.org) is made easier by using a library.
+A directed acyclic graph, or DAG, is a graph formed of edges and nodes which flows in one dominant direction, like a family tree or a flow chart.
 
-In this guide, I'll describe how to setup a project with D3 and how to write a basic DAG using the `dagre-d3` library.
+In this guide, I'll describe how to setup a project with [D3](https://d3js.org) and how to write a basic DAG using the [dagre-d3](https://www.npmjs.com/package/dagre-d3) library.
 
 ### 1. Create the HTML base
 
@@ -32,7 +32,9 @@ Note the `<script>` tags; this is where we will write our JavaScript.
 
 ### 2. Import libraries
 
-The two libraries we'll neeed are `d3` itself and `dagre-d3`. If we were using a build tool, we'd use `npm` to install these, but for simplicity, let's use a CDN. Add the following to the above our empty `<script>` tag:
+The two libraries we'll neeed are `d3` itself and `dagre-d3`. If we were using a build tool, we'd use `npm` to install these, but for simplicity, let's use a CDN.
+
+Add the following above our empty `<script>` tag:
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
@@ -43,7 +45,7 @@ The two libraries we'll neeed are `d3` itself and `dagre-d3`. If we were using a
 
 So far, our HTML page is blank, apart from an empty SVG of undefined size. Let's use D3 to edit this SVG.
 
-First, we want to `select` the SVG element, then modify some attributes.
+First, we want to `select` the SVG element, then modify some attributes. At the top of our empty `<script>` tag, add the following:
 
 ```js
 const svg = d3.select('#graph')
@@ -69,7 +71,7 @@ Our graph is still blank. If you use the browser to inspect the HTML, however, y
 
 We have a little more setup to do before adding anything we can see to the graph.
 
-Initialise a new dagre graph with the following line:
+Initialise a new graph using the dagre-d3 library with the following line:
 
 ```js
 const graph = new dagreD3.graphlib.Graph().setGraph({});
@@ -136,7 +138,7 @@ Now our nodes should show the text clearly, with a black outline and a white fil
 
 ### 6. Bonus: Add zoom support
 
-We are effectively finished; this is the basic DAG; we'd just need to add more nodes and edges to make it more complex. However, there are a few things we can do to make it a bit more useable.
+We are effectively finished; this is the basic DAG. However, there are a few things we can do to make it a bit more useable.
 
 Let's centre the graph on the page and enable zoom functionality, so we can scroll the mouse wheel to scale the graph.
 
@@ -250,7 +252,7 @@ Our final code should look like this:
 </html>
 ```
 
-For an example of this using [Vite](https://vitejs.dev/) to bundle the code, check out my [simple-dagre](https://github.com/codemacabre/simple-dagre) repo on GitHub. The graph itself is identical, but it has a few tooling benefits, like ESLint and Prettier. {.callout}
+For an example of this using [Vite](https://vitejs.dev/) to bundle the code, check out my [basic-dagre](https://github.com/codemacabre/basic-dagre) repo on GitHub. The graph itself is identical, but it has a few tooling benefits, like ESLint and Prettier. {.callout}
 
 Experiment!
 
