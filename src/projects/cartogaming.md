@@ -1,6 +1,7 @@
 ---
 title: Cartogaming
 date: 2018-06-30
+featured: false
 description: Cartography-themed videogame curation.
 ---
 
