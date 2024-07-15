@@ -16,6 +16,6 @@ The Code Macabre is a mirror and a warning. We are death, pending.
 
 As digital beings, as cyborgs, we are forever to be leeched of our privacy and individuality until our data merges with the colossal stream that is the web. Without concerted effort to resist, we will be washed away with the tide of digital ephemera.
 
----
+***
 
 Code Macabre is the pseudonym and freelance studio of [Myles Lewando](/about), depicted by a black censored bar at an oblique angle.

@@ -21,7 +21,7 @@ Originally written as a standalone Processing sketch to explore insect anatomy, 
 
 Although not affiliated with any organisation, BumbleBot has been inspired by the work of the [Bumblebee Conservation Trust](http://bumblebeeconservation.org/), [IBRA](http://www.ibrabee.org.uk/) and Buglife's [Urban Buzz](https://www.buglife.org.uk/urban-buzz/) project, as well as [@mothgenerator](https://twitter.com/mothgenerator) by Katie Rose Pipkin and Loren Schmidt.
 
----
+***
 
 While no longer a Twitter bot, BumbleBot is in the very early stages of being rejeuvenated in [p5.js](https://p5js.org). Watch this space.
 

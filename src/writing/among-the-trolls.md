@@ -41,6 +41,6 @@ The remainder of the book largely investigates social media itself, from algorit
 
 'Among the Trolls' is a more descriptive than analytical exploration of the world of conspiracy theories, disinformation and hate, leading us on a sometimes-harrowing journey through real world experiences. A book like this is essential reading to explore some of the more extreme thoughts and behaviours spreading on- and offline that we may only be unaware of, with some encouraging, empathic guidelines to navigating this world ourselves and some thought-provoking recommendations for increased platform safety.
 
----
+***
 
 Browse the rest of my [bookshelf](/reading). {% set notes = 0 %}{% for book in books %}{% if book.url %}{% set notes = notes + 1 %}{% endif %}{% endfor %} {{ notes }} {% if notes === 1 %} book has {% else %} books have {% endif %} notes like this one.
