@@ -611,6 +611,19 @@
     "url": ""
   },
   {
+    "author": ["Ola Ellnestam", "Daniel Brolund"],
+    "cover": {
+      "alt": "",
+      "src": "/images/books/mikado-method.jpg",
+      "width": 200,
+      "height": 251
+    },
+    "format": ["ebook", "paperback"],
+    "status": "reading",
+    "title": "The Mikado Method",
+    "url": ""
+  },
+  {
     "author": ["Meredith Broussard"],
     "cover": {
       "alt": "",
@@ -933,6 +946,19 @@
     "format": ["ebook"],
     "status": "to read",
     "title": "Weapons of Math Destruction",
+    "url": ""
+  },
+  {
+    "author": ["Manuel Matuzović"],
+    "cover": {
+      "alt": "",
+      "src": "/images/books/web-accessibility-cookbook.jpg",
+      "width": 200,
+      "height": 263
+    },
+    "format": ["paperback"],
+    "status": "to read",
+    "title": "Web Accessibility Cookbook",
     "url": ""
   },
   {
