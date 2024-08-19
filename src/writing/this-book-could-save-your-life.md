@@ -15,11 +15,11 @@ date: 2024-08-19
 
 'This Book Could Save Your Life' is an autobiography, with a call to action for better mental health policies and practices in the UK, particularly around suicide prevention.
 
-Ben West's personal story revolves around the events told in chapter 2, '21st Jan 2018', a tragic evening when his younger brother Sam died from suicide. The chapter goes recounts how Ben and his family discovered Sam and attempted to help him, and the aftermath of Sam's death. It isn't at all gratuitous, but provides enough raw personal detail that it isn't an easy listen.
+Ben West's personal story revolves around the events told in chapter 2, '21st Jan 2018', a tragic evening when his younger brother Sam died from suicide. The chapter recounts how Ben and his family discovered Sam and attempted to help him, and the aftermath of Sam's death. It isn't at all gratuitous, but provides enough raw personal detail that it isn't an easy listen.
 
 > We are human beings, not human doings.
 
-Interspersed with guidance, such as an outline of how to perform CPR, how to identify depression as a mental illness and general tips on take better care of ourselves mentally, the primary narrative in the book is how Sam's death affected Ben's life trajectory, turning him into a camapigner and activist for improving mental health policies in the UK.
+Interspersed with guidance, such as an outline of how to perform CPR, how to identify depression as a mental illness and general tips on take better care of ourselves mentally, the primary narrative in the book is how Sam's death affected Ben's life trajectory, turning him into a campaigner and activist for improving mental health policies in the UK.
 
 Ben's work in mental health and suicide prevention is fantastic. He doesn't shy away from expressing his anger and frustration at polititians, including ones he's met, and their empty promises. He calls for improvements in the education system in particular, while maintaining the humility of someone still surprised he is as influential as he is.
 
