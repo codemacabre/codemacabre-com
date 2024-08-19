@@ -138,9 +138,9 @@
       "height": 200
     },
     "format": ["audiobook"],
-    "status": "reading",
+    "status": "read",
     "title": "This Book Could Save Your Life",
-    "url": ""
+    "url": "/writing/this-book-could-save-your-life"
   },
   {
     "author": ["Leah Cowan"],
