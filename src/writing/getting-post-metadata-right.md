@@ -1,11 +1,11 @@
 ---
 title: Getting post metadata right
 date: 2024-03-02T13:41Z
-update: 2024-07-01T07:55Z
+update: 2024-08-22T08:35Z
 description: "Tips for tagging post and RSS content correctly."
 ---
 
-I've been through various read-it-later apps. [Omnivore](https://omnivore.app/) is my current favourite, but I'm also fond of [Readwise Reader](https://readwise.io/read). Notably, both apps also allow subscribing to RSS feeds and both sync my highlights to [Logseq](https://logseq.com/).
+I've been through various read-it-later apps. [Readwise Reader](https://readwise.io/read) is my current favourite, but I'm also fond of [Omnivore](https://omnivore.app/). Notably, both apps also allow subscribing to RSS feeds and both sync my highlights to [Obsidian](https://obsidian.md/).
 
 It's generally a great workflow. Until, that is, I happen upon some mis-tagged metadata.
 
