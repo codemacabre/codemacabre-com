@@ -132,7 +132,7 @@
   {
     "author": ["Ben West"],
     "cover": {
-      "alt": "",
+      "alt": "This Book Could Save Your Life book cover. The title is in white on a plain black background. The subtitle, 'Breaking the silence around the mental health emergency' is in black text on an orange strip at the top.",
       "src": "/images/books/book-save-life.jpg",
       "width": 200,
       "height": 200
@@ -613,7 +613,7 @@
   {
     "author": ["Ola Ellnestam", "Daniel Brolund"],
     "cover": {
-      "alt": "",
+      "alt": "The Mikado Method book cover. An illustration of Japanese Emperor Seiwa sitting cross-legged in white clothes against a yellow-ochre background.",
       "src": "/images/books/mikado-method.jpg",
       "width": 200,
       "height": 251
