@@ -8,10 +8,8 @@
       "height": 200
     },
     "format": ["audiobook"],
-    "status": "read",
     "dateRead": "2024",
-    "title": "System Collapse",
-    "url": "https://openlibrary.org/works/OL33402895W/"
+    "title": "System Collapse"
   },
   {
     "author": ["Ben West"],
@@ -22,10 +20,8 @@
       "height": 200
     },
     "format": ["audiobook"],
-    "status": "read",
     "dateRead": "2024",
-    "title": "This Book Could Save Your Life",
-    "url": "https://openlibrary.org/works/OL26772393W/"
+    "title": "This Book Could Save Your Life"
   },
   {
     "author": ["Marianna Spring"],
@@ -36,10 +32,8 @@
       "height": 314
     },
     "format": ["hardback"],
-    "status": "read",
     "dateRead": "2024",
-    "title": "Among the Trolls",
-    "url": "https://openlibrary.org/works/OL37833248W/"
+    "title": "Among the Trolls"
   },
   {
     "author": ["Danny Caine"],
@@ -50,9 +44,7 @@
       "height": 200
     },
     "format": ["audiobook"],
-    "status": "read",
     "dateRead": "2024",
-    "title": "How to Resist Amazon and Why",
-    "url": "https://openlibrary.org/works/OL21672135W/"
+    "title": "How to Resist Amazon and Why"
   }
 ]

@@ -5,18 +5,13 @@ description: A (selected) view of Myles Lewando's non-fiction bookshelf
 ---
 
 <h2>{{ title }}</h2>
-<p>The audiobooks, ebooks, paperbacks, and hardbacks I've read each year, as of 2024.</p>
-<p>I tend to prefer physical books. I avoid ebooks and <a href="https://libro.fm/referral?rf_code=lfm227162">audiobooks</a> with DRM, where possible.</p>
+<p>The audiobooks, ebooks, paperbacks, and hardbacks I've read each year, as of 2024. I tend to prefer physical books and I avoid ebooks and <a href="https://libro.fm/referral?rf_code=lfm227162">audiobooks</a> with DRM, where possible.</p>
 <ul>
 {% for book in books %}
   <li class="card">
     <img class="greyscale" src="{{ book.cover.src }}" width="{{ book.cover.width / 2 }}" height="{{ book.cover.height / 2 }}" alt="{{ book.cover.alt }}" />
     <p>
-    {% if book.url %}
-      <a class="title" href="{{ book.url }}">{{ book.title }}</a>
-    {% else %}
       <strong>{{ book.title }}</strong>
-    {% endif %}
      by 
     {% for entity in book.author %}
       {% if book.author.length > 1 %}
