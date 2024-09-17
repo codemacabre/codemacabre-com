@@ -249,7 +249,7 @@ ul, ol {
   text-indent: 0;
   z-index: initial;
   
-  .status-container {
+  .date-read-container {
     height: 100%;
     overflow: hidden;
     position: absolute;
@@ -258,7 +258,7 @@ ul, ol {
     width: 100px;
     z-index: -1;
     
-    .status {
+    .date-read {
       width: 200px;
       padding: 0 2rem;
       background-color: var(--murk);
