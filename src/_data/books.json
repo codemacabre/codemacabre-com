@@ -2,7 +2,7 @@
   {
     "author": ["Martha Wells"],
     "cover": {
-      "alt": "System Collapse cover.",
+      "alt": "System Collapse cover. The Murderbot character crouches in a field of crops, towered over by a gigantic many-limbed bot.",
       "src": "/images/books/system-collapse.jpg",
       "width": 200,
       "height": 200
@@ -11,7 +11,7 @@
     "status": "read",
     "dateRead": "2024",
     "title": "System Collapse",
-    "url": ""
+    "url": "https://openlibrary.org/works/OL33402895W/"
   },
   {
     "author": ["Ben West"],
@@ -25,7 +25,7 @@
     "status": "read",
     "dateRead": "2024",
     "title": "This Book Could Save Your Life",
-    "url": ""
+    "url": "https://openlibrary.org/works/OL26772393W/"
   },
   {
     "author": ["Marianna Spring"],
@@ -39,12 +39,12 @@
     "status": "read",
     "dateRead": "2024",
     "title": "Among the Trolls",
-    "url": ""
+    "url": "https://openlibrary.org/works/OL37833248W/"
   },
   {
     "author": ["Danny Caine"],
     "cover": {
-      "alt": "",
+      "alt": "How to Resist Amazon and Why cover. A turquoise fist is raised in defiance clutching a scrap of paper against a bright yellow background. The word Amazon in the title has the iconic Amazon arrow downturned into a sort of sad face.",
       "src": "/images/books/resist-amazon.jpg",
       "width": 200,
       "height": 200
@@ -53,6 +53,6 @@
     "status": "read",
     "dateRead": "2024",
     "title": "How to Resist Amazon and Why",
-    "url": ""
+    "url": "https://openlibrary.org/works/OL21672135W/"
   }
 ]
