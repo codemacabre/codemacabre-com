@@ -1,7 +1,6 @@
 import pluginCodeClipboard from 'eleventy-plugin-code-clipboard'
 import pluginRss from '@11ty/eleventy-plugin-rss'
 import pluginSyntaxHighlight  from '@11ty/eleventy-plugin-syntaxhighlight'
-import pluginWebC from '@11ty/eleventy-plugin-webc'
 import markdownIt from 'markdown-it'
 import markdownItAttrs from 'markdown-it-attrs'
 import markdownItBracketedSpans from 'markdown-it-bracketed-spans'
@@ -31,11 +30,7 @@ export default function (config) {
   })
   config.addPlugin(pluginRss)
   config.addPlugin(pluginSyntaxHighlight)
-  config.addPlugin(pluginWebC, {
-    components: "_includes/**/*.webc"
-  })
 
-  config.addNunjucksFilter('reading', (arr) => arr.filter((item) => item.status === 'reading'))
   config.addNunjucksFilter('limit', (arr, limit) => arr.slice(0, limit))
   config.addNunjucksFilter('date', (date, format) => {
     const parsedDate = new Date(date)
