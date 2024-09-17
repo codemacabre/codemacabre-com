@@ -6,7 +6,6 @@
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy"
   },
-  "license": "Hippocratic-3.0",
   "devDependencies": {
     "@11ty/eleventy": "3.0.0-alpha.5",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
