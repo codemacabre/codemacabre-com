@@ -8,10 +8,10 @@
 
 /* GLOBALS */
 :root {
-  --haze: #fafafd;
-  --murk: #ececf0;
-  --gloom: #76767d;
-  --dark: #222225;
+  --haze: #fafafa;
+  --murk: #ececec;
+  --gloom: #767676;
+  --dark: #222222;
 }
 
 @font-face {
