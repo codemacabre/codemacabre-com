@@ -5,9 +5,8 @@ description: A (selected) view of Myles Lewando's non-fiction bookshelf
 ---
 
 <h2>{{ title }}</h2>
-<p>This is a selection of my non-fiction audiobooks, ebooks, paperbacks, and hardbacks.</p>
-<p>I use <a href="https://libro.fm/referral?rf_code=lfm227162">Libro.fm</a> for audiobooks and try to avoid ebooks with DRM whenever possible. These are books I own or have read through a library. I heartily recommend using a library, or a library app like <a href="https://libbyapp.com">Libby</a>.</p>
-<p>Titles here link to my book notes, if available.</p>
+<p>The audiobooks, ebooks, paperbacks, and hardbacks I've read each year, as of 2024.</p>
+<p>I tend to prefer physical books. I avoid ebooks and <a href="https://libro.fm/referral?rf_code=lfm227162">audiobooks</a> with DRM, where possible.</p>
 <ul>
 {% for book in books %}
   <li class="card">
@@ -32,9 +31,7 @@ description: A (selected) view of Myles Lewando's non-fiction bookshelf
     {% endfor %}
     </p>
     <div class="status-container">
-    {% if book.status !== 'to read' %}
-      <div class="status">{{ book.status}}</div>
-    {% endif %}
+      <div class="status">{{ book.dateRead}}</div>
     </div>
   </li>
 {% endfor %}

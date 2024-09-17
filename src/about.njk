@@ -21,14 +21,6 @@ description: About Myles Lewando
 <p>
   I work as a {{ self.organisation.position }} at <a href="{{ self.organisation.url }}">{{ self.organisation.name }}</a>.
 </p>
-<p>I am <a href="/reading">currently reading</a> {{ collections.currently_reading.length }} {% if collections.currently_reading.length === 1 %} book, {% else %} books, {% endif %}
-{% for book in collections.currently_reading %}
-  {% if book === collections.currently_reading[collections.currently_reading.length - 1] %}
-    and {{ book.title }}.
-  {% else %}
-    {{ book.title }},
-  {% endif %}
-{% endfor %}</p>
 <h3 id="fun-facts">Fun facts</h3>
 <p>My household includes a menagerie of multi-legged pets of various species, including:</p>
 <ul class="indented">
