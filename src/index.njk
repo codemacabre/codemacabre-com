@@ -16,15 +16,15 @@ layout: base.njk
 <p class="right"><a href="/projects">See more projects</a></p>
 
 <h2>
-  Latest writing
+  Latest notes
 </h2>
 <ul class="wider">
-{% set latest_writing = collections.published_writing | reverse | limit(5) %}
-{% for post in latest_writing %}
+{% set latest_notes = collections.notes | reverse | limit(5) %}
+{% for post in latest_notes %}
   <li>
     <a class="title" href="{{ post.url }}">{{ post.data.title }}</a> <span class="dates">(<time datetime="{{ post.data.date }}">{{ post.data.date | date('full') }}</time>)</span>
     <p class="description">{{ post.data.description }}</p>
   </li>
 {% endfor %}
 </ul>
-<p class="right"><a href="/writing">See more writing</a></p>
+<p class="right"><a href="/writing">See more notes</a></p>

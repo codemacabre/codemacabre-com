@@ -2,6 +2,7 @@
 title: DAGs in D3
 date: 2024-07-08
 description: "A brief guide to using dagre-d3."
+category: "article"
 ---
 
 A directed acyclic graph, or DAG, is a graph formed of edges and nodes which flows in one dominant direction, like a family tree or a flow chart.

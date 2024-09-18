@@ -54,8 +54,8 @@ export default function (config) {
       return a.data.title.localeCompare(b.data.title)
     })
   })
-  config.addCollection('published_writing', function (collectionApi) {
-    return collectionApi.getFilteredByTags('writing').filter((post) => !post.data.draft)
+  config.addCollection('articles', function (collectionApi) {
+    return collectionApi.getFilteredByTags('notes').filter((post) => post.data.category === 'article')
   })
 
   return {

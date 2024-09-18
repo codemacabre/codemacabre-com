@@ -5,6 +5,11 @@ layout: base.njk
 <article>
   <h2>{{ title }}</h2>
   <p>
+    <span class="category">
+      {% if category %}
+        {{ category.toUpperCase() }}
+      {% endif %}
+    </span>
     <span class="dates">
       {% if date %}
         Published <time datetime="{{ date }}">{{ date | date('full') }}</time>
