@@ -91,8 +91,7 @@ header {
 }
 
 article {
-  margin: 2rem auto 1rem auto;
-  max-width: calc(75ch - 2rem);
+  margin: 2rem 0 1rem 0;
 }
 
 .sr-only {
@@ -110,7 +109,7 @@ main {
   grid-column: 3 / 7;
   justify-self: left;
   margin: 1rem auto;
-  width: calc(100% - 2rem);
+  max-width: calc(75ch - 2rem);
 }
 
 footer {
@@ -278,9 +277,11 @@ ul, ol {
   &.no-image {
     padding: 1rem 2rem 1rem 1rem;
 
-    & div.card-heading {
-      margin-right: 3rem;
-    }
+  }
+
+   .card-heading {
+    display: block;
+    margin-right: 3rem;
   }
   
   .metadata-container {
@@ -549,6 +550,7 @@ a {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  gap: 1rem;
   margin: 1rem 0;
 }
 
@@ -624,7 +626,7 @@ img {
   }
 }
 
-@media screen and (max-width: 1420px) {
+@media screen and (max-width: 1400px) {
   header {
     flex-direction: column;
     grid-column: 2 / 8;

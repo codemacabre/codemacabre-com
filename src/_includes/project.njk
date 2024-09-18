@@ -2,13 +2,13 @@
 layout: base.njk
 ---
 
+<h2>{{ title }}</h2>
+<p>
+  <span class="category">{{ status }}</span>
+  <span class="dates">
+    <time datetime="{{ date }}">{{ date | date('year') }}</time>{% if endDate %} - <time datetime="{{ endDate }}">{{ endDate | date('year') }}</time>{% endif %}
+  </span>
+</p>
 <article>
-  <h2>{{ title }}</h2>
-  <p>
-    <span class="category">{{ status }}</span>
-    <span class="dates">
-      <time datetime="{{ date }}">{{ date | date('year') }}</time>{% if endDate %} - <time datetime="{{ endDate }}">{{ endDate | date('year') }}</time>{% endif %}
-    </span>
-  </p>
-  {{ content | safe }}
+{{ content | safe }}
 </article>

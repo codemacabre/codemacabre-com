@@ -2,22 +2,22 @@
 layout: base.njk
 ---
 
+<h2>{{ title }}</h2>
+<p>
+  <span class="category">{{ category }}</span>
+  <span class="dates">
+    {% if date %}
+      Written <time datetime="{{ date }}">{{ date | date('full') }}</time>
+      {% if update %} (updated <time datetime="{{ update }}">{{ update | date('full') }}</time>) {% endif %}
+    {% else %}
+      Draft
+    {% endif %}
+  </span>
+</p>
+{% if img %}
+<img class="large" src="{{ img.url }}" alt="{{ img.alt }}" />
+<p class="caption">{{ img.caption }}</p>
+{% endif %}
 <article>
-  <h2>{{ title }}</h2>
-  <p>
-    <span class="category">{{ category }}</span>
-    <span class="dates">
-      {% if date %}
-        Written <time datetime="{{ date }}">{{ date | date('full') }}</time>
-        {% if update %} (updated <time datetime="{{ update }}">{{ update | date('full') }}</time>) {% endif %}
-      {% else %}
-        Draft
-      {% endif %}
-    </span>
-  </p>
-  {% if img %}
-  <img class="large" src="{{ img.url }}" alt="{{ img.alt }}" />
-  <p class="caption">{{ img.caption }}</p>
-  {% endif %}
   {{ content | safe }}
 </article>
