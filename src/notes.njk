@@ -14,16 +14,11 @@ pagination:
     RSS
   </a>
 </div>
-<ul>
+<ul class="wider">
 {% for post in pagination.items %}
-  <li class="card no-image">
-    <div>
-      <div class="card-heading"><a class="title" href="{{ post.url }}">{{ post.data.title }}</a> <span class="dates">(<time datetime="{{ post.data.date }}">{{ post.data.date | date('full') }}</time>)</span></span></div>
-      <p class="description">{{ post.data.description }}</p>
-    </div>
-    <div class="metadata-container">
-      <div class="metadata">{{ post.data.category }}</div>
-    </div>
+  <li>
+    <a class="title" href="{{ post.url }}">{{ post.data.title }}</a> <span class="meta"><span class="category">{{ post.data.category }}</span> <span class="dates">(<time datetime="{{ post.data.date }}">{{ post.data.date | date('full') }}</time>)</span></span>
+    <p class="description">{{ post.data.description }}</p>
   </li>
 {% endfor %}
 </ul>
