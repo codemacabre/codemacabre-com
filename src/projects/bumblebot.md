@@ -4,10 +4,8 @@ date: 2016-11-10
 endDate: 2017-10-03
 featured: false
 description: "Procedurally generated pollinators."
+status: 'deactivated'
 ---
-
-⛔ **Status**: Deactivated {.callout}
-
 
 BumbleBot was a Twitter bot created using [Processing](http://processing.org/) to post procedurally generated bumblebees.
 

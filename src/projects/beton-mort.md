@@ -3,9 +3,8 @@ title: Béton Mort
 date: 2024-02-20
 featured: true
 description: "A series of data visualisations of homeless death in the UK."
+status: 'active'
 ---
-
-💭 **Status**: Planning {.callout}
 
 Béton Mort is a series of data visualisations of homeless death in the UK.
 

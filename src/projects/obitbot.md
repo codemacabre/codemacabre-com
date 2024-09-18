@@ -4,9 +4,8 @@ date: 2016-11-19
 endDate: 2017-10-03
 featured: false
 description: "Procedurally generated obituaries."
+status: 'deactivated'
 ---
-
-⛔ **Status**: Deactivated {.callout}
 
 ObitBot was a Twitter bot created using [Processing]((http://processing.org/)) to post procedurally generated obituaries.
 

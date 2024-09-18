@@ -3,9 +3,12 @@ layout: base.njk
 ---
 
 <article>
-  <h2 class="inline">{{ title }}</h2>
+  <h2>{{ title }}</h2>
+  <p>
+    <span class="category">{{ status.toUpperCase() }}</span>
     <span class="dates">
-      (<time datetime="{{ date }}">{{ date | date('year') }}</time>{% if endDate %} - <time datetime="{{ endDate }}">{{ endDate | date('year') }}</time>{% endif %})
+      <time datetime="{{ date }}">{{ date | date('year') }}</time>{% if endDate %} - <time datetime="{{ endDate }}">{{ endDate | date('year') }}</time>{% endif %}
     </span>
+  </p>
   {{ content | safe }}
 </article>
