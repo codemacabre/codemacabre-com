@@ -51,12 +51,7 @@ export default function (config) {
   })
   config.addCollection('a_to_z_projects', function (collectionApi) {
     return collectionApi.getFilteredByTag('projects').sort(function(a, b) {
-      return b.data.title.localeCompare(a.data.title)
-    })
-  })
-  config.addCollection('a_to_z_notes', function (collectionApi) {
-    return collectionApi.getFilteredByTag('notes').sort(function(a, b) {
-      return b.data.title.localeCompare(a.data.title)
+      return a.data.title.localeCompare(b.data.title)
     })
   })
 
