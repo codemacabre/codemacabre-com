@@ -22,7 +22,7 @@ layout: base.njk
 {% set latest_notes = collections.notes | reverse | limit(5) %}
 {% for post in latest_notes %}
   <li>
-    <a class="title" href="{{ post.url }}">{{ post.data.title }}</a> <span class="category">{{ post.data.category.toUpperCase() }}</span> <span class="dates">(<time datetime="{{ post.data.date }}">{{ post.data.date | date('full') }}</time>)</span>
+    <a class="title" href="{{ post.url }}">{{ post.data.title }}</a> <span class="category">{{ post.data.category }}</span> <span class="dates">(<time datetime="{{ post.data.date }}">{{ post.data.date | date('full') }}</time>)</span>
     <p class="description">{{ post.data.description }}</p>
   </li>
 {% endfor %}
