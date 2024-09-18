@@ -519,8 +519,11 @@ a {
 
 img {
   margin: 1rem 0;
-  outline: 1px dashed var(--dark);
   width: 100%;
+
+  &.outline {
+    outline: 1px dashed var(--dark);
+  }
 
   &.icon {
     margin: 0 0.3rem -0.2rem 0.2rem;
