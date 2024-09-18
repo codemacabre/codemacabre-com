@@ -3,7 +3,7 @@ layout: base.njk
 title: Notes
 description: Notes by Myles Lewando
 pagination:
-  data: collections.notes
+  data: collections.a_to_z_notes
   size: 10
   reverse: true
 ---
@@ -14,7 +14,7 @@ pagination:
     RSS
   </a>
 </div>
-<p>Here you will find three types of notes.</p>
+<p>Here, you will find three types of notes.</p>
 <p>A <a class="category" href="/notes/musings">MUSING</a> is a brief thought, largely unformed and needing refinement. A <a class="category" href="/notes/scrawls">SCRAWL</a> is a slightly better-formed thought that is vaguely researched, but still incomplete and subject to change. An <a class="category" href="/notes/articles">ARTICLE</a> is a complete thought, usually longer-form, researched, and less subject to change.
 <ul class="wider">
 {% for post in pagination.items %}

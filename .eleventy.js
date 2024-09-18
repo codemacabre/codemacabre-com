@@ -51,17 +51,31 @@ export default function (config) {
   })
   config.addCollection('a_to_z_projects', function (collectionApi) {
     return collectionApi.getFilteredByTag('projects').sort(function(a, b) {
-      return a.data.title.localeCompare(b.data.title)
+      return b.data.title.localeCompare(a.data.title)
     })
   })
-  config.addCollection('musings', function (collectionApi) {
-    return collectionApi.getFilteredByTags('notes').filter((post) => post.data.category === 'musing')
+  config.addCollection('a_to_z_notes', function (collectionApi) {
+    return collectionApi.getFilteredByTag('notes').sort(function(a, b) {
+      return b.data.title.localeCompare(a.data.title)
+    })
   })
-  config.addCollection('scrawls', function (collectionApi) {
-    return collectionApi.getFilteredByTags('notes').filter((post) => post.data.category === 'scrawl')
+  config.addCollection('a_to_z_musings', function (collectionApi) {
+    const collection = collectionApi.getFilteredByTags('notes').filter((post) => post.data.category === 'musing')
+    return collection.sort(function(a, b) {
+      return b.data.title.localeCompare(a.data.title)
+    })
   })
-  config.addCollection('articles', function (collectionApi) {
-    return collectionApi.getFilteredByTags('notes').filter((post) => post.data.category === 'article')
+  config.addCollection('a_to_z_scrawls', function (collectionApi) {
+    const collection = collectionApi.getFilteredByTags('notes').filter((post) => post.data.category === 'scrawl')
+    return collection.sort(function(a, b) {
+      return b.data.title.localeCompare(a.data.title)
+    })
+  })
+  config.addCollection('a_to_z_articles', function (collectionApi) {
+    const collection = collectionApi.getFilteredByTags('notes').filter((post) => post.data.category === 'article')
+    return collection.sort(function(a, b) {
+      return b.data.title.localeCompare(a.data.title)
+    })
   })
 
   return {
