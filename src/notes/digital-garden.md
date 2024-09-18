@@ -2,7 +2,7 @@
 title: A scrappy digital garden
 date: 2024-09-18
 description: "Thoughts on planting a digital garden."
-category: "musing"
+category: "scrawl"
 ---
 
 While not a fully-functional digital garden (yet), this site has had a few changes which lean in the digital garden direction. All [notes](/notes) have been categorised based on their length and how well-formed the thoughts behind them are.
