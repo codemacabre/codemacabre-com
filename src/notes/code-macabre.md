@@ -2,7 +2,7 @@
 title: The Code Macabre
 date: 2024-06-25
 description: "Our march towards death and the digital remnants that outlast us."
-category: "scrawl"
+category: "musing"
 ---
 
 The Code Macabre is a modern-day allegory, based on the medieval [_Danse Macabre_{lang=fr}](https://en.wikipedia.org/wiki/Danse_Macabre). Imagine a series of skeletal figures marching towards shining computer monitors, televisions and mobile devices, the screens mirroring the figures' movements in decaying pixels.

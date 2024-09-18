@@ -54,6 +54,12 @@ export default function (config) {
       return a.data.title.localeCompare(b.data.title)
     })
   })
+  config.addCollection('musings', function (collectionApi) {
+    return collectionApi.getFilteredByTags('notes').filter((post) => post.data.category === 'musing')
+  })
+  config.addCollection('scrawls', function (collectionApi) {
+    return collectionApi.getFilteredByTags('notes').filter((post) => post.data.category === 'scrawl')
+  })
   config.addCollection('articles', function (collectionApi) {
     return collectionApi.getFilteredByTags('notes').filter((post) => post.data.category === 'article')
   })

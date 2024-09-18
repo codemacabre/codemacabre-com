@@ -14,10 +14,12 @@ pagination:
     RSS
   </a>
 </div>
+<p>Here you will find three types of notes.</p>
+<p>A <a class="category" href="/notes/musings">MUSING</a> is a brief thought, largely unformed and needing refinement. A <a class="category" href="/notes/scrawls">SCRAWL</a> is a slightly better-formed thought that is vaguely researched, but still incomplete and subject to change. An <a class="category" href="/notes/articles">ARTICLE</a> is a complete thought, usually longer-form, researched, and less subject to change.
 <ul class="wider">
 {% for post in pagination.items %}
   <li>
-    <a class="title" href="{{ post.url }}">{{ post.data.title }}</a> {{ post.data.category.toUpperCase() }} <span class="dates">(<time datetime="{{ post.data.date }}">{{ post.data.date | date('full') }}</time>)</span>
+    <a class="title" href="{{ post.url }}">{{ post.data.title }}</a> <span class="category">{{ post.data.category.toUpperCase() }}</span> <span class="dates">(<time datetime="{{ post.data.date }}">{{ post.data.date | date('full') }}</time>)</span>
     <p class="description">{{ post.data.description }}</p>
   </li>
 {% endfor %}
