@@ -1,6 +1,7 @@
 ---
 title: DAGs in D3
 date: 2024-07-08
+update: 2024-09-18
 description: "A brief guide to using dagre-d3."
 category: "article"
 ---

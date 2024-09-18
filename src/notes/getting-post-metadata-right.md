@@ -1,7 +1,7 @@
 ---
 title: Getting post metadata right
-date: 2024-03-02T13:41Z
-update: 2024-08-22T08:35Z
+date: 2024-03-02
+update: 2024-08-22
 description: "Tips for tagging post and RSS content correctly."
 category: "article"
 ---
