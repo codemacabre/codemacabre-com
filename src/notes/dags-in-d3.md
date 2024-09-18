@@ -9,6 +9,8 @@ A directed acyclic graph, or DAG, is a graph formed of edges and nodes which flo
 
 In this guide, I'll describe how to setup a project with [D3](https://d3js.org) and how to write a basic DAG using the [dagre-d3](https://www.npmjs.com/package/dagre-d3) library.
 
+![DAG example](/images/notes/dag.png)
+
 ### 1. Create the HTML base
 
 Our graph will need to be attached to an `<svg>` element within an HTML file. Create a basic HTML file with the following:
