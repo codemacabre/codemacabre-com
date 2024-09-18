@@ -1,0 +1,18 @@
+<li class="card">
+    <img class="greyscale" src="{{ book.cover.src }}" width="{{ book.cover.width / 2 }}" height="{{ book.cover.height / 2 }}" alt="{{ book.cover.alt }}" />
+    <p>
+      <strong>{{ book.title }}</strong>
+     by 
+    {% for entity in book.author %}
+      {% if book.author.length > 1 %}
+        {% if entity === book.author[book.author.length - 1] %}
+          {{ entity }}
+        {% else %}
+          {{ entity }}, 
+        {% endif %}
+      {% else %}
+        {{ entity }}
+      {% endif %}
+    {% endfor %}
+    </p>
+  </li>
