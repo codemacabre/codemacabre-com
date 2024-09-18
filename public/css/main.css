@@ -91,7 +91,8 @@ header {
 }
 
 article {
-  margin: 2rem 0 1rem 0;
+  margin: 2rem auto 1rem auto;
+  max-width: calc(75ch - 2rem);
 }
 
 .sr-only {
@@ -109,7 +110,7 @@ main {
   grid-column: 3 / 7;
   justify-self: left;
   margin: 1rem auto;
-  max-width: calc(75ch - 2rem);
+  width: calc(100% - 2rem);
 }
 
 footer {
@@ -169,6 +170,10 @@ p {
   line-height: 2rem;
   margin: 1rem 0 0 0;
 
+  &.description {
+    margin: 0 0 0 2rem;
+  }
+
   &.caption {
     font-size: 0.8rem;
     line-height: 1rem;
@@ -211,18 +216,35 @@ ul, ol {
   text-indent: -1rem;
 
   &.wider {
-    margin: 2rem 0;
-    text-indent: 0;
+    margin: 2rem 0 2rem 2rem;
+    text-indent: -1.55rem;
+
+    &.front-page {
+      margin: 1rem 0 2rem 2rem;
+    }
 
     & li {
       margin: 1rem 0;
 
       & p {
         line-height: 1.6rem;
-        margin: 1rem 0 0.5rem 1.6rem;
+        margin: 0.2rem 0 0.5rem 0;
         padding: 0;
+        text-indent: 0;
       }
     }
+  }
+
+  &.widest {
+    margin: 0;
+    text-indent: 0;
+
+    & .callout {
+      & p {
+        margin: 0;
+      }
+    }
+
   }
 
   .card {
@@ -332,6 +354,7 @@ strong {
 
 .callout {
   outline: 1px dashed var(--dark);
+  list-style: none;
   margin: 2rem 0;
   padding: 1rem;
 }
@@ -605,7 +628,7 @@ img {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   header {
     flex-direction: column;
     grid-column: 2 / 8;
@@ -624,10 +647,15 @@ img {
       }
     }
   }
-  
+
   main {
     grid-column: 2 / 8;
     min-height: calc(100vh - 18rem);
+  }
+  
+  .meta {
+    display: block;
+    margin: 0.2rem 0;
   }
 }
 
@@ -654,5 +682,4 @@ img {
     grid-column: 1 / 9;
     margin: 0 1rem;
   }
-
 }

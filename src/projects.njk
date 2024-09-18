@@ -11,7 +11,7 @@ pagination:
 <ul class="wider">
 {% for project in pagination.items %}
   <li>
-    <a class="title" href="{{ project.url }}">{{ project.data.title }}</a> <span class="category">{{ project.data.status }}</span> <span class="dates">(<time datetime="{{ project.data.date }}">{{ project.data.date | date('year') }}</time>{% if project.data.endDate %} - <time datetime="{{ project.data.endDate }}">{{ project.data.endDate | date('year') }}</time>{% endif %})</span>
+    <a class="title" href="{{ project.url }}">{{ project.data.title }}</a> <span class="dates">(<time datetime="{{ project.data.date }}">{{ project.data.date | date('year') }}</time>{% if project.data.endDate %} - <time datetime="{{ project.data.endDate }}">{{ project.data.endDate | date('year') }}</time>{% endif %})</span>
     <p class="description">{{ project.data.description }}</p>
   </li>
 {% endfor %}
