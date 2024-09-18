@@ -59,24 +59,6 @@ export default function (config) {
       return b.data.title.localeCompare(a.data.title)
     })
   })
-  config.addCollection('a_to_z_musings', function (collectionApi) {
-    const collection = collectionApi.getFilteredByTags('notes').filter((post) => post.data.category === 'musing')
-    return collection.sort(function(a, b) {
-      return b.data.title.localeCompare(a.data.title)
-    })
-  })
-  config.addCollection('a_to_z_scrawls', function (collectionApi) {
-    const collection = collectionApi.getFilteredByTags('notes').filter((post) => post.data.category === 'scrawl')
-    return collection.sort(function(a, b) {
-      return b.data.title.localeCompare(a.data.title)
-    })
-  })
-  config.addCollection('a_to_z_articles', function (collectionApi) {
-    const collection = collectionApi.getFilteredByTags('notes').filter((post) => post.data.category === 'article')
-    return collection.sort(function(a, b) {
-      return b.data.title.localeCompare(a.data.title)
-    })
-  })
 
   return {
     dir: {
