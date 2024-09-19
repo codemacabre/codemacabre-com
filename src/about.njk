@@ -18,8 +18,26 @@ description: About Myles Lewando
   alt="A black and white grainy photo of my head and shoulders. I have a long pointy beard and a mohawk, with a black censored bar across my eyes"
 >
 <h3 id="now">Now</h3>
+
+{% set year = '2024' %}
+
+{% set notesWritten = 0 %}
+{% for note in collections.notes %}
+  {% set noteDate = note.date | date('year') %}
+  {% if noteDate === year %}
+    {% set notesWritten = notesWritten + 1 %}
+  {% endif %}
+
+{% endfor %}
+{% set booksRead = 0 %}
+{% for book in books %}
+  {% if book.dateRead === year %}
+    {% set booksRead = booksRead + 1 %}
+  {% endif %}
+{% endfor %}
+
 <p>
-  I work as a {{ self.organisation.position }} at <a href="{{ self.organisation.url }}">{{ self.organisation.name }}</a>.
+  I work as a {{ self.organisation.position }} at <a href="{{ self.organisation.url }}">{{ self.organisation.name }}</a>. I've <a href="/notes">written {{ notesWritten }} {% if notesWritten === 1 %}note{% else %}notes{% endif %}</a> and <a href="/reading">read {{ booksRead }} {% if booksRead === 1 %}book{% else %}books{% endif %}</a> so far this year.
 </p>
 <h3 id="fun-facts">Fun facts</h3>
 <p>My household includes a menagerie of multi-legged pets of various species, including:</p>
