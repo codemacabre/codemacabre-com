@@ -109,7 +109,7 @@ main {
   grid-column: 3 / 7;
   justify-self: left;
   margin: 1rem auto;
-  max-width: calc(75ch - 2rem);
+  max-width: 75ch;
 }
 
 footer {
