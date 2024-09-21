@@ -52,12 +52,13 @@ header {
   align-content: flex-end;
   align-self: start;
   display: flex;
-  grid-column: 3 / 7;
+  grid-column: 2 / 8;
   justify-content: space-between;
-  max-width: calc(100% - 2rem);
+  max-width: 100%;
   padding: 1rem 0;
 
   & h1 {
+    font-size: clamp(2rem, 10vw, 3rem);
     margin: 0.5rem 0 0 0;
     transform: rotate(-2deg);
 
@@ -627,15 +628,6 @@ img {
 }
 
 @media screen and (max-width: 1450px) {
-  header {
-    grid-column: 2 / 8;
-    
-    
-    & h1 {
-      margin: 0.5rem 0 1rem 0;
-    }
-  }
-
   main {
     grid-column: 2 / 8;
     min-height: calc(100vh - 18rem);
@@ -683,10 +675,11 @@ img {
   header {
     grid-column: 1 / 9;
     margin: 0;
+    max-width: calc(100% - 2rem);
     padding: 1rem;
     
     & h1 {
-      font-size: clamp(2rem, 5vw, 3rem);
+      font-size: 12vw;
       margin: 0.5rem 0 1rem 0;
     }
 
