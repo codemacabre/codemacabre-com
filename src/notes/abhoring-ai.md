@@ -1,6 +1,6 @@
 ---
 title: Abhoring AI
-date: 2024-09-24
+date: 2024-09-25
 description: "Feelings towards using AI tools."
 category: "scrawl"
 ---
