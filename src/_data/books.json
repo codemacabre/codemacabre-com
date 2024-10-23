@@ -1,5 +1,17 @@
 [
   {
+    "author": ["Ola Ellnestam", "Daniel Brolund"],
+    "cover": {
+      "alt": "The Mikado Method book cover. An illustration of Japanese Emperor Seiwa sitting cross-legged in white clothes against a yellow-ochre background.",
+      "src": "/images/books/mikado-method.jpg",
+      "width": 200,
+      "height": 251
+    },
+    "format": ["ebook", "paperback"],
+    "dateRead": "2024",
+    "title": "The Mikado Method"
+  },
+  {
     "author": ["Martha Wells"],
     "cover": {
       "alt": "System Collapse cover. The Murderbot character crouches in a field of crops, towered over by a gigantic many-limbed bot.",
