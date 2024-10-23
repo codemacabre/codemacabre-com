@@ -6,7 +6,7 @@
     {% for entity in book.author %}
       {% if book.author.length > 1 %}
         {% if entity === book.author[book.author.length - 1] %}
-          {{ entity }}
+          and {{ entity }}
         {% else %}
           {{ entity }}, 
         {% endif %}
