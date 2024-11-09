@@ -1,5 +1,17 @@
 [
   {
+    "author": ["S. A. Barnes"],
+    "cover": {
+      "alt": "Ghost Station book cover. A space-suited figure walks across an abandoned room, with empty spacesuits hanging on the wall. A couple of drops of blood are on the floor in the foreground.",
+      "src": "/images/books/ghost-station.jpg",
+      "width": 200,
+      "height": 200
+    },
+    "format": ["ebook"],
+    "dateRead": "2024",
+    "title": "Ghost Station"
+  }, 
+  {
     "author": ["Ola Ellnestam", "Daniel Brolund"],
     "cover": {
       "alt": "The Mikado Method book cover. An illustration of Japanese Emperor Seiwa sitting cross-legged in white clothes against a yellow-ochre background.",
